@@ -1,0 +1,655 @@
+{
+  "reference": "reference_results",
+  "candidate": "results_v23_final",
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 1e-12,
+  "sheets": [
+    {
+      "sheet": "README",
+      "reference_shape": [
+        16,
+        2
+      ],
+      "candidate_shape": [
+        16,
+        2
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Protocol",
+      "reference_shape": [
+        75,
+        2
+      ],
+      "candidate_shape": [
+        75,
+        2
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Data_Audit",
+      "reference_shape": [
+        43,
+        2
+      ],
+      "candidate_shape": [
+        43,
+        2
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Metric_Definitions",
+      "reference_shape": [
+        8,
+        3
+      ],
+      "candidate_shape": [
+        8,
+        3
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Model_Specs",
+      "reference_shape": [
+        15,
+        5
+      ],
+      "candidate_shape": [
+        15,
+        5
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Split_Audit",
+      "reference_shape": [
+        6,
+        13
+      ],
+      "candidate_shape": [
+        6,
+        13
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Validation_Definitions",
+      "reference_shape": [
+        9,
+        3
+      ],
+      "candidate_shape": [
+        9,
+        3
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Nested_Selection",
+      "reference_shape": [
+        31,
+        28
+      ],
+      "candidate_shape": [
+        31,
+        28
+      ],
+      "numeric_strict_differences": 29
+    },
+    {
+      "sheet": "Nested_Candidates",
+      "reference_shape": [
+        221,
+        32
+      ],
+      "candidate_shape": [
+        221,
+        32
+      ],
+      "numeric_strict_differences": 275
+    },
+    {
+      "sheet": "Exact_Outer_Pred",
+      "reference_shape": [
+        2561,
+        19
+      ],
+      "candidate_shape": [
+        2561,
+        19
+      ],
+      "numeric_strict_differences": 562
+    },
+    {
+      "sheet": "Runout_Outer_Pred",
+      "reference_shape": [
+        993,
+        24
+      ],
+      "candidate_shape": [
+        993,
+        24
+      ],
+      "numeric_strict_differences": 225
+    },
+    {
+      "sheet": "Runout_Evaluation",
+      "reference_shape": [
+        10,
+        11
+      ],
+      "candidate_shape": [
+        10,
+        11
+      ],
+      "numeric_strict_differences": 1
+    },
+    {
+      "sheet": "Primary_Campaign_Metrics",
+      "reference_shape": [
+        17,
+        19
+      ],
+      "candidate_shape": [
+        17,
+        19
+      ],
+      "numeric_strict_differences": 32
+    },
+    {
+      "sheet": "Fold_Metrics",
+      "reference_shape": [
+        81,
+        8
+      ],
+      "candidate_shape": [
+        81,
+        8
+      ],
+      "numeric_strict_differences": 64
+    },
+    {
+      "sheet": "Paired_Bootstrap",
+      "reference_shape": [
+        31,
+        6
+      ],
+      "candidate_shape": [
+        31,
+        6
+      ],
+      "numeric_strict_differences": 34
+    },
+    {
+      "sheet": "True_Ablation",
+      "reference_shape": [
+        10,
+        5
+      ],
+      "candidate_shape": [
+        10,
+        5
+      ],
+      "numeric_strict_differences": 11
+    },
+    {
+      "sheet": "Source_Gains",
+      "reference_shape": [
+        17,
+        6
+      ],
+      "candidate_shape": [
+        17,
+        6
+      ],
+      "numeric_strict_differences": 16
+    },
+    {
+      "sheet": "Component_Ablation",
+      "reference_shape": [
+        8,
+        31
+      ],
+      "candidate_shape": [
+        8,
+        31
+      ],
+      "numeric_strict_differences": 7
+    },
+    {
+      "sheet": "Selection_Sensitivity",
+      "reference_shape": [
+        61,
+        11
+      ],
+      "candidate_shape": [
+        61,
+        11
+      ],
+      "numeric_strict_differences": 59
+    },
+    {
+      "sheet": "Empirical_PI_Rows",
+      "reference_shape": [
+        161,
+        23
+      ],
+      "candidate_shape": [
+        161,
+        23
+      ],
+      "numeric_strict_differences": 174
+    },
+    {
+      "sheet": "Empirical_PI_Summary",
+      "reference_shape": [
+        3,
+        15
+      ],
+      "candidate_shape": [
+        3,
+        15
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Temperature_Gate_Rows",
+      "reference_shape": [
+        223,
+        11
+      ],
+      "candidate_shape": [
+        223,
+        11
+      ],
+      "numeric_strict_differences": 8
+    },
+    {
+      "sheet": "Temperature_Gate_Summary",
+      "reference_shape": [
+        25,
+        6
+      ],
+      "candidate_shape": [
+        25,
+        6
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Physical_Parameters",
+      "reference_shape": [
+        51,
+        48
+      ],
+      "candidate_shape": [
+        51,
+        48
+      ],
+      "numeric_strict_differences": 32
+    },
+    {
+      "sheet": "Sensitivity",
+      "reference_shape": [
+        30,
+        29
+      ],
+      "candidate_shape": [
+        30,
+        29
+      ],
+      "numeric_strict_differences": 31
+    },
+    {
+      "sheet": "Duplicate_Sensitivity",
+      "reference_shape": [
+        26,
+        15
+      ],
+      "candidate_shape": [
+        26,
+        15
+      ],
+      "numeric_strict_differences": 25
+    },
+    {
+      "sheet": "Duplicate_Clusters",
+      "reference_shape": [
+        24,
+        13
+      ],
+      "candidate_shape": [
+        24,
+        13
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Duplicate_Candidates",
+      "reference_shape": [
+        47,
+        68
+      ],
+      "candidate_shape": [
+        47,
+        68
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Label_Review",
+      "reference_shape": [
+        2,
+        15
+      ],
+      "candidate_shape": [
+        2,
+        15
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Campaign_Map",
+      "reference_shape": [
+        25,
+        13
+      ],
+      "candidate_shape": [
+        25,
+        13
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Validation_Tier_Metrics",
+      "reference_shape": [
+        201,
+        11
+      ],
+      "candidate_shape": [
+        201,
+        11
+      ],
+      "numeric_strict_differences": 317
+    },
+    {
+      "sheet": "Validation_Tier_Summary",
+      "reference_shape": [
+        21,
+        11
+      ],
+      "candidate_shape": [
+        21,
+        11
+      ],
+      "numeric_strict_differences": 51
+    },
+    {
+      "sheet": "Validation_Fold_Assign",
+      "reference_shape": [
+        8881,
+        9
+      ],
+      "candidate_shape": [
+        8881,
+        9
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "External_Summary",
+      "reference_shape": [
+        21,
+        10
+      ],
+      "candidate_shape": [
+        21,
+        10
+      ],
+      "numeric_strict_differences": 18
+    },
+    {
+      "sheet": "External_Groups",
+      "reference_shape": [
+        146,
+        8
+      ],
+      "candidate_shape": [
+        146,
+        8
+      ],
+      "numeric_strict_differences": 105
+    },
+    {
+      "sheet": "External_Selection",
+      "reference_shape": [
+        88,
+        58
+      ],
+      "candidate_shape": [
+        88,
+        58
+      ],
+      "numeric_strict_differences": 142
+    },
+    {
+      "sheet": "External_Paired_CI",
+      "reference_shape": [
+        61,
+        7
+      ],
+      "candidate_shape": [
+        61,
+        7
+      ],
+      "numeric_strict_differences": 93
+    },
+    {
+      "sheet": "External_PI_Summary",
+      "reference_shape": [
+        9,
+        16
+      ],
+      "candidate_shape": [
+        9,
+        16
+      ],
+      "numeric_strict_differences": 16
+    },
+    {
+      "sheet": "External_PI_Rows",
+      "reference_shape": [
+        641,
+        21
+      ],
+      "candidate_shape": [
+        641,
+        21
+      ],
+      "numeric_strict_differences": 645
+    },
+    {
+      "sheet": "External_T_Gate",
+      "reference_shape": [
+        101,
+        8
+      ],
+      "candidate_shape": [
+        101,
+        8
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Sstar_Sensitivity",
+      "reference_shape": [
+        11,
+        8
+      ],
+      "candidate_shape": [
+        11,
+        8
+      ],
+      "numeric_strict_differences": 12
+    },
+    {
+      "sheet": "QA_Flagged_Rows",
+      "reference_shape": [
+        3,
+        14
+      ],
+      "candidate_shape": [
+        3,
+        14
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Claim_Gate",
+      "reference_shape": [
+        35,
+        4
+      ],
+      "candidate_shape": [
+        35,
+        4
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "Outer_Fold_Assignment",
+      "reference_shape": [
+        223,
+        16
+      ],
+      "candidate_shape": [
+        223,
+        16
+      ],
+      "numeric_strict_differences": 0
+    },
+    {
+      "sheet": "References",
+      "reference_shape": [
+        9,
+        3
+      ],
+      "candidate_shape": [
+        9,
+        3
+      ],
+      "numeric_strict_differences": 0
+    }
+  ],
+  "compared_cells": 204721,
+  "compared_numeric_cells": 73299,
+  "structure_differences": 0,
+  "type_differences": 0,
+  "text_or_other_differences": 0,
+  "numeric_strict_differences": 2984,
+  "numeric_outside_tolerance": 535,
+  "metadata_differences": 0,
+  "max_absolute_difference": 6.390894413677017e-08,
+  "max_relative_difference": 3.547324541521758e-07,
+  "examples": [
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R2C13",
+      "reference": "1.6002837295359",
+      "candidate": "1.600283729535902"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R2C14",
+      "reference": "1.642927719981828",
+      "candidate": "1.642927744737001"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R2C16",
+      "reference": "0.2501154839411395",
+      "candidate": "0.2501154904878383"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R3C13",
+      "reference": "1.6002837295359",
+      "candidate": "1.600283729535902"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R4C12",
+      "reference": "1.412205478583024",
+      "candidate": "1.412205478583025"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R4C13",
+      "reference": "1.69450642420615",
+      "candidate": "1.694506424206342"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R8C13",
+      "reference": "1.533189315368822",
+      "candidate": "1.533189315368851"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R8C14",
+      "reference": "1.053945818689694",
+      "candidate": "1.053945813259017"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R8C16",
+      "reference": "0.0873233196082749",
+      "candidate": "0.08732331818833709"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R9C13",
+      "reference": "1.533189315368822",
+      "candidate": "1.533189315368851"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R10C12",
+      "reference": "1.769968953198026",
+      "candidate": "1.769968953198027"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R14C16",
+      "reference": "0.0642193548310723",
+      "candidate": "0.06421935483107226"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R16C13",
+      "reference": "1.747288855841712",
+      "candidate": "1.747288855841623"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R17C11",
+      "reference": "1.264898057881799",
+      "candidate": "1.264898057881798"
+    },
+    {
+      "kind": "numeric_strict_differences",
+      "location": "Nested_Selection!R20C13",
+      "reference": "1.558177433006066",
+      "candidate": "1.558177433006093"
+    }
+  ],
+  "max_absolute_location": "External_Selection!R80C42",
+  "max_relative_location": "External_Selection!R35C44",
+  "metadata_compared": true,
+  "strict_equal": false,
+  "equal_within_tolerance": false
+}

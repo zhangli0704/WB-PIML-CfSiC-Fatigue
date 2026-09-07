@@ -1,0 +1,128 @@
+{
+  "model_version": "v23-final-nested-factor-holdout-scope-corrected",
+  "data": "data_v23.xlsx",
+  "sheet": "Plot_Data_Verified",
+  "data_sha256": "e7cb77a6a2b655a8bf263ca4e937368e18d984fb092d3741ba39664bd5496094",
+  "n_verified_rows": 222,
+  "n_exact_density_training_evaluation": 160,
+  "n_right_censored_training": 62,
+  "n_label_overrides_in_code": 0,
+  "n_sources": 17,
+  "n_exact_sources": 16,
+  "n_campaigns": 18,
+  "n_physical_duplicate_clusters": 23,
+  "n_cross_source_duplicate_clusters": 22,
+  "n_duplicate_traceability_rows": 46,
+  "n_supplied_label_conflict_clusters": 1,
+  "n_reviewed_label_conflict_clusters": 0,
+  "outer_folds": 5,
+  "candidate_gamma": [
+    0.75,
+    0.85,
+    0.95
+  ],
+  "candidate_min_samples_leaf": [
+    2,
+    3,
+    5
+  ],
+  "candidate_max_features": [
+    0.65,
+    0.85,
+    1.0
+  ],
+  "candidate_eta": [
+    0.0,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "candidate_residual_modes": [
+    "dual_support",
+    "legacy_et"
+  ],
+  "candidate_physics_mix": [
+    1.0
+  ],
+  "calibration_modes": [
+    "none"
+  ],
+  "calibration_status": "locked to none; affine output calibration is absent from the executable path",
+  "RMSE_tie_tolerance": 0.001,
+  "damage_cap_for_ablation_only": 0.4,
+  "fold_balance": "campaign-disjoint nested outer/inner folds constructed from all exact and right-censored records",
+  "point_metric_balance": "equal campaign contribution; SB_* is retained only as a legacy compatibility prefix",
+  "campaign_mapping": "campaign_id read directly from Plot_Data_Verified; no code-side remapping",
+  "duplicate_handling": "Plot_Data_Verified is physically deduplicated; one retained row per record_equivalence_id",
+  "training_weighting": "all 222 physically unique records use unit likelihood weight; exact density and runout survival contributions differ only by censoring status",
+  "label_review": "is_exact_failure and is_runout read directly from Plot_Data_Verified; no code-side override",
+  "location_training": "joint lognormal AFT likelihood: exact density plus right-censored survival",
+  "proposed_architecture": "always-active five-parameter censored-AFT competing-damage trunk plus a nested-selected legacy or support-gated dual exact-fracture residual",
+  "proposed_location_equation": "mu_phys=-log10(D_mech+D_env); yhat=mu_phys+g_T(T)*eta*[q_support*g_robust+0.25*(1-q_support)*g_smooth]",
+  "residual_extrapolation_guard": "eta_eff=0 when the development exact-fracture set has no observation at the requested temperature; exact temperature matching uses 1e-9 C only for floating-point equality and never consults validation responses",
+  "fitted_physics_parameters": 5,
+  "nuisance_scale_parameters_per_fold": 1,
+  "runout_use": "runout stopping cycles enter only as lower bounds through -log survival; they affect the physical trunk, scale and NLL tie-break, never point residual regression or point-life metrics",
+  "outer_test_tuning": false,
+  "primary_validation_scope": "campaign-disjoint outer validation; no campaign crosses train/test",
+  "domain_holdout_scope": "LOSO/LOAO/LOTO/LOEO are factor-held-out stress tests, not an independent external dataset and not campaign-disjoint by design; actual overlap is reported per holdout",
+  "hyperparameter_selection": "16 predeclared candidates (12 unchanged v22 fallbacks + 4 robust support candidates) selected exclusively in development folds",
+  "selection_endpoint": "exact campaign-balanced inner-fold RMSE; within 0.02 RMSE, prefer the censor-feasible shortlist and lower inner temperature-disjoint RMSE",
+  "censor_guardrail": "candidate runout survival NLL <= WB-CD runout survival NLL + one paired inner-fold standard error; relaxation is explicitly recorded if no near-best candidate is feasible",
+  "ET_Walker_fairness": "same joint-data inner folds and unchanged 12 v22 gamma/tree candidate slots; the four new slots change residual formulation rather than traditional-tree tuning",
+  "fair_censored_comparators": [
+    "Lognormal-AFT",
+    "Weibull-AFT"
+  ],
+  "primary_comparators": "ExtraTrees, equally tuned ET-Walker, and ML-Ens",
+  "primary_inputs": [
+    "logS",
+    "R",
+    "Tn",
+    "logf",
+    "logUTS",
+    "Sa",
+    "Smean",
+    "architecture",
+    "env_class"
+  ],
+  "arbitrary_oxidation_proxy_in_primary_inputs": false,
+  "validation_tiers": [
+    "record_interpolation",
+    "series_disjoint",
+    "source_disjoint",
+    "campaign_disjoint",
+    "LOSO",
+    "LOAO",
+    "LOTO",
+    "LOEO"
+  ],
+  "external_holdout_selection": "for every LOSO/LOAO/LOTO/LOEO holdout, WB-PIML, ExtraTrees and ET-Walker are re-selected only in the remaining records using campaign-disjoint inner folds; held-out responses are never used",
+  "external_holdout_count": 29,
+  "external_selection_rows": 87,
+  "external_censor_guard_relaxed_holdouts": 27,
+  "external_censor_guard_never_relaxed": false,
+  "external_campaign_overlap_holdouts": 14,
+  "external_campaign_disjoint_holdouts": 15,
+  "external_inner_group": "campaign_id",
+  "external_outer_test_tuning": false,
+  "external_outer_test_interval_calibration": false,
+  "repeated_validation_runs": 10,
+  "primary_model_trees": 400,
+  "sensitivity_audit_trees": 160,
+  "sensitivity_audit_changes_primary_model": false,
+  "intervals": "campaign-equal weighted development-OOF empirical absolute-residual intervals; the same predeclared construction is recalibrated from each held-out training set's OOF residuals in LOSO/LOAO/LOTO/LOEO",
+  "interval_label": "empirical prediction intervals; not formal finite-sample conformal guarantees",
+  "external_effect_intervals": "paired campaign-cluster bootstrap CIs within each factor-held-out scenario",
+  "output_contract": "one Excel workbook, eight composite PNG figures, and one 29-slide PPTX containing each composite and every non-empty subplot; CSV disabled by default",
+  "csv_export_enabled": false,
+  "bootstrap": 5000,
+  "seed": 20260824,
+  "software": {
+    "python": "3.14.0",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.8.0"
+  }
+}
