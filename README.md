@@ -6,14 +6,14 @@ physical model with a residual learner fitted to exact-fracture observations.
 
 ## Data
 
-`data_v23.xlsx` contains the dataset and its provenance. The primary analysis uses
+`data.xlsx` contains the dataset and its provenance. The primary analysis uses
 the `Plot_Data_Verified` worksheet: 222 unique records, comprising 160 exact
 fractures and 62 right-censored runouts. Each record has unit weight in the joint
 likelihood. Point-error metrics are evaluated on exact fractures and balanced
 across experimental campaigns.
 
 The manuscript's result tables are provided in
-`reference_results/PIML_v23_final_results.xlsx`.
+`reference_results/WB_PIML_results.xlsx`.
 
 ## Installation
 
@@ -37,9 +37,9 @@ The defaults use seed `20260824`, 400 trees, 160 trees for the sensitivity audit
 includes nested model selection and factor-held-out validation and may take
 about an hour, depending on the computer.
 
-Results are written to `results_v23_final/`:
+Results are written to `results/`:
 
-- `PIML_v23_final_results.xlsx`: all 45 result tables, including predictions,
+- `WB_PIML_results.xlsx`: all 45 result tables, including predictions,
   performance metrics, prediction intervals, model selection, and sensitivity analyses.
 - `protocol.json`: analysis settings and software versions.
 - `README_results.md`: a summary of the analysis and results.

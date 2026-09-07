@@ -242,7 +242,7 @@ def run_primary_folds(df: pd.DataFrame, outer_splits, trees: int):
             "damage_cap": DAMAGE_CAP,
             "n_location_parameters": np.nan,
             "n_physics_parameters": len(physical_outer_coef),
-            "learner": "competing-damage trunk + OOF-selected v22/robust-support residual",
+            "learner": "competing-damage trunk + OOF-selected tree-based/support-aware residual",
             "eta": hybrid_choice["eta"],
             "residual_mode": hybrid_choice["residual_mode"],
             "ridge_alpha": hybrid_choice["ridge_alpha"],
@@ -306,7 +306,7 @@ def run_primary_folds(df: pd.DataFrame, outer_splits, trees: int):
 def fixed_safe_prediction(train: pd.DataFrame, test: pd.DataFrame, seed: int,
                           trees: int, residual_mode: str = "legacy_et"
                           ) -> tuple[np.ndarray, dict[str, float | str]]:
-    """Apply the frozen v23 competing-damage residual in secondary validation."""
+    """Apply the fixed competing-damage residual in secondary validation."""
     inner_splits, _ = grouped_folds(
         train, min(4, train[PRIMARY_GROUP_COLUMN].nunique()), seed + 333
     )
@@ -748,7 +748,7 @@ def sstar_exclusion_sensitivity(df: pd.DataFrame, trees: int) -> pd.DataFrame:
 
 def sensitivity_audit(df: pd.DataFrame, outer_splits, trees: int,
                       nested_selection: pd.DataFrame) -> pd.DataFrame:
-    """Outer-fold, response-blind sensitivity audit of major V23 assumptions."""
+    """Outer-fold, response-blind sensitivity audit of major model assumptions."""
     selected = nested_selection.loc[
         nested_selection["model"].eq("WB-PIML-Anchor")
     ].set_index("outer_fold")

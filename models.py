@@ -37,8 +37,8 @@ from data import (
     RMSE_TIE_TOLERANCE,
     TRAD_CATEGORICAL,
     TRAD_NUMERIC,
-    V23_LOTO_SHORTLIST,
-    V23_NEAR_TIE_RMSE,
+    LOTO_SHORTLIST,
+    NEAR_TIE_RMSE,
     censored_hinge_rmse,
     grouped_folds,
     require_exact_training,
@@ -362,7 +362,7 @@ def select_safe_fusion(physical_oof: pd.DataFrame, et_oof: pd.DataFrame
                        ) -> tuple[dict[str, float | str], pd.DataFrame, pd.DataFrame]:
     """Finalize the selected residual branch without switching off physics."""
     if PHYSICS_MIX_GRID != (1.0,) or CALIBRATION_MODES != ("none",):
-        raise AssertionError("v23 requires an always-active, uncalibrated physical trunk")
+        raise AssertionError("WB-PIML requires an always-active, uncalibrated physical trunk")
     metadata = [
         "row_id", "source_id", "campaign_id", "record_equivalence_id",
         "logN", "is_exact", "is_runout", "inner_fold",
@@ -1059,13 +1059,13 @@ def nested_select_hybrid(train: pd.DataFrame, seed: int, trees: int
     candidates = pd.DataFrame(rows)
     best_rmse = float(candidates["inner_SB_RMSE"].min())
     candidates["within_RMSE_tolerance"] = (
-        candidates["inner_SB_RMSE"] <= best_rmse + V23_NEAR_TIE_RMSE
+        candidates["inner_SB_RMSE"] <= best_rmse + NEAR_TIE_RMSE
     )
     shortlist = candidates.loc[candidates["within_RMSE_tolerance"]].copy()
     feasible = shortlist.loc[shortlist["censor_feasible"]].copy()
     constraint_relaxed = feasible.empty
     pool = shortlist if constraint_relaxed else feasible
-    pool = pool.sort_values(["inner_SB_RMSE", "inner_runout_survival_NLL"]).head(V23_LOTO_SHORTLIST)
+    pool = pool.sort_values(["inner_SB_RMSE", "inner_runout_survival_NLL"]).head(LOTO_SHORTLIST)
     for candidate_index in pool["candidate_index"].astype(int):
         candidate = dict(HYBRID_CANDIDATES[candidate_index])
         candidates.loc[candidates["candidate_index"].eq(candidate_index), "inner_LOTO_RMSE"] = (
@@ -1094,5 +1094,5 @@ def nested_select_hybrid(train: pd.DataFrame, seed: int, trees: int
     }
     chosen["censor_feasible"] = bool(best["censor_feasible"])
     chosen["censor_constraint_relaxed"] = bool(constraint_relaxed)
-    chosen["RMSE_tolerance"] = V23_NEAR_TIE_RMSE
+    chosen["RMSE_tolerance"] = NEAR_TIE_RMSE
     return chosen, stored[int(best["candidate_index"])], candidates

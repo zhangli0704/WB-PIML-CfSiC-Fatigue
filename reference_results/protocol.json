@@ -1,8 +1,8 @@
 {
-  "model_version": "v23-final-nested-factor-holdout-scope-corrected",
-  "data": "data_v23.xlsx",
+  "model": "WB-PIML",
+  "data": "data.xlsx",
   "sheet": "Plot_Data_Verified",
-  "data_sha256": "e7cb77a6a2b655a8bf263ca4e937368e18d984fb092d3741ba39664bd5496094",
+  "data_sha256": "7e1772c9ce43648634705b4ea387d6be3d987ed524fcef3fa628999a9fd6a6e3",
   "n_verified_rows": 222,
   "n_exact_density_training_evaluation": 160,
   "n_right_censored_training": 62,
@@ -66,10 +66,10 @@
   "outer_test_tuning": false,
   "primary_validation_scope": "campaign-disjoint outer validation; no campaign crosses train/test",
   "domain_holdout_scope": "LOSO/LOAO/LOTO/LOEO are factor-held-out stress tests, not an independent external dataset and not campaign-disjoint by design; actual overlap is reported per holdout",
-  "hyperparameter_selection": "16 predeclared candidates (12 unchanged v22 fallbacks + 4 robust support candidates) selected exclusively in development folds",
+  "hyperparameter_selection": "16 predeclared candidates (12 tree-based candidates + 4 robust support candidates) selected exclusively in development folds",
   "selection_endpoint": "exact campaign-balanced inner-fold RMSE; within 0.02 RMSE, prefer the censor-feasible shortlist and lower inner temperature-disjoint RMSE",
   "censor_guardrail": "candidate runout survival NLL <= WB-CD runout survival NLL + one paired inner-fold standard error; relaxation is explicitly recorded if no near-best candidate is feasible",
-  "ET_Walker_fairness": "same joint-data inner folds and unchanged 12 v22 gamma/tree candidate slots; the four new slots change residual formulation rather than traditional-tree tuning",
+  "ET_Walker_fairness": "same joint-data inner folds and 12 gamma/tree candidates; four additional candidates use alternative residual formulations",
   "fair_censored_comparators": [
     "Lognormal-AFT",
     "Weibull-AFT"

@@ -6,5 +6,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 ~$*
-results_v23_final/
+results/
 *.log

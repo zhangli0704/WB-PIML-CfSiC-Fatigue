@@ -31,7 +31,7 @@ LOG5 = math.log10(5.0)
 SHEET = "Plot_Data_Verified"
 
 
-EXPECTED_FILE = "data_v23.xlsx"
+EXPECTED_FILE = "data.xlsx"
 
 
 EXPECTED_VERIFIED_ROWS = 222
@@ -43,10 +43,10 @@ EXPECTED_EXACT_ROWS = 160
 EXPECTED_RUNOUT_ROWS = 62
 
 
-DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parent / "results_v23_final"
+DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parent / "results"
 
 
-PPTX_OUTPUT_NAME = "PIML_v23_final_figures.pptx"
+PPTX_OUTPUT_NAME = "WB_PIML_figures.pptx"
 
 
 PRIMARY_GROUP_COLUMN = "campaign_id"
@@ -114,10 +114,10 @@ CALIBRATION_MODES = ("none",)
 RMSE_TIE_TOLERANCE = 0.001
 
 
-V23_NEAR_TIE_RMSE = 0.020
+NEAR_TIE_RMSE = 0.020
 
 
-V23_LOTO_SHORTLIST = 3
+LOTO_SHORTLIST = 3
 
 
 RESIDUAL_TEMPERATURE_MATCH_ATOL_C = 1e-9
@@ -961,7 +961,7 @@ def selection_rule_sensitivity(nested_candidates: pd.DataFrame) -> pd.DataFrame:
     rows: list[dict[str, object]] = []
     for fold, fold_candidates in candidates.groupby("outer_fold", sort=True):
         best_rmse = float(fold_candidates["inner_SB_RMSE"].min())
-        for tolerance in [0.0, 0.01, V23_NEAR_TIE_RMSE, 0.04]:
+        for tolerance in [0.0, 0.01, NEAR_TIE_RMSE, 0.04]:
             near = fold_candidates.loc[
                 fold_candidates["inner_SB_RMSE"] <= best_rmse + tolerance + 1e-12
             ].copy()

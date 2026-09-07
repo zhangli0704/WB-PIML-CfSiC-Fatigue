@@ -148,7 +148,7 @@ def write_readme(path: Path, data_path: Path, metrics: pd.DataFrame, effects: pd
     effect_et = effects.loc[effects["comparator"].eq("ExtraTrees") & effects["effect"].eq("RMSE_gain")].iloc[0]
     effect_walker = effects.loc[effects["comparator"].eq("ET-Walker") & effects["effect"].eq("RMSE_gain")].iloc[0]
     n_exact = int(df["is_exact"].sum())
-    text = f"""# WB-PIML v23 censor-aware, temperature-robust competing-damage results
+    text = f"""# WB-PIML censor-aware, temperature-robust competing-damage results
 
 ## Analysis protocol
 
@@ -158,14 +158,14 @@ def write_readme(path: Path, data_path: Path, metrics: pd.DataFrame, effects: pd
 - Exact fractures contribute density terms. Runouts contribute survival terms and are never treated as failures at their stopping cycles.
 - No code-side label override is applied; workbook labels and campaign IDs are used as reviewed.
 - {df['source_id'].nunique()} publication sources are assigned to {df['campaign_id'].nunique()} human-reviewed campaigns; no campaign is inferred from row counts alone.
-- `Plot_Data_Verified` is physically deduplicated: {df['record_equivalence_id'].nunique()} unique records and no repeated equivalence ID. Duplicate copies remain traceable in `Plot_Data` and `Excluded_Records` but are never read by V23.
+- `Plot_Data_Verified` is physically deduplicated: {df['record_equivalence_id'].nunique()} unique records and no repeated equivalence ID. Duplicate copies remain traceable in `Plot_Data` and `Excluded_Records` and are excluded from the primary analysis.
 - Five fixed campaign-disjoint outer folds; every record appears in one outer test fold and no equivalence cluster crosses folds.
 - The physical branch combines Walker--Basquin mechanical damage with a time-dependent environmental rate proportional to `E(env)*Arrhenius(T)/f`.
 - The machine-learning branch predicts only `y-mu_WB-CD`; the physical trunk has unit weight in every fold and cannot fall back to a purely data-driven model.
 - If the current development set has no exact fracture at the requested temperature, the learned point residual is set to zero and prediction uses the competing-damage physical trunk; this support check never reads validation responses.
 - Walker gamma, residual shrinkage eta and tree regularization are selected exclusively inside campaign-disjoint development folds. No affine output calibration is used.
 - Exact-only campaign-balanced RMSE remains the point-performance endpoint; joint censored NLL is the within-tolerance selection tie-break.
-- ET-Walker retains the v22 joint-data inner-fold budget; v23 adds only four predeclared robust residual candidates to WB-PIML.
+- ET-Walker uses joint-data inner folds. WB-PIML includes four additional predeclared residual candidates with support-aware formulations.
 - Runouts affect the physical trunk and AFT scale only through `-log P(Nf>N_stop|x)`; point RMSE/MAE/R2/F5/C* remain exact-only.
 - There is no neural network, source intercept, arbitrary oxidation threshold, or outer-test tuning.
 - Repeated record-, series-, source-, and campaign-disjoint validation separates interpolation from generalization.
@@ -185,7 +185,7 @@ The `SB_*` metrics are campaign-balanced. The `Claim_Gate` worksheet summarizes 
 
 ## Output files
 
-- The default tabular deliverable is one workbook: `PIML_v23_final_results.xlsx`.
+- The default tabular deliverable is one workbook: `WB_PIML_results.xlsx`.
 - `Outer_Fold_Assignment` is included in that workbook for reproducibility.
 - CSV files are disabled by default; pass `--export-csv` only when legacy machine-readable files are explicitly needed.
 - The workbook contains the data for the manuscript figures.
@@ -1160,7 +1160,7 @@ def main() -> None:
         ("High-temperature oxidation of SiC/SiC composites", "discussion context; no thresholded oxidation feature in the primary model", "https://www.mdpi.com/1996-1944/9/3/207"),
         ("Oxidation-dependent CMC fatigue life", "environment-fatigue coupling", "https://www.sciencedirect.com/science/article/pii/S0921509315300575"),
         ("Physics-constrained ML for CMCs", "advanced-method context", "https://www.sciencedirect.com/science/article/pii/S1359836825007310"),
-    ], columns=["reference_topic", "use_in_v23", "url_or_local_source"])
+    ], columns=["reference_topic", "use_in_analysis", "url_or_local_source"])
 
     outer_fold_assignment = df[
         ["row_id", "source_id", "campaign_id", "record_equivalence_id",
@@ -1228,7 +1228,7 @@ def main() -> None:
     ].astype(bool)
 
     protocol = {
-        "model_version": "v23-final-nested-factor-holdout-scope-corrected", "data": data_path.name, "sheet": SHEET,
+        "model": "WB-PIML", "data": data_path.name, "sheet": SHEET,
         "data_sha256": data_hash, "n_verified_rows": len(full_df),
         "n_exact_density_training_evaluation": len(exact_df), "n_right_censored_training": len(runout_df),
         "n_label_overrides_in_code": 0,
@@ -1271,10 +1271,10 @@ def main() -> None:
             "independent external dataset and not campaign-disjoint by design; "
             "actual overlap is reported per holdout"
         ),
-        "hyperparameter_selection": f"{len(HYBRID_CANDIDATES)} predeclared candidates ({len(NESTED_CANDIDATES)} unchanged v22 fallbacks + 4 robust support candidates) selected exclusively in development folds",
+        "hyperparameter_selection": f"{len(HYBRID_CANDIDATES)} predeclared candidates ({len(NESTED_CANDIDATES)} tree-based candidates + 4 robust support candidates) selected exclusively in development folds",
         "selection_endpoint": "exact campaign-balanced inner-fold RMSE; within 0.02 RMSE, prefer the censor-feasible shortlist and lower inner temperature-disjoint RMSE",
         "censor_guardrail": "candidate runout survival NLL <= WB-CD runout survival NLL + one paired inner-fold standard error; relaxation is explicitly recorded if no near-best candidate is feasible",
-        "ET_Walker_fairness": f"same joint-data inner folds and unchanged {len(NESTED_CANDIDATES)} v22 gamma/tree candidate slots; the four new slots change residual formulation rather than traditional-tree tuning",
+        "ET_Walker_fairness": f"same joint-data inner folds and {len(NESTED_CANDIDATES)} gamma/tree candidates; four additional candidates use alternative residual formulations",
         "fair_censored_comparators": list(CENSORED_MODELS),
         "primary_comparators": "ExtraTrees, equally tuned ET-Walker, and ML-Ens",
         "primary_inputs": TRAD_NUMERIC + TRAD_CATEGORICAL,
@@ -1338,7 +1338,7 @@ def main() -> None:
         ("Campaign audit", f"{df['campaign_id'].nunique()} human-reviewed campaigns; {len(duplicate_clusters)} physical duplicate clusters ({int(duplicate_clusters['n_sources'].gt(1).sum())} cross-source); {int(duplicate_clusters['reviewed_label_conflict'].sum())} unresolved label-conflict clusters"),
         ("Primary validation", "nested five-fold campaign-disjoint outer validation; no campaign crosses training and test partitions"),
         ("Factor-held-out checks", "LOSO/LOAO/LOTO/LOEO use training-only nested selection; the factor is excluded from training, while campaign overlap is reported separately for each holdout"),
-        ("Primary model", "Right-censored competing-damage trunk plus nested-selected v22 or support-gated robust/smooth exact residual"),
+        ("Primary model", "Right-censored competing-damage trunk plus nested-selected tree-based or support-gated robust/smooth exact residual"),
         ("Censored controls", "Lognormal-AFT and Weibull-AFT use all exact/runout rows, the same observable inputs and the same outer campaign folds"),
         ("Paired control", "ET-Walker uses identical inner folds, candidate slots, gamma/tree settings and tree seeds"),
         ("Primary inputs", "observable stress, R, temperature, frequency, UTS, architecture and environment; no source/batch ID or thresholded oxidation score"),
@@ -1391,7 +1391,7 @@ def main() -> None:
         "References": references,
     }
     print("Writing all 45 result tables", flush=True)
-    workbook_path = out / "PIML_v23_final_results.xlsx"
+    workbook_path = out / "WB_PIML_results.xlsx"
     write_workbook(workbook_path, tables)
     write_readme(
         out / "README_results.md", data_path, metrics, effects, gate, df,
