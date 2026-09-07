@@ -1,6 +1,6 @@
 # WB-PIML v23 censor-aware, temperature-robust competing-damage results
 
-## Locked analysis protocol
+## Analysis protocol
 
 - Data: `data_v23.xlsx` / `Plot_Data_Verified` only.
 - The verified worksheet contains 160 exact fractures and 62 right-censored runouts; all 222 unique records enter the joint AFT likelihood.
@@ -21,7 +21,7 @@
 - Repeated record-, series-, source-, and campaign-disjoint validation separates interpolation from generalization.
 - LOSO/LOAO/LOTO/LOEO are factor-held-out stress tests. WB-PIML, ExtraTrees and ET-Walker are re-selected only in the remaining records with campaign-disjoint inner folds. These outer factor splits are not campaign-disjoint by design, and the actual campaign overlap is reported for every holdout.
 
-## Honest result
+## Performance summary
 
 - Best pre-specified model in the primary campaign-disjoint analysis: **WB-PIML = 1.023** campaign-balanced RMSE.
 - WB-PIML campaign-balanced RMSE: **1.023**.
@@ -31,12 +31,12 @@
 - Paired RMSE gain over plain ExtraTrees: **0.157**, 95% campaign-bootstrap CI **[0.055, 0.269]**.
 - Paired RMSE gain over equally tuned ET-Walker: **0.148**, 95% campaign-bootstrap CI **[0.041, 0.261]**.
 
-The workflow deliberately does not tune on outer-test responses or force WB-PIML to rank first. The historical `SB_*` column prefix is retained for compatibility, but these values are campaign-balanced. Use the `Claim_Gate` sheet before drafting claims.
+The `SB_*` metrics are campaign-balanced. The `Claim_Gate` worksheet summarizes the statistical and validation checks.
 
-## Output contract
+## Output files
 
 - The default tabular deliverable is one workbook: `PIML_v23_final_results.xlsx`.
 - `Outer_Fold_Assignment` is included in that workbook for reproducibility.
 - CSV files are disabled by default; pass `--export-csv` only when legacy machine-readable files are explicitly needed.
-- Eight PNG figures and `PIML_v23_final_figures.pptx` are generated. The presentation contains all eight composite figures and every non-empty subplot on its own slide.
+- The workbook contains the data for the manuscript figures.
 - `protocol.json` and this README remain as non-tabular audit outputs.
