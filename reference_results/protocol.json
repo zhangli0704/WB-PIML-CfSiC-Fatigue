@@ -2,14 +2,14 @@
   "model": "WB-PIML",
   "data": "data.xlsx",
   "sheet": "Plot_Data_Verified",
-  "data_sha256": "7e1772c9ce43648634705b4ea387d6be3d987ed524fcef3fa628999a9fd6a6e3",
-  "n_verified_rows": 222,
-  "n_exact_density_training_evaluation": 160,
-  "n_right_censored_training": 62,
+  "data_sha256": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
+  "n_verified_rows": 223,
+  "n_exact_density_training_evaluation": 158,
+  "n_right_censored_training": 65,
   "n_label_overrides_in_code": 0,
-  "n_sources": 17,
-  "n_exact_sources": 16,
-  "n_campaigns": 18,
+  "n_sources": 18,
+  "n_exact_sources": 17,
+  "n_campaigns": 17,
   "n_physical_duplicate_clusters": 23,
   "n_cross_source_duplicate_clusters": 22,
   "n_duplicate_traceability_rows": 46,
@@ -22,25 +22,30 @@
     0.95
   ],
   "candidate_min_samples_leaf": [
-    2,
-    3,
-    5
+    3
   ],
   "candidate_max_features": [
-    0.65,
-    0.85,
-    1.0
+    0.85
   ],
   "candidate_eta": [
-    0.0,
-    0.5,
     0.75,
     1.0
   ],
   "candidate_residual_modes": [
-    "dual_support",
-    "legacy_et"
+    "ET_residual",
+    "physics_feature_ET_residual",
+    "Matern_residual"
   ],
+  "candidate_temperature_policies": [
+    "soft250"
+  ],
+  "candidate_residual_basis_count": 27,
+  "candidate_nonzero_eta": [
+    0.75,
+    1.0
+  ],
+  "hybrid_candidate_count": 54,
+  "censor_diagnostic_used_for_selection": false,
   "candidate_physics_mix": [
     1.0
   ],
@@ -48,33 +53,68 @@
     "none"
   ],
   "calibration_status": "locked to none; affine output calibration is absent from the executable path",
-  "RMSE_tie_tolerance": 0.001,
+  "hybrid_RMSE_near_tie_tolerance": 0.02,
+  "ET_Walker_RMSE_near_tie_tolerance": 0.001,
+  "hybrid_LOTO_shortlist_limit": 0,
+  "hybrid_selection_order": [
+    "within pool inner campaign-balanced exact RMSE <= minimum + 0.02",
+    "minimum inner runout survival NLL, then RMSE, then candidate_id"
+  ],
+  "hybrid_censor_guard_role": "diagnostic only; not an enforced noninferiority constraint",
+  "hybrid_temperature_policies": [
+    "soft250"
+  ],
+  "strong_control_candidate_count": 64,
+  "hybrid_residual_basis_count": 27,
+  "hybrid_inner_seed": "selection_seed + 100*inner_fold + 1; identical across both pools, gains and families",
+  "environment_regularization_grid": [
+    0.0,
+    0.1,
+    1.0
+  ],
+  "hybrid_families": [
+    "ET_residual",
+    "physics_feature_ET_residual",
+    "Matern_residual"
+  ],
+  "strong_control_selection": "independent 64-candidate pool, same folds and RMSE/NLL rule; includes nine physics-feature ExtraTrees candidates",
+  "Matern_residual": "nu=1.5, length_scale=2, alpha=1, zero residual prior",
+  "features": "seven numeric variables; coarse architecture, detailed architecture and environment; training-only transformations",
+  "selection_sensitivity_replay": "same within-pool RMSE-budget/NLL rule; censor margin is diagnostic only",
+  "secondary_fixed_temperature_policy": "soft250",
+  "secondary_fixed_family": "ET_residual",
+  "secondary_fixed_strength": 0.0,
   "damage_cap_for_ablation_only": 0.4,
   "fold_balance": "campaign-disjoint nested outer/inner folds constructed from all exact and right-censored records",
-  "point_metric_balance": "equal campaign contribution; SB_* is retained only as a legacy compatibility prefix",
+  "point_metric_balance": "equal campaign contribution; SB_* denotes campaign-balanced metrics",
   "campaign_mapping": "campaign_id read directly from Plot_Data_Verified; no code-side remapping",
-  "duplicate_handling": "Plot_Data_Verified is physically deduplicated; one retained row per record_equivalence_id",
-  "training_weighting": "all 222 physically unique records use unit likelihood weight; exact density and runout survival contributions differ only by censoring status",
+  "duplicate_handling": "one retained row per record_equivalence_id; source-identity qualifications are retained in the workbook; unique IDs do not prove every cross-publication specimen is independent",
+  "training_weighting": "all 223 retained likelihood records use unit weights; exact density and runout survival differ by censoring status",
   "label_review": "is_exact_failure and is_runout read directly from Plot_Data_Verified; no code-side override",
   "location_training": "joint lognormal AFT likelihood: exact density plus right-censored survival",
-  "proposed_architecture": "always-active five-parameter censored-AFT competing-damage trunk plus a nested-selected legacy or support-gated dual exact-fracture residual",
-  "proposed_location_equation": "mu_phys=-log10(D_mech+D_env); yhat=mu_phys+g_T(T)*eta*[q_support*g_robust+0.25*(1-q_support)*g_smooth]",
-  "residual_extrapolation_guard": "eta_eff=0 when the development exact-fracture set has no observation at the requested temperature; exact temperature matching uses 1e-9 C only for floating-point equality and never consults validation responses",
+  "proposed_architecture": "five-parameter censored-AFT competing-damage trunk with selected environmental-decrement penalty, plus an exact-fracture ExtraTrees, physics-feature ExtraTrees, or Matérn residual",
+  "proposed_location_equation": "mu_phys=-log10(D_mech+D_env); yhat=mu_phys+eta*exp[-(nearest_exact_training_temperature_distance/250)^2]*residual(X); physical trunk weight is one",
+  "residual_extrapolation_guard": "fixed soft temperature support exp[-(nearest exact-development temperature distance/250 C)^2]; no hard temperature mask in primary selection. Binary flags describe same-temperature availability rather than effective soft residual weight",
   "fitted_physics_parameters": 5,
   "nuisance_scale_parameters_per_fold": 1,
-  "runout_use": "runout stopping cycles enter only as lower bounds through -log survival; they affect the physical trunk, scale and NLL tie-break, never point residual regression or point-life metrics",
+  "runout_use": "runout stopping cycles enter only as lower bounds through -log survival; they affect physical fitting, scale calibration and survival-NLL selection within the exact-RMSE budget, never point residual regression or point-life metrics",
   "outer_test_tuning": false,
   "primary_validation_scope": "campaign-disjoint outer validation; no campaign crosses train/test",
   "domain_holdout_scope": "LOSO/LOAO/LOTO/LOEO are factor-held-out stress tests, not an independent external dataset and not campaign-disjoint by design; actual overlap is reported per holdout",
-  "hyperparameter_selection": "16 predeclared candidates (12 tree-based candidates + 4 robust support candidates) selected exclusively in development folds",
-  "selection_endpoint": "exact campaign-balanced inner-fold RMSE; within 0.02 RMSE, prefer the censor-feasible shortlist and lower inner temperature-disjoint RMSE",
-  "censor_guardrail": "candidate runout survival NLL <= WB-CD runout survival NLL + one paired inner-fold standard error; relaxation is explicitly recorded if no near-best candidate is feasible",
-  "ET_Walker_fairness": "same joint-data inner folds and 12 gamma/tree candidates; four additional candidates use alternative residual formulations",
+  "hyperparameter_selection": "54 hybrid candidates (3 families x 3 gamma x 3 environmental strengths x 2 gains), and 64 selected-control candidates; separate development-only selections on common folds",
+  "selection_endpoint": "each hybrid/control pool: inner campaign-balanced exact RMSE <= that pool minimum+0.02; minimum calibrated inner runout survival NLL, then RMSE, then candidate index. No LOTO model selection. ET-Walker retains its separately documented 0.001 tolerance",
+  "censor_guardrail": "diagnostic only: candidate runout survival NLL <= WB-CD runout survival NLL + one paired inner-fold standard error. This comparison does not filter candidates. censor_feasible records its result; the compatibility field censor_constraint_relaxed records a selected diagnostic failure",
+  "ET_Walker_fairness": "same observable inputs and campaign folds; ET-Walker retains 12 gamma/tree configurations, WB-PIML has 54 candidates and ML-Strong has 64. Total search budgets differ",
   "fair_censored_comparators": [
     "Lognormal-AFT",
     "Weibull-AFT"
   ],
-  "primary_comparators": "ExtraTrees, equally tuned ET-Walker, and ML-Ens",
+  "primary_comparators": [
+    "ML-Ens",
+    "ExtraTrees",
+    "ET-Walker",
+    "ML-Strong"
+  ],
   "primary_inputs": [
     "logS",
     "R",
@@ -84,6 +124,7 @@
     "Sa",
     "Smean",
     "architecture",
+    "architecture_detail",
     "env_class"
   ],
   "arbitrary_oxidation_proxy_in_primary_inputs": false,
@@ -97,16 +138,28 @@
     "LOTO",
     "LOEO"
   ],
-  "external_holdout_selection": "for every LOSO/LOAO/LOTO/LOEO holdout, WB-PIML, ExtraTrees and ET-Walker are re-selected only in the remaining records using campaign-disjoint inner folds; held-out responses are never used",
-  "external_holdout_count": 29,
-  "external_selection_rows": 87,
-  "external_censor_guard_relaxed_holdouts": 27,
+  "external_holdout_selection": "for each LOSO/LOAO/LOTO/LOEO split, WB-PIML, ML-Strong, ExtraTrees and ET-Walker are re-selected on remaining records with campaign-disjoint inner folds; held-out responses are not used for selection or calibration",
+  "external_holdout_count": 30,
+  "external_selection_rows": 180,
+  "external_censor_guard_relaxed_holdouts": 29,
   "external_censor_guard_never_relaxed": false,
-  "external_campaign_overlap_holdouts": 14,
-  "external_campaign_disjoint_holdouts": 15,
+  "external_campaign_overlap_holdouts": 13,
+  "external_campaign_disjoint_holdouts": 17,
   "external_inner_group": "campaign_id",
   "external_outer_test_tuning": false,
   "external_outer_test_interval_calibration": false,
+  "secondary_validation_configuration": {
+    "scope": "repeated record/series/source/campaign validation, duplicate/label sensitivity and S-star sensitivity",
+    "selection": "fixed secondary configuration; distinct from nested-selected primary and factor-held-out models",
+    "gamma": 0.85,
+    "strength": 0.0,
+    "eta": 0.75,
+    "min_samples_leaf": 3,
+    "max_features": 0.85,
+    "family": "ET_residual",
+    "temperature_policy": "soft250",
+    "temperature_scale_C": 250.0
+  },
   "repeated_validation_runs": 10,
   "primary_model_trees": 400,
   "sensitivity_audit_trees": 160,
@@ -114,7 +167,7 @@
   "intervals": "campaign-equal weighted development-OOF empirical absolute-residual intervals; the same predeclared construction is recalibrated from each held-out training set's OOF residuals in LOSO/LOAO/LOTO/LOEO",
   "interval_label": "empirical prediction intervals; not formal finite-sample conformal guarantees",
   "external_effect_intervals": "paired campaign-cluster bootstrap CIs within each factor-held-out scenario",
-  "output_contract": "one Excel workbook, eight composite PNG figures, and one 29-slide PPTX containing each composite and every non-empty subplot; CSV disabled by default",
+  "output_contract": "one Excel workbook, ten composite PNG figures, and the original 29-slide PPTX containing each composite and every non-empty subplot; CSV disabled by default",
   "csv_export_enabled": false,
   "bootstrap": 5000,
   "seed": 20260824,
@@ -124,5 +177,82 @@
     "pandas": "3.0.1",
     "scipy": "1.17.1",
     "scikit_learn": "1.8.0"
+  },
+  "candidate_environment_strength": [
+    0.0,
+    0.1,
+    1.0
+  ],
+  "candidate_residual_families": [
+    "ET_residual",
+    "Matern_residual",
+    "physics_feature_ET_residual"
+  ],
+  "strong_control_model": "ML-Strong",
+  "strong_control_pool": "18 ExtraTrees + 18 GBDT + 18 Matérn + one fixed ML-Ens + nine physics-feature ExtraTrees; all selected on development folds; the pool is not purely data-driven",
+  "environment_regularizer": "lambda*mean_training[log10(1+D_env/D_mech)^2], lambda in {0,0.1,1}; all exact/runout development rows contribute covariates to this nonnegative penalty; original joint AFT likelihood and coefficient ridge retained",
+  "matern_residual": "Matérn nu=1.5, length_scale=2, alpha=1; zero residual prior; numeric scaling and categorical encoding fitted only on development exact-fracture rows",
+  "physics_residual_features": "mechanical_prediction, environment_decrement, walker_stress; physical coefficients fitted only on the corresponding development subset; the same derived inputs are available to nine direct ExtraTrees controls",
+  "architecture_encoding": "coarse architecture plus architecture_detail are predictive inputs; LOAO holds out coarse architecture groups",
+  "probability_comparison": {
+    "density_coordinate": "log10(Nf)",
+    "primary_probability_model_count": 16,
+    "factor_probability_model_count": 8,
+    "normal_scale": "one training-calibrated constant per model and outer training set; location unchanged",
+    "native_AFT_distribution": "original fitted lognormal or Weibull distribution retained",
+    "main_probability_metric": "campaign-balanced full exact-density/right-censored-survival NLL",
+    "interval_levels": [
+      0.8,
+      0.9
+    ],
+    "coverage_scope": "exact failures only; not unconditional lifetime coverage",
+    "scatter_interpretation": "combined predictive uncertainty, not identified intrinsic scatter",
+    "sheets": [
+      "Prob_Metrics",
+      "Prob_Intervals",
+      "Prob_Predictions",
+      "Prob_Campaigns",
+      "Prob_Paired_CI",
+      "Prob_Calibration",
+      "Prob_Method"
+    ],
+    "figure": "09_probability_comparison.png",
+    "point_predictions_changed_by_probability_calibration": false,
+    "hyperparameters_reselected_using_probability_test_scores": false
+  },
+  "simple_trunk_controls": {
+    "models": [
+      "WB-Residual",
+      "Basquin-Residual"
+    ],
+    "candidate_counts": [
+      18,
+      6
+    ],
+    "gamma_grids": [
+      [
+        0.75,
+        0.85,
+        0.95
+      ],
+      [
+        0.0
+      ]
+    ],
+    "residual_families": [
+      "ET_residual",
+      "physics_feature_ET_residual",
+      "Matern_residual"
+    ],
+    "eta_grid": [
+      0.75,
+      1.0
+    ],
+    "environment_penalty": "not applicable; not searched",
+    "selection": "independent per model; same inner splits and RMSE budget/runout NLL rule",
+    "primary_and_factor_holdouts": true,
+    "fixed_repeated_validation_changed": false,
+    "origin": "revision-stage comparisons motivated by previously inspected results",
+    "uncertainty": "conditional campaign bootstrap; no new independent test data"
   }
 }

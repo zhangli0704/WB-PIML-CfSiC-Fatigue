@@ -1,0 +1,6 @@
+* text=auto eol=lf
+WB-PIML.py -text
+reference_results/protocol.json -text
+*.xlsx binary
+*.png binary
+*.pptx binary
