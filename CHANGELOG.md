@@ -1,4 +1,19 @@
-# Changes from the 0903 repository to the 0909 release
+# Release history
+
+## 0912 repository release
+
+- Packaged the revised-manuscript release in a new local checkout while retaining
+  the supplied 0909 canonical dataset and numerical artifacts, which already match
+  the current remote repository byte-for-byte.
+- Split the 6368-line canonical analysis into four reviewable source fragments.
+  Their ordered byte concatenation exactly reconstructs the supplied source, so the
+  executed statements, constants, functions and entry point are unchanged.
+- Replaced the long top-level source with a small compatibility loader that verifies
+  fragment hashes before executing them in one shared namespace.
+- Extended release verification to check the fragment reconstruction hash before
+  loading the analysis and recomputing saved-result consistency checks.
+
+## Changes from the 0903 repository to the 0909 release
 
 - Replaced the previous 222-record dataset (160 exact, 62 runout) with the supplied
   223-record dataset (158 exact, 65 runout), including its current provenance sheets.

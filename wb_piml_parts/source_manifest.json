@@ -1,0 +1,46 @@
+{
+  "release": "0912",
+  "canonical_source": "WB-PIML.py from the supplied 0909 analysis directory",
+  "canonical_source_sha256": "ec5e39f4ff50ef12c942e3a88f992a48a678fc30a0c9eaa5b37e32f2a193f793",
+  "canonical_source_byte_count": 346294,
+  "canonical_source_line_count": 6368,
+  "execution_model": "Fragments are compiled and executed in listed order in one shared namespace.",
+  "parts": [
+    {
+      "file": "part_01_core.py",
+      "start_line": 1,
+      "end_line": 1409,
+      "line_count": 1409,
+      "byte_count": 64145,
+      "sha256": "fb2c7b5ca48d229b251dd78b5150a780fc062f5a171cbfb5650e3d5e3c3f5808",
+      "purpose": "Configuration, data preparation, physical models, residual models, and primary metrics"
+    },
+    {
+      "file": "part_02_validation_reporting.py",
+      "start_line": 1410,
+      "end_line": 2882,
+      "line_count": 1473,
+      "byte_count": 76995,
+      "sha256": "6baa9f3263250b01ec1b35a4fba1594f2ec492f728afde80999a27841b7d5e4d",
+      "purpose": "Sensitivity analyses, validation strategies, figures, and result export"
+    },
+    {
+      "file": "part_03_revision_models.py",
+      "start_line": 2883,
+      "end_line": 4640,
+      "line_count": 1758,
+      "byte_count": 92743,
+      "sha256": "935223343386820357ff8839eeca6ed45c839d52707845d747adf3320af42049",
+      "purpose": "Revision-stage audits, probabilistic records, and outer-fold tasks"
+    },
+    {
+      "file": "part_04_workflow_probability.py",
+      "start_line": 4641,
+      "end_line": 6368,
+      "line_count": 1728,
+      "byte_count": 112411,
+      "sha256": "c54ba1ab973301365a856f34716c033179744385f32eefc7a488644a9df13fb0",
+      "purpose": "Execution workflow, probabilistic scoring, simple-trunk controls, and entry point"
+    }
+  ]
+}

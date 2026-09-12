@@ -1,13 +1,14 @@
 {
-  "release": "0909",
-  "analysis_source": "WB-PIML.py",
+  "release": "0912",
+  "analysis_entry_point": "WB-PIML.py",
+  "canonical_analysis_source_sha256": "ec5e39f4ff50ef12c942e3a88f992a48a678fc30a0c9eaa5b37e32f2a193f793",
   "notes": [
-    "Source code, data, numerical results, protocol, PNGs and PPTX copied byte-for-byte from the supplied 0909 files.",
-    "Only reference_results/README_results.md has a corrected inventory sentence and packaging note.",
+    "The dataset and numerical result artifacts match the supplied 0909 files.",
+    "The canonical 6368-line analysis source is stored as four byte-preserving fragments and executed in one shared namespace.",
+    "Only reference_results/README_results.md differs from the original artifact, correcting its inherited figure inventory and adding a packaging note.",
     "Packaging verification does not rerun full training."
   ],
   "original_artifact_sha256": {
-    "WB-PIML.py": "ec5e39f4ff50ef12c942e3a88f992a48a678fc30a0c9eaa5b37e32f2a193f793",
     "data.xlsx": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
     "reference_results/01_exact_failure_predictions.png": "6eab53e7090e743ae6b50fabffd4858d06ac38252c65942343095e09c291de7b",
     "reference_results/02_campaign_balanced_metrics.png": "24063cb918982b3d39052d023aae9986a92330d864623d0a51735224a95a0b24",
@@ -25,13 +26,13 @@
     "reference_results/WB_PIML_results.xlsx": "8c6f4f43b78f6452de3cb4658fc124630ac44876061b37a16ee2f5941405003a"
   },
   "sha256": {
-    ".gitattributes": "99fca36e880d38350a86d22c0315e28c41d6cb4e40d5991d888f59ff05d91a31",
+    ".gitattributes": "9ac88fab93a73c3361b288bbcf2107b6e9a3838a7e40abd5b5085ceb67695a2c",
     ".gitignore": "9eddf9167f49f0f508ebeace0cd153b4eb4103825c62e6ab1e72c71309f919c1",
     ".python-version": "a3c1031631e89bddd65ef22311f8268e239bee1939a1d9a033e834d4540b4ad9",
-    "CHANGELOG.md": "43db2fd114b3fce3f39572022ab5a0a939b6e11ed3466bb4d2a88675f0dad1d3",
+    "CHANGELOG.md": "7a7cb2456755ca052a3ef30f39b6d38efd80a4c3181ad0416894f710270c9a09",
     "data.xlsx": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
     "LICENSE": "edc38f4677742b4d066e755656d639908ac1c395bc8d8ec2d07302d93f5b3b8b",
-    "README.md": "0387e07af36ac8b6e79208e2360818a4745dbd2b9c1b081d109dcdcaf1f6e259",
+    "README.md": "04381770f2966f5e86fa832132da4173acde2150e786df98aa9120fa991499a2",
     "reference_results/01_exact_failure_predictions.png": "6eab53e7090e743ae6b50fabffd4858d06ac38252c65942343095e09c291de7b",
     "reference_results/02_campaign_balanced_metrics.png": "24063cb918982b3d39052d023aae9986a92330d864623d0a51735224a95a0b24",
     "reference_results/03_retrained_ablation.png": "695198166672c2d592f8c84b1ac19ed2da470dbc50ec4e3cdb9b2e92d08c25a2",
@@ -48,7 +49,13 @@
     "reference_results/WB_PIML_results.xlsx": "8c6f4f43b78f6452de3cb4658fc124630ac44876061b37a16ee2f5941405003a",
     "requirements.txt": "df320eb2ef3ad9d16368edd6746ce2150b4a91d0dec5d1991eed0f5486a5e978",
     "run.py": "bc2b6830e825085a508c78154516ae464ca5ac986f4c6dc88a0087213634ea02",
-    "verify_release.py": "f62a662cb3abe41b4397efd1af1e69341d0efdaf7658e6011c6eee0ca69c94ae",
-    "WB-PIML.py": "ec5e39f4ff50ef12c942e3a88f992a48a678fc30a0c9eaa5b37e32f2a193f793"
+    "verify_release.py": "0f83ebae197d6f3bdc1a1b75a26f2c9f154be0700413b657281b67a80ad317ae",
+    "WB-PIML.py": "f3f5d8a0abff4254a87b0649ac090d003281e9e180b35773370d277988688474",
+    "wb_piml_parts/__init__.py": "f7b91cb57bfde63ed4afcf9217836b68412fdb128fe353b700b8f54ee727c88f",
+    "wb_piml_parts/part_01_core.py": "fb2c7b5ca48d229b251dd78b5150a780fc062f5a171cbfb5650e3d5e3c3f5808",
+    "wb_piml_parts/part_02_validation_reporting.py": "6baa9f3263250b01ec1b35a4fba1594f2ec492f728afde80999a27841b7d5e4d",
+    "wb_piml_parts/part_03_revision_models.py": "935223343386820357ff8839eeca6ed45c839d52707845d747adf3320af42049",
+    "wb_piml_parts/part_04_workflow_probability.py": "c54ba1ab973301365a856f34716c033179744385f32eefc7a488644a9df13fb0",
+    "wb_piml_parts/source_manifest.json": "c90d7c63f8e7bbba0a48f98de6ad76cf03610533df02dd611ebb4b73f4a2584e"
   }
 }

@@ -2,9 +2,10 @@
 
 Physics-based lifetime prediction with statistical residual correction for
 multi-source Cf/SiC fatigue data containing exact fractures and right-censored
-runouts. This **0909 revision** evaluates both point and probabilistic predictions,
-including two independently selected simple-trunk controls. It replaces the
-previous 0903 code and dataset in this repository.
+runouts. This **0912 repository release** supports the revised manuscript and uses
+the supplied 0909 canonical analysis, dataset and results. It evaluates both point
+and probabilistic predictions, including two independently selected simple-trunk
+controls.
 
 ## Data and method
 
@@ -52,8 +53,23 @@ python run.py
 ```
 
 `run.py` keeps the previous entry point and writes new output to `results/`.
-It invokes `WB-PIML.py`, a byte-identical copy of the 0909 analysis source.
-The obsolete split modules have been removed; their history remains in Git.
+It invokes the short `WB-PIML.py` compatibility loader, which verifies and executes
+the four files in `wb_piml_parts/` in their original order and in one shared
+namespace. Concatenating those four files reconstructs the supplied 6368-line
+analysis source byte-for-byte (SHA-256
+`ec5e39f4ff50ef12c942e3a88f992a48a678fc30a0c9eaa5b37e32f2a193f793`).
+
+| Source file | Contents |
+| --- | --- |
+| `wb_piml_parts/part_01_core.py` | Configuration, data loading, physical/residual models and primary metrics |
+| `wb_piml_parts/part_02_validation_reporting.py` | Sensitivity, validation, figures and result export |
+| `wb_piml_parts/part_03_revision_models.py` | Revision-stage audits, probability records and outer-fold tasks |
+| `wb_piml_parts/part_04_workflow_probability.py` | Execution workflow, probability scoring, simple-trunk controls and entry point |
+
+The fragments intentionally share a namespace and are not independent modules.
+`wb_piml_parts/source_manifest.json` records their line ranges and hashes. This
+byte-preserving layout avoids numerical or control-flow changes while keeping each
+GitHub source file reviewable.
 
 To specify the complete reference settings explicitly:
 
@@ -136,8 +152,10 @@ damage mechanisms, or demonstrate universal model superiority.
 
 [`release_manifest.json`](release_manifest.json) records SHA-256 hashes of packaged
 files, original artifact hashes and the sole reference-README correction.
-`verify_release.py` verifies file integrity, loads the data through the actual
-analysis code, checks model candidate counts and primary fold assignments, and
-recomputes primary point metrics and distribution scores from saved predictions.
-These are consistency checks, not a fresh full training run or independent validation.
-See [`CHANGELOG.md`](CHANGELOG.md) for the migration from 0903.
+`verify_release.py` verifies every packaged file, reconstructs and hashes the
+canonical source from the four fragments, loads the data through the split entry
+point, checks model candidate counts and primary fold assignments, and recomputes
+primary point metrics and distribution scores from saved predictions. These are
+deterministic equivalence and saved-result consistency checks, not a fresh full
+training run or independent validation. See [`CHANGELOG.md`](CHANGELOG.md) for the
+release history.

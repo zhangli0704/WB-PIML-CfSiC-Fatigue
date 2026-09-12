@@ -22,6 +22,21 @@ def main():
     for name, expected in manifest['sha256'].items():
         require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == expected,
                 f'File integrity mismatch: {name}')
+    source_manifest = json.loads(
+        (ROOT / 'wb_piml_parts/source_manifest.json').read_text(encoding='utf-8'))
+    reconstructed = bytearray()
+    for part in source_manifest['parts']:
+        payload = (ROOT / 'wb_piml_parts' / part['file']).read_bytes()
+        require(hashlib.sha256(payload).hexdigest() == part['sha256'],
+                f"Split-source integrity mismatch: {part['file']}")
+        reconstructed.extend(payload)
+    canonical_hash = hashlib.sha256(reconstructed).hexdigest()
+    require(canonical_hash == source_manifest['canonical_source_sha256'],
+            'Split fragments do not reconstruct the canonical source')
+    require(canonical_hash == manifest['canonical_analysis_source_sha256'],
+            'Canonical source hash does not match the release manifest')
+    require(len(reconstructed) == source_manifest['canonical_source_byte_count'],
+            'Canonical source byte count does not match the source manifest')
     for name, expected in manifest['original_artifact_sha256'].items():
         if name != 'reference_results/README_results.md':
             require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == expected,
@@ -84,7 +99,9 @@ def main():
             for metric in ('SB_RMSE', 'SB_joint_censored_NLL', 'SB_exact_NLL', 'SB_runout_NLL'):
                 np.testing.assert_allclose(getattr(row, metric), metrics.loc[(row.scenario,row.model),metric],
                                            rtol=1e-10, atol=1e-10)
-    print(f'PASS: {len(manifest["sha256"])} file hashes; 223 data records; 54/64/18/6 candidates; '
+    print(f'PASS: {len(manifest["sha256"])} file hashes; four split files reconstruct the '
+          f'{source_manifest["canonical_source_line_count"]}-line canonical source; '
+          f'223 data records; 54/64/18/6 candidates; '
           f'5 campaign-disjoint folds; 57 worksheets; {len(reported)} primary model summaries; '
           f'{len(probability)} distribution predictions and {len(metrics)} scenario/model summaries.')
     print('No model training was rerun. These are integrity and saved-result consistency checks.')
