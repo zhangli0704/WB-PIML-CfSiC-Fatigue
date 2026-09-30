@@ -1,0 +1,9 @@
+﻿T_C,n_records,n_exact,n_runout,n_campaigns,n_sources,n_exact_campaigns,n_runout_campaigns,runout_fraction,single_campaign,few_records_lt10
+23,4,4,0,1,1,1,0,0.0,True,True
+25,136,86,50,13,14,12,13,0.36764705882352944,False,False
+550,16,16,0,1,1,1,0,0.0,True,False
+800,18,18,0,2,2,2,0,0.0,False,False
+900,8,6,2,1,1,1,1,0.25,True,True
+1100,6,2,4,1,2,1,1,0.6666666666666666,True,True
+1300,21,17,4,3,3,3,1,0.19047619047619047,False,False
+1500,14,9,5,1,3,1,1,0.35714285714285715,True,False

@@ -1,5 +1,27 @@
 # Release history
 
+## 0930 revision release
+
+- Synchronize the exact 8,835-line source and complete 289-file run from
+  `0928_shuiyangxin/runs/full_20260928_160433_681221`.
+- Replace four old fragments with three byte-preserving source fragments. Use a
+  hash-verified runtime reconstruction to preserve source self-checks and workers.
+- Include learned-water training, 34 conditional sensitivity variants, strict
+  campaign-separated factor holdouts, censoring evidence audits and frozen-model
+  prediction/evaluation. These are the supplied revision, not packaging changes
+  to the mathematical model.
+- Move primary artifacts to `reference_results/primary/` and include complete
+  `reviewer/` and `prospective/` directories, original logs and provenance.
+- Update the README to the September 30 manuscript, actual executed environment,
+  revised metrics, figure numbering correspondence and disclosed limitations.
+- Verify saved metrics, all sensitivity checkpoints and strict partitions;
+  additionally rerun the five selected pipelines and their inner calibration fits,
+  plus the selected frozen final fit. Do not claim a new complete nested search.
+- Preserve the 87 MB strict-calibration CSV through lossless gzip; automatically
+  verify its original decompressed hash and expand it for temporary audits.
+  Keep the other 288 original run files unchanged and disable Git line-ending
+  transformations so published SHA-256 hashes also hold after checkout.
+
 ## 0912 repository release
 
 - Packaged the revised-manuscript release in a new local checkout while retaining

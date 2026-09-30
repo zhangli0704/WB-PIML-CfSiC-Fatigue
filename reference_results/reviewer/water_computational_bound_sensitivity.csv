@@ -1,0 +1,11 @@
+﻿variant,fold,unbounded_beta,capped_beta,beta_change,cap_reached,scope
+water_cap_10,1,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_10,2,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_10,3,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_10,4,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_10,5,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_100,1,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_100,2,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_100,3,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_100,4,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"
+water_cap_100,5,0.0,0.0,0.0,False,"computational cap dependency, not parameter selection"

@@ -1,0 +1,36 @@
+﻿scenario,fold,holdout_group,n_train,n_test,n_train_campaigns,n_test_campaigns,n_overlapping_campaigns,campaign_overlap,campaigns_to_purge,n_train_after_campaign_purge
+LOAO,1,2.5d,189,34,14,3,0,False,,189
+LOAO,2,2d,118,105,7,10,0,False,,118
+LOAO,3,3d,181,42,16,1,0,False,,181
+LOAO,4,cross-ply,209,14,16,1,0,False,,209
+LOAO,5,needled,195,28,15,2,0,False,,195
+LOEO,1,air_or_oxygen,46,177,3,15,1,True,CAMPAIGN-DU-3D-CSIC-HIGH-T,12
+LOEO,2,vacuum,189,34,17,1,1,True,CAMPAIGN-DU-3D-CSIC-HIGH-T,181
+LOEO,3,water_oxygen,211,12,15,2,0,False,,211
+LOSO,1,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,219,4,16,1,0,False,,219
+LOSO,2,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,207,16,16,1,0,False,,207
+LOSO,3,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,217,6,16,1,0,False,,217
+LOSO,4,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,211,12,16,1,0,False,,211
+LOSO,5,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,207,16,16,1,0,False,,207
+LOSO,6,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,206,17,16,1,0,False,,206
+LOSO,7,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,219,4,16,1,0,False,,219
+LOSO,8,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,217,6,16,1,0,False,,217
+LOSO,9,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,208,15,17,1,1,True,CAMPAIGN-SUN-2D-CSIC-RT,205
+LOSO,10,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,209,14,16,1,0,False,,209
+LOSO,11,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,209,14,17,1,1,True,CAMPAIGN-FANG-NEEDLED-RT,201
+LOSO,12,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,217,6,17,1,1,True,CAMPAIGN-FANG-NEEDLED-RT,201
+LOSO,13,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,215,8,16,2,1,True,CAMPAIGN-FANG-NEEDLED-RT,195
+LOSO,14,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,182,41,15,4,2,True,CAMPAIGN-DU-3D-CSIC-HIGH-T | CAMPAIGN-SUN-2D-CSIC-RT,141
+LOSO,15,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,205,18,17,1,1,True,CAMPAIGN-DU-3D-CSIC-HIGH-T,181
+LOSO,16,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,215,8,17,1,1,True,CAMPAIGN-DU-3D-CSIC-HIGH-T,181
+LOSO,17,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,209,14,16,1,0,False,,209
+LOTO,1,1000-1200,217,6,17,1,1,True,CAMPAIGN-DU-3D-CSIC-HIGH-T,181
+LOTO,2,500-800,207,16,16,1,0,False,,207
+LOTO,3,800-1000,197,26,17,3,3,True,CAMPAIGN-LI-CROSSPLY-RT-800 | CAMPAIGN-YANG-2P5D-CSIC | CAMPAIGN-ZHANG-CROSSPLY-RT-900C,181
+LOTO,4,>1200,188,35,15,3,1,True,CAMPAIGN-DU-3D-CSIC-HIGH-T,169
+LOTO,5,rt/t<=80,83,140,7,14,4,True,CAMPAIGN-DU-3D-CSIC-HIGH-T | CAMPAIGN-LI-CROSSPLY-RT-800 | CAMPAIGN-YANG-2P5D-CSIC | CAMPAIGN-ZHANG-CROSSPLY-RT-900C,28
+Primary,1,,177,46,15,2,0,False,,177
+Primary,2,,177,46,13,4,0,False,,177
+Primary,3,,179,44,13,4,0,False,,179
+Primary,4,,180,43,14,3,0,False,,180
+Primary,5,,179,44,13,4,0,False,,179

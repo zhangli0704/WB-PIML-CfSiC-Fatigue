@@ -1,0 +1,12 @@
+{
+  "version": "strict-campaign-holdout-20260928-v1",
+  "n_tasks": 30,
+  "n_refitted": 11,
+  "n_reused": 17,
+  "n_not_estimable": 2,
+  "n_fit_failed": 0,
+  "main_model_changed": false,
+  "selection_and_calibration": "remaining training campaigns only",
+  "claim": "Strictness of this split does not establish independent material-system or causal environmental validation.",
+  "status": "completed_with_disclosed_ineligible_tasks"
+}

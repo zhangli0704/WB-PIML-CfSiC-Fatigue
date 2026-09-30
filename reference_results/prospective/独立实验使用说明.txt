@@ -1,0 +1,29 @@
+独立实验使用说明
+
+本目录的模型由原候选池和原内层选择规则，在223条文献记录上最终拟合。
+它与主分析的五折泛化评价不同。新增的最终拟合不用于改写五折结果。
+区间由选中配置的开发集OOF校准，选型与校准共用开发数据，不能称为独立验证或工程设计下限。
+环境倍率在训练内估计，物理主干有水氧损伤不弱于空气的方向约束；残差仍可能逆转最终预测顺序。
+
+1. 实验前：复制new_conditions_TEMPLATE.csv并填写，不填寿命和runout结果。
+architecture填写详细编织方式（与训练表原architecture字段一致），arch_group填粗类别（如2D、2.5D、3D）。
+env_class只能填写air_or_oxygen、water_oxygen、vacuum。T_C单位℃，应力/UTS为MPa，频率为Hz。
+UTS应来自独立拉伸表征并记录采用的温度/批次依据，不能从本次疲劳结果反推。
+新specimen_id、campaign_id必须非空。记录涂层、材料批次、波形、分压、气流和停止规则。
+下面命令路径请换成你的实际路径；保持同一Python依赖环境，仅加载自己生成的模型。
+python WB_PIML_revision_single.py --predict "新实验条件.csv" --model "本目录/frozen_model.joblib" --out "新预测目录"
+保留生成的predictions.csv及prediction_manifest.json。不要覆盖。先保存预测，再获得实验结果。
+本地时间戳和哈希便于核对，但不是第三方的盲测时间证明。
+
+2. 实验后：复制new_outcomes_TEMPLATE.csv，填specimen_id、Nf_cycles、is_runout、停止原因和日期。
+断裂填False；到停止循环数仍未断填True，Nf_cycles填实际停止循环数。
+python WB_PIML_revision_single.py --evaluate "新实验结果.csv" --predictions "新预测目录/predictions.csv" --out "新评价目录"
+程序不训练或调参，支持部分完成试样，并报告尚未完成数量。
+runout只进入生存评分，不进入断裂误差，也不冒充双侧预测区间覆盖率。
+
+3. 试验分工：空气试验检验新材料批次上的温度/频率/应力预测，不能标定水氧倍率。
+空气—水氧差异需要同批材料、相同温度/频率/R/应力的对照，并记录气氛条件。
+1300℃、3Hz、R=0.1可作为衔接已有水氧数据的候选条件，不是强制试验方案。
+多个应力级、重复件及跨温度/批次数据用于区分离散性和环境效应；样本量另按资源和目标精度确定。
+如果用新实验重新标定参数，必须更新模型版本，并另留独立试验组评价，不能继续称其为原模型盲测。
+当前覆盖率不构成工程设计资格；需跨批次独立验证、覆盖率不确定性及目标可靠度下的验证。

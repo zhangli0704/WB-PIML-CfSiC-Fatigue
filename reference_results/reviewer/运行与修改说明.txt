@@ -1,0 +1,25 @@
+本次版本：WB-PIML-learned-water-20260928
+把本Python文件与data.xlsx（或唯一data*.xlsx）放在同一目录，VS Code运行Python文件即可。
+无需旧代码和历史结果。完整运行四阶段：主分析、34组条件敏感性、结果校验、冻结模型导出。
+自动按物理核心和可用内存安排多进程，每进程限制1个数值线程。
+
+本次追加修改不改变主模型；新增严格因素留出、误差改善归因、NLL配对区间和停止证据审计。
+优先阅读 reviewer/返修关键结论与缺口.md；严格验证见 reviewer/strict_holdout/。
+同一轮主分析中原本隔离的因素任务复用，有重叠任务重新选型/校准；数据不足或失败明确报告。
+原主模型设置：主干环境因子为0/1/10**beta，beta>=0且在训练内拟合；温度/应力/频率关系、环境类别残差输入、候选池、种子与验证规模保留。
+所有主分析与因素保留验证重新计算。原0/1/1.5在补充分析中作为固定修订配置的条件对照。
+不按敏感性分数寻找最优环境权重，不把模型估计当作已独立标定的环境物理常数。
+
+输出：
+primary/WB_PIML_results.xlsx：修订主结果、图件和PPT在primary目录。
+reviewer/environment_model_comparison.csv：可学习倍率/固定1/固定1.5/关闭环境项的条件比较。
+reviewer/environment_matched_support.csv：跨气氛可比条件数量，非因果辨识证据。
+reviewer/verification_summary.json：完成全部34组以后生成的计算和隔离校验。
+prospective/frozen_model.joblib及model_manifest.json：未来实验用冻结模型，不等于已经完成外部验证。
+prospective/独立实验使用说明.txt及空白CSV模板：实验前预测与实验后评价方法。
+workflow_status.json和run.log：当前状态和运行日志。
+
+所有结果写入本Python文件旁runs/full_时间目录，不覆盖旧结果。
+旧固定权重结果不能通过--reviewer-only当作新版主结果复用。
+完整运行由用户执行，本版本未声称已在用户Windows/Python环境全量训练通过。
+启动--check可验证环境和两进程传递，但不会计算论文预测结果。

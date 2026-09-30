@@ -1,0 +1,19 @@
+﻿source_id,n_records,n_exact,n_runout,n_campaigns,n_sources,n_exact_campaigns,n_runout_campaigns,runout_fraction,single_campaign,few_records_lt10
+J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,4,4,0,1,1,1,0,0.0,True,True
+James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,16,15,1,1,1,1,1,0.0625,True,False
+Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,6,5,1,1,1,1,1,0.16666666666666666,True,True
+Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,12,9,3,1,1,1,1,0.25,True,False
+Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,4,0,4,1,1,0,1,1.0,True,True
+Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,16,16,0,1,1,1,0,0.0,True,False
+Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,17,15,2,1,1,1,1,0.11764705882352941,True,False
+刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,4,4,0,1,1,1,0,0.0,True,True
+周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,6,2,4,1,1,1,1,0.6666666666666666,True,True
+孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,15,13,2,1,1,1,1,0.13333333333333333,True,False
+张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,14,10,4,1,1,1,1,0.2857142857142857,True,False
+方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,14,1,13,1,1,1,1,0.9285714285714286,True,False
+方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,6,2,4,1,1,1,1,0.6666666666666666,True,True
+方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,8,6,2,2,1,2,1,0.25,False,True
+李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,41,29,12,4,1,3,3,0.2926829268292683,False,False
+杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,18,12,6,1,1,1,1,0.3333333333333333,True,False
+杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,8,3,5,1,1,1,1,0.625,True,True
+杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,14,12,2,1,1,1,1,0.14285714285714285,True,False

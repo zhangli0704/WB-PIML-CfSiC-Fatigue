@@ -1,0 +1,13 @@
+﻿reviewer_comment,topic,evidence_or_action,limitation
+R2.1,Novelty,manuscript_required,Established components must be distinguished from integration contribution
+R2.2/R2.8,Suggested literature,manuscript_required,10.3390/machines13100906; 10.1002/srin.202400850; no automatic algorithm adoption
+R2.3,Database support,data_joint_grid.csv; data_joint_detailed.csv; sparse_cell_performance.csv,Counts are not formal independent effective sample size
+R2.4,Low R2,retained_Primary_Campaign_Metrics.csv; retained_Paired_Bootstrap.csv,"Absolute errors, intervals, stronger baselines; no design-life claim"
+R2.5/R3.1,Environment weights,sensitivity_design.csv; sensitivity_metrics.csv; environment_improvement_attribution.csv; water_fallback_attribution.csv; water_air_counterfactual_order.csv,No calibrated universal weights; limited interactions; no outcome-driven winner
+R2.6,Selection overfitting,candidate_selection_frequency.csv; hyperparameter_frequency.csv,Nested validation does not eliminate small-campaign uncertainty
+R2.7,Runouts,distribution_refit_PIML_vs_CD.csv; censor_protocol_audit.csv; censor_evidence_gaps.csv,Stopping mechanism requires source evidence; no fabricated completed audit
+R2.9,Generalization,holdout_overlap.csv; strict_holdout/task_status.csv; strict_holdout/metrics_matched_population.csv; support_stratum_performance.csv,Factor holdouts with campaign overlap are not independent material validation
+R2.10/R3.5,Conclusions and intervals,retained_Empirical_PI_Summary.csv; retained_External_PI_Summary.csv; ../prospective/model_manifest.json; ../prospective/独立实验使用说明.txt,Future independent matched-condition validation required
+R3.2,NLL tradeoff,probability_score_decomposition.csv; primary_NLL_difference_CI.csv,Exact and runout contributions use common population weights
+R3.3,Weak holdouts,holdout_performance_campaign_weighted.csv,"Report vacuum/water and temperature failures, do not tune them away"
+R3.4,Penalty ablation,sensitivity_paired_CI.csv; sensitivity_subgroups.csv,Zero regularization is not zero environmental damage

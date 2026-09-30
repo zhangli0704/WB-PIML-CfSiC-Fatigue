@@ -1,0 +1,68 @@
+{
+  "model_id": "WB-PIML-learned-water-20260928",
+  "created_utc": "2026-09-28T08:30:05.451444+00:00",
+  "code_sha256": "e059f66d17042c9c5b6ae60272956602a0d523791d486f1935aac2df6622c4c1",
+  "data_sha256": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
+  "seed": 21160824,
+  "trees": 400,
+  "environment_factors": {
+    "vacuum": 0.0,
+    "air_or_oxygen": 1.0,
+    "water_oxygen": 1.0
+  },
+  "water_fit": {
+    "water_parameter_status": "estimated_training_only_identifiability_not_guaranteed",
+    "water_parameter_estimated": true,
+    "water_log10_multiplier": 0.0,
+    "water_multiplier": 1.0,
+    "water_training_records": 12,
+    "water_training_campaigns": 2,
+    "air_training_records": 177,
+    "air_training_campaigns": 15,
+    "water_lower_boundary": true,
+    "water_log10_computational_upper": null,
+    "water_upper_boundary": false,
+    "water_outer_responses_used": false
+  },
+  "settings": {
+    "family": "Matern_residual",
+    "gamma": 0.95,
+    "strength": 0.0,
+    "eta": 1.0,
+    "min_samples_leaf": 3,
+    "max_features": 0.85,
+    "ridge_alpha": 1.0,
+    "kernel_length_scale": 2.0,
+    "temperature_policy": "soft250"
+  },
+  "training_campaigns": [
+    "CAMPAIGN-ALMEIDA-PIP-CSIC-RT",
+    "CAMPAIGN-CHENG-2D-CSIC-1300C",
+    "CAMPAIGN-DU-3D-CSIC-HIGH-T",
+    "CAMPAIGN-FANG-NEEDLED-RT",
+    "CAMPAIGN-FANG-THESIS-UNI-NEEDLED",
+    "CAMPAIGN-LI-CROSSPLY-RT-800",
+    "CAMPAIGN-LIU-1300C-WATER-OXYGEN",
+    "CAMPAIGN-MALL-550C-FREQUENCY",
+    "CAMPAIGN-MIN-2D-CSIC-RT",
+    "CAMPAIGN-SHULER-RT-FREQUENCY",
+    "CAMPAIGN-STAEHLER-RT-FREQUENCY",
+    "CAMPAIGN-SUN-2D-CSIC-RT",
+    "CAMPAIGN-WANG-CROSSWOVEN-RT",
+    "CAMPAIGN-YANG-2P5D-CSIC",
+    "CAMPAIGN-YU-2P5D-CSIC-RT",
+    "CAMPAIGN-ZHANG-CROSSPLY-RT-900C",
+    "CAMPAIGN-ZHOU-2D-CSIC-RT"
+  ],
+  "training_records": 223,
+  "interval_calibration": "selected-candidate development OOF; selection and calibration share development records; not independent validation",
+  "claim": "Frozen for prospective evaluation; not engineering design-life bounds",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "pandas": "3.0.1",
+    "joblib": "1.5.3"
+  },
+  "model_sha256": "e5042fdec4372e85f25c2a21dec888c093b768ab0d214a4ec738de01ce8b0c48"
+}

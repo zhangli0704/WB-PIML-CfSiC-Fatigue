@@ -1,0 +1,6 @@
+﻿temp_bin,n_records,n_exact,n_runout,n_campaigns,n_sources,n_exact_campaigns,n_runout_campaigns,runout_fraction,single_campaign,few_records_lt10
+1000-1200,6,2,4,1,2,1,1,0.6666666666666666,True,True
+500-800,16,16,0,1,1,1,0,0.0,True,False
+800-1000,26,24,2,3,3,3,1,0.07692307692307693,False,False
+>1200,35,26,9,3,4,3,1,0.2571428571428571,False,False
+rt/t<=80,140,90,50,14,15,13,13,0.35714285714285715,False,False

@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "checks": "fit-vs-frozen and serialized-reload prediction equality",
+  "training_records": 223,
+  "independent_experiments_evaluated": 0
+}

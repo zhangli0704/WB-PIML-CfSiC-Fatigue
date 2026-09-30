@@ -7,5 +7,8 @@ __pycache__/
 Thumbs.db
 ~$*
 results/
+runs/
+.wb_piml_runtime/
 WB_PIML_results/
 *.log
+!reference_results/run.log

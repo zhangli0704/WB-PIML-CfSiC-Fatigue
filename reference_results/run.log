@@ -1,0 +1,397 @@
+{
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "openpyxl": "3.1.5",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.8",
+    "python-pptx": "1.0.2",
+    "Pillow": "12.0.0"
+  },
+  "environment_notes": [
+    "当前Python不是3.12参考环境；允许继续，完整运行尚需在当前环境验证。",
+    "pandas: 当前 3.0.1，参考 2.2.3",
+    "scipy: 当前 1.17.1，参考 1.17.0",
+    "Pillow: 当前 12.0.0，参考 12.3.0",
+    "版本差异可能影响数值结果；保留实际环境记录和原有预测/概率一致性校验，不自动放宽结果容差。"
+  ],
+  "reference_python": "3.12",
+  "reference_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "openpyxl": "3.1.5",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.8",
+    "python-pptx": "1.0.2",
+    "Pillow": "12.3.0"
+  },
+  "data_sha256": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
+  "revised_primary_sha256": "268f45521937cb6728e75a7f169e0125b9c25d483121a0d1d7a4b42166d1b700",
+  "single_file_sha256": "e059f66d17042c9c5b6ae60272956602a0d523791d486f1935aac2df6622c4c1",
+  "records": 223,
+  "exact": 158,
+  "runout": 65,
+  "framework_unchanged": true,
+  "environment_assumption_changed": true,
+  "primary_model_id": "WB-PIML-learned-water-20260928",
+  "parallel_settings": {
+    "mode": "automatic",
+    "available_logical_cpus": 32,
+    "available_physical_cores": 16,
+    "available_memory_GiB": 63.71,
+    "workers": 16,
+    "threads_per_worker": 1,
+    "policy": "physical cores with heuristic memory allowance; no speed benchmark or model training"
+  },
+  "execution_preflight": {
+    "status": "passed",
+    "worker_processes_checked": 2,
+    "model_training_executed": false,
+    "checks": "function transport, likelihood, quantiles"
+  }
+}
+自动/手动并行设置：16 个进程，每进程 1 个计算线程。
+每个阶段按实际任务数使用进程；5折主验证最多同时处理5折。
+阶段 1/4：可学习水氧倍率主分析（原候选池及验证规模）
+Records: 223 (158 failures, 65 runouts); workers=16, forest threads=1, BLAS threads=1
+Primary validation: 5 tasks, 5 workers
+Primary validation: 1/5 complete
+Primary validation: 2/5 complete
+Primary validation: 3/5 complete
+Primary validation: 4/5 complete
+Primary validation: 5/5 complete
+Bootstrap confidence intervals
+Sensitivity analyses
+Repeated validation: 40 tasks, 16 workers
+Repeated validation: 1/40 complete
+Repeated validation: 2/40 complete
+Repeated validation: 3/40 complete
+Repeated validation: 4/40 complete
+Repeated validation: 5/40 complete
+Repeated validation: 6/40 complete
+Repeated validation: 7/40 complete
+Repeated validation: 8/40 complete
+Repeated validation: 9/40 complete
+Repeated validation: 10/40 complete
+Repeated validation: 11/40 complete
+Repeated validation: 12/40 complete
+Repeated validation: 13/40 complete
+Repeated validation: 14/40 complete
+Repeated validation: 15/40 complete
+Repeated validation: 16/40 complete
+Repeated validation: 17/40 complete
+Repeated validation: 18/40 complete
+Repeated validation: 19/40 complete
+Repeated validation: 20/40 complete
+Repeated validation: 21/40 complete
+Repeated validation: 22/40 complete
+Repeated validation: 23/40 complete
+Repeated validation: 24/40 complete
+Repeated validation: 25/40 complete
+Repeated validation: 26/40 complete
+Repeated validation: 27/40 complete
+Repeated validation: 28/40 complete
+Repeated validation: 29/40 complete
+Repeated validation: 30/40 complete
+Repeated validation: 31/40 complete
+Repeated validation: 32/40 complete
+Repeated validation: 33/40 complete
+Repeated validation: 34/40 complete
+Repeated validation: 35/40 complete
+Repeated validation: 36/40 complete
+Repeated validation: 37/40 complete
+Repeated validation: 38/40 complete
+Repeated validation: 39/40 complete
+Repeated validation: 40/40 complete
+LOSO: 17 tasks, 16 workers
+LOSO: 1/17 complete
+LOSO: 2/17 complete
+LOSO: 3/17 complete
+LOSO: 4/17 complete
+LOSO: 5/17 complete
+LOSO: 6/17 complete
+LOSO: 7/17 complete
+LOSO: 8/17 complete
+LOSO: 9/17 complete
+LOSO: 10/17 complete
+LOSO: 11/17 complete
+LOSO: 12/17 complete
+LOSO: 13/17 complete
+LOSO: 14/17 complete
+LOSO: 15/17 complete
+LOSO: 16/17 complete
+LOSO: 17/17 complete
+LOAO: 5 tasks, 5 workers
+LOAO: 1/5 complete
+LOAO: 2/5 complete
+LOAO: 3/5 complete
+LOAO: 4/5 complete
+LOAO: 5/5 complete
+LOTO: 5 tasks, 5 workers
+LOTO: 1/5 complete
+LOTO: 2/5 complete
+LOTO: 3/5 complete
+LOTO: 4/5 complete
+LOTO: 5/5 complete
+LOEO: 3 tasks, 3 workers
+LOEO: 1/3 complete
+LOEO: 2/3 complete
+LOEO: 3/3 complete
+Source and stress sensitivity checks
+Probability comparison added to C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary\WB_PIML_results.xlsx; figure: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary\09_probability_comparison.png
+
+Validation-scope RMSE summary (one table; lower is better)
+                        validation_scope  WB-PIML_RMSE  ExtraTrees_RMSE  ET-Walker_RMSE  ML-Ens_RMSE  WB-Residual_RMSE  Basquin-Residual_RMSE
+     Fixed-config repeated record split        0.8836           0.8757          0.8674       0.8867               NaN                    NaN
+  Fixed-config repeated series-disjoint        1.1899           1.2882          1.2923       1.2274               NaN                    NaN
+  Fixed-config repeated source-disjoint        1.1766           1.2839          1.2925       1.1857               NaN                    NaN
+Fixed-config repeated campaign-disjoint        1.1464           1.2225          1.2199       1.1784               NaN                    NaN
+       Primary nested campaign-disjoint        1.0827           1.2242          1.2131       1.1726            1.1431                 1.1106
+                                   LOSO        0.9912           1.2365          1.2683       1.1724            1.1366                 1.1101
+                                   LOAO        1.1646           1.2890          1.2879       1.2897            1.2797                 1.2447
+                                   LOTO        1.1830           1.2833          1.2776       1.1846            1.4497                 1.4359
+                                   LOEO        1.3164           1.3100          1.2952       1.2764            1.2997                 1.2942
+
+Saved one tabular results workbook: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary\WB_PIML_results.xlsx
+Saved complete figure presentation: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary\WB_PIML_figures.pptx
+PNG figures and audit metadata: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary
+CSV export: disabled
+Elapsed: 1152.8 s
+阶段 2/4：审稿补充统计及34组具名敏感性分析（不改选主模型）
+Reading saved results and checking provenance...
+Scoring support regions and holdouts...
+Refit 1/170: selected_pipeline, fold 1
+Refit 2/170: selected_pipeline, fold 2
+Refit 3/170: selected_pipeline, fold 3
+Refit 4/170: selected_pipeline, fold 4
+Refit 5/170: selected_pipeline, fold 5
+Refit 6/170: water_0.5, fold 1
+Refit 7/170: water_0.5, fold 2
+Refit 8/170: water_0.5, fold 3
+Refit 9/170: water_0.5, fold 4
+Refit 10/170: water_0.5, fold 5
+Refit 11/170: water_1, fold 1
+Refit 12/170: water_1, fold 2
+Refit 13/170: water_1, fold 3
+Refit 14/170: water_1, fold 4
+Refit 15/170: water_1, fold 5
+Refit 16/170: water_1.25, fold 1
+Refit 17/170: water_1.25, fold 2
+Refit 18/170: water_1.25, fold 3
+Refit 19/170: water_1.25, fold 4
+Refit 20/170: water_1.25, fold 5
+Refit 21/170: water_1.5, fold 1
+Refit 22/170: water_1.5, fold 2
+Refit 23/170: water_1.5, fold 3
+Refit 24/170: water_1.5, fold 4
+Refit 25/170: water_1.5, fold 5
+Refit 26/170: water_1.75, fold 1
+Refit 27/170: water_1.75, fold 2
+Refit 28/170: water_1.75, fold 3
+Refit 29/170: water_1.75, fold 4
+Refit 30/170: water_1.75, fold 5
+Refit 31/170: water_2, fold 1
+Refit 32/170: water_2, fold 2
+Refit 33/170: water_2, fold 3
+Refit 34/170: water_2, fold 4
+Refit 35/170: water_2, fold 5
+Refit 36/170: water_3, fold 1
+Refit 37/170: water_3, fold 2
+Refit 38/170: water_3, fold 3
+Refit 39/170: water_3, fold 4
+Refit 40/170: water_3, fold 5
+Refit 41/170: water_cap_10, fold 1
+Refit 42/170: water_cap_10, fold 2
+Refit 43/170: water_cap_10, fold 3
+Refit 44/170: water_cap_10, fold 4
+Refit 45/170: water_cap_10, fold 5
+Refit 46/170: water_cap_100, fold 1
+Refit 47/170: water_cap_100, fold 2
+Refit 48/170: water_cap_100, fold 3
+Refit 49/170: water_cap_100, fold 4
+Refit 50/170: water_cap_100, fold 5
+Refit 51/170: inert_0.01, fold 1
+Refit 52/170: inert_0.01, fold 2
+Refit 53/170: inert_0.01, fold 3
+Refit 54/170: inert_0.01, fold 4
+Refit 55/170: inert_0.01, fold 5
+Refit 56/170: inert_0.05, fold 1
+Refit 57/170: inert_0.05, fold 2
+Refit 58/170: inert_0.05, fold 3
+Refit 59/170: inert_0.05, fold 4
+Refit 60/170: inert_0.05, fold 5
+Refit 61/170: frequency_power_0, fold 1
+Refit 62/170: frequency_power_0, fold 2
+Refit 63/170: frequency_power_0, fold 3
+Refit 64/170: frequency_power_0, fold 4
+Refit 65/170: frequency_power_0, fold 5
+Refit 66/170: frequency_power_0.5, fold 1
+Refit 67/170: frequency_power_0.5, fold 2
+Refit 68/170: frequency_power_0.5, fold 3
+Refit 69/170: frequency_power_0.5, fold 4
+Refit 70/170: frequency_power_0.5, fold 5
+Refit 71/170: frequency_power_1.5, fold 1
+Refit 72/170: frequency_power_1.5, fold 2
+Refit 73/170: frequency_power_1.5, fold 3
+Refit 74/170: frequency_power_1.5, fold 4
+Refit 75/170: frequency_power_1.5, fold 5
+Refit 76/170: no_temperature_in_damage, fold 1
+Refit 77/170: no_temperature_in_damage, fold 2
+Refit 78/170: no_temperature_in_damage, fold 3
+Refit 79/170: no_temperature_in_damage, fold 4
+Refit 80/170: no_temperature_in_damage, fold 5
+Refit 81/170: no_stress_in_damage, fold 1
+Refit 82/170: no_stress_in_damage, fold 2
+Refit 83/170: no_stress_in_damage, fold 3
+Refit 84/170: no_stress_in_damage, fold 4
+Refit 85/170: no_stress_in_damage, fold 5
+Refit 86/170: no_environment_damage, fold 1
+Refit 87/170: no_environment_damage, fold 2
+Refit 88/170: no_environment_damage, fold 3
+Refit 89/170: no_environment_damage, fold 4
+Refit 90/170: no_environment_damage, fold 5
+Refit 91/170: no_residual, fold 1
+Refit 92/170: no_residual, fold 2
+Refit 93/170: no_residual, fold 3
+Refit 94/170: no_residual, fold 4
+Refit 95/170: no_residual, fold 5
+Refit 96/170: environment_penalty_0, fold 1
+Refit 97/170: environment_penalty_0, fold 2
+Refit 98/170: environment_penalty_0, fold 3
+Refit 99/170: environment_penalty_0, fold 4
+Refit 100/170: environment_penalty_0, fold 5
+Refit 101/170: environment_penalty_0.1, fold 1
+Refit 102/170: environment_penalty_0.1, fold 2
+Refit 103/170: environment_penalty_0.1, fold 3
+Refit 104/170: environment_penalty_0.1, fold 4
+Refit 105/170: environment_penalty_0.1, fold 5
+Refit 106/170: environment_penalty_1, fold 1
+Refit 107/170: environment_penalty_1, fold 2
+Refit 108/170: environment_penalty_1, fold 3
+Refit 109/170: environment_penalty_1, fold 4
+Refit 110/170: environment_penalty_1, fold 5
+Refit 111/170: runout_loss_power_0, fold 1
+Refit 112/170: runout_loss_power_0, fold 2
+Refit 113/170: runout_loss_power_0, fold 3
+Refit 114/170: runout_loss_power_0, fold 4
+Refit 115/170: runout_loss_power_0, fold 5
+Refit 116/170: runout_loss_power_0.5, fold 1
+Refit 117/170: runout_loss_power_0.5, fold 2
+Refit 118/170: runout_loss_power_0.5, fold 3
+Refit 119/170: runout_loss_power_0.5, fold 4
+Refit 120/170: runout_loss_power_0.5, fold 5
+Refit 121/170: runout_loss_power_2, fold 1
+Refit 122/170: runout_loss_power_2, fold 2
+Refit 123/170: runout_loss_power_2, fold 3
+Refit 124/170: runout_loss_power_2, fold 4
+Refit 125/170: runout_loss_power_2, fold 5
+Refit 126/170: refit_loglogistic, fold 1
+Refit 127/170: refit_loglogistic, fold 2
+Refit 128/170: refit_loglogistic, fold 3
+Refit 129/170: refit_loglogistic, fold 4
+Refit 130/170: refit_loglogistic, fold 5
+Refit 131/170: refit_weibull, fold 1
+Refit 132/170: refit_weibull, fold 2
+Refit 133/170: refit_weibull, fold 3
+Refit 134/170: refit_weibull, fold 4
+Refit 135/170: refit_weibull, fold 5
+Refit 136/170: WB_CD_lognormal, fold 1
+Refit 137/170: WB_CD_lognormal, fold 2
+Refit 138/170: WB_CD_lognormal, fold 3
+Refit 139/170: WB_CD_lognormal, fold 4
+Refit 140/170: WB_CD_lognormal, fold 5
+Refit 141/170: WB_CD_loglogistic, fold 1
+Refit 142/170: WB_CD_loglogistic, fold 2
+Refit 143/170: WB_CD_loglogistic, fold 3
+Refit 144/170: WB_CD_loglogistic, fold 4
+Refit 145/170: WB_CD_loglogistic, fold 5
+Refit 146/170: WB_CD_weibull, fold 1
+Refit 147/170: WB_CD_weibull, fold 2
+Refit 148/170: WB_CD_weibull, fold 3
+Refit 149/170: WB_CD_weibull, fold 4
+Refit 150/170: WB_CD_weibull, fold 5
+Refit 151/170: joint_water_0.5_frequency_0.5, fold 1
+Refit 152/170: joint_water_0.5_frequency_0.5, fold 2
+Refit 153/170: joint_water_0.5_frequency_0.5, fold 3
+Refit 154/170: joint_water_0.5_frequency_0.5, fold 4
+Refit 155/170: joint_water_0.5_frequency_0.5, fold 5
+Refit 156/170: joint_water_0.5_frequency_1.5, fold 1
+Refit 157/170: joint_water_0.5_frequency_1.5, fold 2
+Refit 158/170: joint_water_0.5_frequency_1.5, fold 3
+Refit 159/170: joint_water_0.5_frequency_1.5, fold 4
+Refit 160/170: joint_water_0.5_frequency_1.5, fold 5
+Refit 161/170: joint_water_2_frequency_0.5, fold 1
+Refit 162/170: joint_water_2_frequency_0.5, fold 2
+Refit 163/170: joint_water_2_frequency_0.5, fold 3
+Refit 164/170: joint_water_2_frequency_0.5, fold 4
+Refit 165/170: joint_water_2_frequency_0.5, fold 5
+Refit 166/170: joint_water_2_frequency_1.5, fold 1
+Refit 167/170: joint_water_2_frequency_1.5, fold 2
+Refit 168/170: joint_water_2_frequency_1.5, fold 3
+Refit 169/170: joint_water_2_frequency_1.5, fold 4
+Refit 170/170: joint_water_2_frequency_1.5, fold 5
+水氧参数诊断：只使用5个外层训练集，剖面拟合不参与主模型选择...
+水氧剖面完成：外层折 1
+水氧剖面完成：外层折 2
+水氧剖面完成：外层折 3
+水氧剖面完成：外层折 4
+水氧剖面完成：外层折 5
+严格因素留出：11项重新训练；17项原划分已隔离；2项条件不足。
+严格留出 LOEO_02: refitted
+严格留出 LOSO_09: refitted
+严格留出 LOSO_11: refitted
+严格留出 LOSO_12: refitted
+严格留出 LOSO_13: refitted
+严格留出 LOSO_14: refitted
+严格留出 LOSO_15: refitted
+严格留出 LOSO_16: refitted
+严格留出 LOTO_01: refitted
+严格留出 LOTO_03: refitted
+严格留出 LOTO_04: refitted
+Completed in 298.6s: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\reviewer
+阶段 3/4：预测、概率计算和训练/测试隔离检查
+c:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\WB_PIML_revision_single (1).py:8696: DtypeWarning: Columns (0: is_exact, 1: is_runout) have mixed types. Specify dtype option on import or set low_memory=False.
+  status=pd.read_csv(dest/'task_status.csv').set_index('task_id');p=pd.read_csv(dest/'predictions.csv');c=pd.read_csv(dest/'calibration.csv')
+{
+  "status": "passed",
+  "variants": 34,
+  "outer_fits": 170,
+  "inner_OOF_fits": 680,
+  "prediction_rows": 7582,
+  "bootstrap_draws": 5000,
+  "input_and_code_hashes": "matched",
+  "campaign_leakage_in_refits": false,
+  "checks": "coverage, train/test and inner campaign separation, likelihood/scale arithmetic, independent RMSE/MAE, baseline reproduction, selection frequencies and design diagnostics",
+  "strict_holdout": {
+    "version": "strict-campaign-holdout-20260928-v1",
+    "n_tasks": 30,
+    "n_refitted": 11,
+    "n_reused": 17,
+    "n_not_estimable": 2,
+    "n_fit_failed": 0,
+    "main_model_changed": false,
+    "selection_and_calibration": "remaining training campaigns only",
+    "claim": "Strictness of this split does not establish independent material-system or causal environmental validation.",
+    "status": "completed_with_disclosed_ineligible_tasks"
+  },
+  "censor_evidence": {
+    "n_runout": 65,
+    "n_documented_with_fields": 0,
+    "n_unresolved": 65,
+    "evidence_sha256": null,
+    "source_content_automatically_verified": false,
+    "conditional_independence_established": false
+  },
+  "status_meaning": "available-output arithmetic and isolation checks passed; see disclosed unavailable tasks and evidence gaps"
+}
+阶段 4/4：按原内层规则选择并冻结全数据模型，生成独立实验模板
+已保存冻结模型和空白实验模板：C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\prospective
+计算流程结束（状态：completed）；请阅读返修关键结论与缺口.md。
+结果目录：C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221

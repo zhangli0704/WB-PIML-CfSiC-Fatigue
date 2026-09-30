@@ -1,0 +1,10 @@
+﻿scope,environment_a,environment_b,matched_condition_cells,records_a,records_b,interpretation
+same_recorded_conditions,air_or_oxygen,vacuum,1,8,5,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence
+same_recorded_conditions,air_or_oxygen,water_oxygen,0,0,0,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence
+same_recorded_conditions,vacuum,water_oxygen,0,0,0,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence
+same_conditions_and_stress,air_or_oxygen,vacuum,4,5,5,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence
+same_conditions_and_stress,air_or_oxygen,water_oxygen,0,0,0,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence
+same_conditions_and_stress,vacuum,water_oxygen,0,0,0,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence
+same_campaign_conditions_and_stress,air_or_oxygen,vacuum,4,5,5,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence
+same_campaign_conditions_and_stress,air_or_oxygen,water_oxygen,0,0,0,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence
+same_campaign_conditions_and_stress,vacuum,water_oxygen,0,0,0,recorded covariate match only; material-batch/atmosphere equivalence requires source evidence

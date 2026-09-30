@@ -1,0 +1,31 @@
+﻿task_id,scenario,fold,holdout_group,holdout_column,seed,action,reason,n_train_original,n_train,n_test,n_train_campaigns,n_removed
+LOAO_01,LOAO,1,2.5d,architecture,21960824,reuse_identical_partition,,189,189,34,14,0
+LOAO_02,LOAO,2,2d,architecture,21960824,reuse_identical_partition,,118,118,105,7,0
+LOAO_03,LOAO,3,3d,architecture,21960824,reuse_identical_partition,,181,181,42,16,0
+LOAO_04,LOAO,4,cross-ply,architecture,21960824,reuse_identical_partition,,209,209,14,16,0
+LOAO_05,LOAO,5,needled,architecture,21960824,reuse_identical_partition,,195,195,28,15,0
+LOEO_01,LOEO,1,air_or_oxygen,env_class,23960824,not_estimable,fewer_than_four_training_campaigns,46,12,177,2,34
+LOEO_02,LOEO,2,vacuum,env_class,23960824,refit,,189,181,34,16,8
+LOEO_03,LOEO,3,water_oxygen,env_class,23960824,reuse_identical_partition,,211,211,12,15,0
+LOSO_01,LOSO,1,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,source_id,20960824,reuse_identical_partition,,219,219,4,16,0
+LOSO_02,LOSO,2,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,source_id,20960824,reuse_identical_partition,,207,207,16,16,0
+LOSO_03,LOSO,3,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,source_id,20960824,reuse_identical_partition,,217,217,6,16,0
+LOSO_04,LOSO,4,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,source_id,20960824,reuse_identical_partition,,211,211,12,16,0
+LOSO_05,LOSO,5,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,source_id,20960824,reuse_identical_partition,,207,207,16,16,0
+LOSO_06,LOSO,6,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,source_id,20960824,reuse_identical_partition,,206,206,17,16,0
+LOSO_07,LOSO,7,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,source_id,20960824,reuse_identical_partition,,219,219,4,16,0
+LOSO_08,LOSO,8,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,source_id,20960824,reuse_identical_partition,,217,217,6,16,0
+LOSO_09,LOSO,9,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,source_id,20960824,refit,,208,205,15,16,3
+LOSO_10,LOSO,10,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,source_id,20960824,reuse_identical_partition,,209,209,14,16,0
+LOSO_11,LOSO,11,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,source_id,20960824,refit,,209,201,14,16,8
+LOSO_12,LOSO,12,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,source_id,20960824,refit,,217,201,6,16,16
+LOSO_13,LOSO,13,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,source_id,20960824,refit,,215,195,8,15,20
+LOSO_14,LOSO,14,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,source_id,20960824,refit,,182,141,41,13,41
+LOSO_15,LOSO,15,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,source_id,20960824,refit,,205,181,18,16,24
+LOSO_16,LOSO,16,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,source_id,20960824,refit,,215,181,8,16,34
+LOSO_17,LOSO,17,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,source_id,20960824,reuse_identical_partition,,209,209,14,16,0
+LOTO_01,LOTO,1,1000-1200,temp_bin,22960824,refit,,217,181,6,16,36
+LOTO_02,LOTO,2,500-800,temp_bin,22960824,reuse_identical_partition,,207,207,16,16,0
+LOTO_03,LOTO,3,800-1000,temp_bin,22960824,refit,,197,181,26,14,16
+LOTO_04,LOTO,4,>1200,temp_bin,22960824,refit,,188,169,35,14,19
+LOTO_05,LOTO,5,rt/t<=80,temp_bin,22960824,not_estimable,fewer_than_four_training_campaigns,83,28,140,3,55

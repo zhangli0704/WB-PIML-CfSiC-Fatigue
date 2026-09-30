@@ -1,0 +1,10 @@
+﻿Nf_cycles,n_records,n_exact,n_runout,n_campaigns,n_sources,n_exact_campaigns,n_runout_campaigns,runout_fraction,single_campaign,few_records_lt10
+1000,1,0,1,1,1,0,1,1.0,True,True
+4000,1,0,1,1,1,0,1,1.0,True,True
+10000,4,0,4,1,1,0,1,1.0,True,True
+15000,2,0,2,1,1,0,1,1.0,True,True
+100000,4,0,4,2,2,0,2,1.0,False,True
+200000,7,0,7,2,3,0,2,1.0,False,True
+500000,5,0,5,1,2,0,1,1.0,True,True
+1000000,40,0,40,9,11,0,9,1.0,False,False
+14632352,1,0,1,1,1,0,1,1.0,True,True

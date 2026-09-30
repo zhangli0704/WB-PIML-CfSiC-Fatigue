@@ -1,0 +1,19 @@
+{
+  "data_sha256": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
+  "baseline_sha256": "b91ac28889c0887b6806f6d44db6daf57def16402a47ccda12d242ed6bc20ca8",
+  "code_sha256": {
+    "WB_PIML_revision_single (1).py": "e059f66d17042c9c5b6ae60272956602a0d523791d486f1935aac2df6622c4c1"
+  },
+  "python": "3.14.0",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "scipy": "1.17.1",
+  "sklearn": "1.8.0",
+  "trees": 400,
+  "seed": 20260824,
+  "sensitivity_design_version": "reviewer-audit-20260928-v4-learned-water",
+  "sensitivity_plan_sha256": "38d32343b4a9a9c3637e478b5a0282e6a7853ee3bf8653c55ce0579fb02d936f",
+  "strict_validation_version": "strict-campaign-holdout-20260928-v1",
+  "primary_model_id": "WB-PIML-learned-water-20260928",
+  "primary_code_provenance": "current single-file source hash recorded above"
+}
