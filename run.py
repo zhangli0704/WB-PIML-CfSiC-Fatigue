@@ -1,4 +1,4 @@
-"""Run the byte-preserving three-part WB-PIML revision release."""
+"""Run the WB-PIML revision workflow."""
 from datetime import datetime
 import hashlib
 import importlib
@@ -13,10 +13,10 @@ ROOT = Path(__file__).resolve().parent
 
 
 def canonical_source():
-    """Reconstruct the original bytes for its __file__ integrity checks."""
+    """Load the ordered, hash-verified source parts."""
     manifest = json.loads((ROOT / 'wb_piml_parts/source_manifest.json').read_text(encoding='utf-8'))
-    if len(manifest['parts']) != 3:
-        raise RuntimeError('This release requires exactly three source fragments.')
+    if len(manifest['parts']) != 12:
+        raise RuntimeError('This release requires twelve source parts.')
     fragments = []
     for part in manifest['parts']:
         payload = (ROOT / 'wb_piml_parts' / part['file']).read_bytes()
@@ -58,7 +58,8 @@ def main(argv=None):
     arguments = list(sys.argv[1:] if argv is None else argv)
     source = canonical_source()
     # Relocate only default paths, preserving every numerical setting.
-    if not _has_option(arguments, '--data'):
+    external = _has_option(arguments, '--predict') or _has_option(arguments, '--evaluate')
+    if not external and not _has_option(arguments, '--data'):
         arguments += ['--data', str(ROOT / 'data.xlsx')]
     if not _has_option(arguments, '--out'):
         mode = 'predict' if _has_option(arguments, '--predict') else 'evaluate' if _has_option(arguments, '--evaluate') else 'full'

@@ -1,5 +1,5 @@
 ﻿source_id,n_records,n_exact,n_runout,n_campaigns,n_sources,n_exact_campaigns,n_runout_campaigns,runout_fraction,single_campaign,few_records_lt10
-J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,4,4,0,1,1,1,0,0.0,True,True
+J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,5,4,1,1,1,1,1,0.2,True,True
 James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,16,15,1,1,1,1,1,0.0625,True,False
 Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,6,5,1,1,1,1,1,0.16666666666666666,True,True
 Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,12,9,3,1,1,1,1,0.25,True,False

@@ -3,13 +3,13 @@
   "variants": 34,
   "outer_fits": 170,
   "inner_OOF_fits": 680,
-  "prediction_rows": 7582,
+  "prediction_rows": 7616,
   "bootstrap_draws": 5000,
   "input_and_code_hashes": "matched",
   "campaign_leakage_in_refits": false,
   "checks": "coverage, train/test and inner campaign separation, likelihood/scale arithmetic, independent RMSE/MAE, baseline reproduction, selection frequencies and design diagnostics",
   "strict_holdout": {
-    "version": "strict-campaign-holdout-20260928-v1",
+    "version": "strict-campaign-holdout-20261008-v2-shared-environment-residual",
     "n_tasks": 30,
     "n_refitted": 11,
     "n_reused": 17,
@@ -21,9 +21,9 @@
     "status": "completed_with_disclosed_ineligible_tasks"
   },
   "censor_evidence": {
-    "n_runout": 65,
+    "n_runout": 66,
     "n_documented_with_fields": 0,
-    "n_unresolved": 65,
+    "n_unresolved": 66,
     "evidence_sha256": null,
     "source_content_automatically_verified": false,
     "conditional_independence_established": false

@@ -4,7 +4,7 @@
 2.5d,rt/t<=80,air_or_oxygen,25,17,12,5,3,3,3,3,0.29411764705882354,False,False
 2d,500-800,air_or_oxygen,550,16,16,0,1,1,1,0,0.0,True,False
 2d,>1200,water_oxygen,1300,12,12,0,2,2,2,0,0.0,False,False
-2d,rt/t<=80,air_or_oxygen,23,4,4,0,1,1,1,0,0.0,True,True
+2d,rt/t<=80,air_or_oxygen,23,5,4,1,1,1,1,1,0.2,True,True
 2d,rt/t<=80,air_or_oxygen,25,73,54,19,6,7,5,6,0.2602739726027397,False,False
 3d,1000-1200,vacuum,1100,6,2,4,1,2,1,1,0.6666666666666666,True,True
 3d,>1200,vacuum,1300,9,5,4,1,2,1,1,0.4444444444444444,True,True

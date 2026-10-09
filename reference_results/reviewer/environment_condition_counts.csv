@@ -7,7 +7,7 @@
 2d_plain_woven_0_90,550,0.05,0.1,air_or_oxygen,4,4,0,1,1,1,0,0.0,True,True
 2d_plain_woven_0_90,550,0.05,10.0,air_or_oxygen,4,4,0,1,1,1,0,0.0,True,True
 2d_plain_woven_0_90,550,0.05,375.0,air_or_oxygen,8,8,0,1,1,1,0,0.0,True,True
-2d_woven,23,0.1,5.0,air_or_oxygen,4,4,0,1,1,1,0,0.0,True,True
+2d_woven,23,0.1,5.0,air_or_oxygen,5,4,1,1,1,1,1,0.2,True,True
 2d_woven,25,0.1,5.0,air_or_oxygen,2,1,1,1,1,1,1,0.5,True,True
 2d_woven,25,0.1,10.0,air_or_oxygen,11,1,10,3,3,1,3,0.9090909090909091,False,False
 2d_woven,1300,0.1,3.0,water_oxygen,12,12,0,2,2,2,0,0.0,False,False

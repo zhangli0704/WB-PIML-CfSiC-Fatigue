@@ -16,17 +16,17 @@
 对照：selected_pipeline为训练内估计；water_1和water_1.5为固定权重条件对照。
 所有对照保留修订模型选定残差配置，但重新拟合其训练物理参数和OOF尺度。
 原0.5/1.25/1.75/2/3情景仍保留，0.5是允许方向反转的压力测试，不是主模型先验。
-no_environment_damage关闭显式物理项但保留残差环境输入；environment_penalty_0仅取消惩罚。
+no_environment_damage关闭显式环境物理项；所有残差均不使用环境输入，因此该消融移除显式环境作用。environment_penalty_0仅取消惩罚。
 温度/应力/频率驱动消融、真空小非零情景及有限权重×频率交互全部保留。
 水氧系数不由环境样本比例或不同环境原始平均寿命直接计算。
 
 water_identifiability_profiles.csv同时报告训练集原惩罚目标剖面和保留干扰参数边界的无惩罚似然剖面。
 不从剖面挑更高外测精度，不自动给95%区间；若范围内曲线平坦或自由拟合存在局部极值，明确输出。
-water_air_counterfactual_order.csv检查物理主干和完整模型；前者约束有保证，后者无约束残差可能逆转。
+water_air_counterfactual_order.csv检查物理主干和完整模型；环境共享残差使最终预测保持主干的环境顺序，发现逆转即报错。
 这些环境切换是模型情景检查，不是实测空气/水氧配对验证。
 
 本次是审稿和已查看结果之后的模型修订，不称为预注册。敏感性区间是固定OOF预测的试验组bootstrap，
-不包含模型重选不确定性，也未作多重比较校正。主模型不根据外层误差继续换权重。
+不包含模型重选不确定性，也未作多重比较校正。本次结构修订用于满足既定环境方向先验，不根据外层误差改选水氧权重。
 
 机制资料只支持环境作用及条件依赖，不支持通用1.5倍率：
 Liu C.-D. et al. Fatigue Behavior of 2D C/SiC Composites in Water-vapor Containing Environment at 1300℃.

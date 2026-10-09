@@ -1,9 +1,9 @@
 {
   "status": "passed",
-  "canonical_source_sha256": "e059f66d17042c9c5b6ae60272956602a0d523791d486f1935aac2df6622c4c1",
-  "source_parts": 3,
-  "original_run_files": 289,
-  "release_file_hashes_checked": 304,
+  "canonical_source_sha256": "e1e5fbbf4b23ecb67d77d904495cfa09e17a38b9da699e0873c7bbc25fe3290b",
+  "source_parts": 12,
+  "original_run_files": 290,
+  "release_file_hashes_checked": 319,
   "actual_environment": {
     "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
     "versions": {
@@ -22,42 +22,42 @@
   "saved_results": {
     "worksheets": 57,
     "primary_models": 19,
-    "probability_rows": 10672,
+    "probability_rows": 10720,
     "probability_scenario_models": 48,
     "primary_WB_PIML": {
       "n_exact": 158.0,
       "n_campaigns": 16.0,
       "n_sources": 17.0,
-      "SB_RMSE": 1.082697531915014,
-      "SB_MAE": 0.8638195370992856,
-      "SB_R2": 0.2587308651867484,
-      "SB_F5": 0.4515560654623154,
-      "SB_C_star": 0.4827268313338062,
-      "SB_RMSE_lo": 0.8925552431139286,
-      "SB_RMSE_hi": 1.254183845077111,
-      "SB_MAE_lo": 0.6884316817432413,
-      "SB_MAE_hi": 1.035415047088417,
-      "SB_R2_lo": -0.06358160934824389,
-      "SB_R2_hi": 0.4268388053257321,
-      "SB_F5_lo": 0.312033143939394,
-      "SB_F5_hi": 0.5998110006313132,
-      "SB_C_star_lo": 0.3694422586842144,
-      "SB_C_star_hi": 0.6059870664464484
+      "SB_RMSE": 1.04614120974751,
+      "SB_MAE": 0.7944498935065628,
+      "SB_R2": 0.3079423971441893,
+      "SB_F5": 0.5476498154623155,
+      "SB_C_star": 0.4043395633249507,
+      "SB_RMSE_lo": 0.8295786901828766,
+      "SB_RMSE_hi": 1.237742693905554,
+      "SB_MAE_lo": 0.6001772238720806,
+      "SB_MAE_hi": 0.9903245648313118,
+      "SB_R2_lo": 0.01888059852025887,
+      "SB_R2_hi": 0.4750503260335996,
+      "SB_F5_lo": 0.3904067599067599,
+      "SB_F5_hi": 0.7010298295454546,
+      "SB_C_star_lo": 0.3053076202334293,
+      "SB_C_star_hi": 0.5170742881898871
     },
-    "primary_WB_PIML_joint_NLL": 1.549885556482493
+    "primary_WB_PIML_joint_NLL": 1.530588091044758
   },
   "reviewer_audit": {
     "status": "passed",
     "variants": 34,
     "outer_fits": 170,
     "inner_OOF_fits": 680,
-    "prediction_rows": 7582,
+    "prediction_rows": 7616,
     "bootstrap_draws": 5000,
     "input_and_code_hashes": "matched",
     "campaign_leakage_in_refits": false,
     "checks": "coverage, train/test and inner campaign separation, likelihood/scale arithmetic, independent RMSE/MAE, baseline reproduction, selection frequencies and design diagnostics",
     "strict_holdout": {
-      "version": "strict-campaign-holdout-20260928-v1",
+      "version": "strict-campaign-holdout-20261008-v2-shared-environment-residual",
       "n_tasks": 30,
       "n_refitted": 11,
       "n_reused": 17,
@@ -69,60 +69,33 @@
       "status": "completed_with_disclosed_ineligible_tasks"
     },
     "censor_evidence": {
-      "n_runout": 65,
+      "n_runout": 66,
       "n_documented_with_fields": 0,
-      "n_unresolved": 65,
+      "n_unresolved": 66,
       "evidence_sha256": null,
       "source_content_automatically_verified": false,
       "conditional_independence_established": false
     },
     "status_meaning": "available-output arithmetic and isolation checks passed; see disclosed unavailable tasks and evidence gaps"
   },
-  "selected_pipeline_refits": [
-    {
-      "fold": 1,
-      "max_abs_differences": {
-        "predictions": 0.0,
-        "calibration": 0.0
-      }
-    },
-    {
-      "fold": 2,
-      "max_abs_differences": {
-        "predictions": 0.0,
-        "calibration": 0.0
-      }
-    },
-    {
-      "fold": 3,
-      "max_abs_differences": {
-        "predictions": 0.0,
-        "calibration": 0.0
-      }
-    },
-    {
-      "fold": 4,
-      "max_abs_differences": {
-        "predictions": 0.0,
-        "calibration": 0.0
-      }
-    },
-    {
-      "fold": 5,
-      "max_abs_differences": {
-        "predictions": 0.0,
-        "calibration": 0.0
-      }
-    }
-  ],
+  "selected_pipeline_refits": [],
   "frozen_model": {
-    "records": 223,
-    "source_and_model_hashes": "matched",
+    "records": 224,
+    "original_source_and_model_hashes": "matched",
     "finite_inference": true,
-    "selected_final_fit_rerun": true,
-    "max_abs_prediction_difference": 0.0
+    "water_air_comparisons": 224,
+    "water_air_reversals": 0,
+    "selected_final_fit_rerun": false
   },
   "full_nested_search_rerun": false,
   "all_sensitivity_models_retrained": false,
-  "verification_scope": "Source and artifact identity; saved-score arithmetic and partition audits; optional selected-configuration refits. No claim of a new full workflow run."
+  "archived_fingerprint_rebased_only_in_temporary_audit_copy": true,
+  "verification_scope": "Public source integrity; original artifact identity; saved-score arithmetic and partition audits; optional selected-configuration refits. See full_reproduction_report.json for the separately recorded full rerun.",
+  "entry_point_prediction_check": {
+    "status": "passed",
+    "conditions": 3,
+    "training_executed": false,
+    "outcomes_supplied": false
+  },
+  "full_reproduction_evidence": "full_reproduction_report.json"
 }

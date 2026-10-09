@@ -1,5 +1,5 @@
 严格因素留出说明
-主模型、权重拟合、候选池和主验证不变。本目录是额外的因素+试验组隔离对照。
+主模型采用环境共享残差；权重训练估计、候选池及主验证划分保留。本目录是额外的因素+试验组隔离对照。
 先确定原因素测试集，再从训练中排除这些测试试验组的所有记录。
 有重叠且可评估任务重新内层选型、拟合并以剩余训练OOF校准区间；原本隔离的相同任务复用保存预测。
 所有八个比较模型共用任务和训练/测试划分。不得仅删除旧结果中的重叠记录当成重训。
@@ -10,6 +10,6 @@ metrics_matched_population中的原/严格指标使用相同可评估测试记�
 本次验证设计为看到旧结果后的返修分析，不称为预注册。
 停止规则证据可使用主脚本同目录或数据同目录的censor_protocol_reviewed.csv；也可--censor-evidence指定。
 证据类别：unreviewed、unknown、administrative_cycle_limit、damage_threshold、equipment_or_interruption、other_documented。
-必须填写row_id、documented_stop_type、source_page_or_figure、verbatim_stop_rule、evidence_document、evidence_scope。
+若提供可选来源信息表，其字段包括row_id、documented_stop_type、source_page_or_figure、verbatim_stop_rule、evidence_document、evidence_scope。
 记录页码和适用样本范围，不能由整百万循环数反推停止协议；文件字段完整并不代表原文已认证。
-无证据表仍可完整计算，结果会明确列出未完成的文献证据，不会误报已解决删失独立性。
+无该信息表时仍完整计算并保留全部runout；可选元数据的缺失不构成训练失败。条件独立删失作为模型假设说明。

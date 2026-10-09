@@ -1,8 +1,8 @@
 {
-  "model_id": "WB-PIML-learned-water-20260928",
-  "created_utc": "2026-09-28T08:30:05.451444+00:00",
-  "code_sha256": "e059f66d17042c9c5b6ae60272956602a0d523791d486f1935aac2df6622c4c1",
-  "data_sha256": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
+  "model_id": "WB-PIML-environment-shared-residual-20261008",
+  "created_utc": "2026-10-08T10:51:47.584464+00:00",
+  "code_sha256": "89660bfd3cc22ff77f04f4b7acb0873a1b601b3c73d7238532a9c7a10ab7c9e0",
+  "data_sha256": "a29fb0c38e2dcb5bc1082be1a925d4b1cd562bca7c580ab9a932513ecb51272c",
   "seed": 21160824,
   "trees": 400,
   "environment_factors": {
@@ -17,7 +17,7 @@
     "water_multiplier": 1.0,
     "water_training_records": 12,
     "water_training_campaigns": 2,
-    "air_training_records": 177,
+    "air_training_records": 178,
     "air_training_campaigns": 15,
     "water_lower_boundary": true,
     "water_log10_computational_upper": null,
@@ -26,7 +26,7 @@
   },
   "settings": {
     "family": "Matern_residual",
-    "gamma": 0.95,
+    "gamma": 0.75,
     "strength": 0.0,
     "eta": 1.0,
     "min_samples_leaf": 3,
@@ -35,6 +35,22 @@
     "kernel_length_scale": 2.0,
     "temperature_policy": "soft250"
   },
+  "residual_input_policy": "environment_shared_residual_v1_20261008",
+  "residual_inputs": [
+    "logS",
+    "R",
+    "Tn",
+    "logf",
+    "logUTS",
+    "Sa",
+    "Smean",
+    "architecture",
+    "architecture_detail"
+  ],
+  "residual_physics_inputs": [
+    "mechanical_prediction",
+    "walker_stress"
+  ],
   "training_campaigns": [
     "CAMPAIGN-ALMEIDA-PIP-CSIC-RT",
     "CAMPAIGN-CHENG-2D-CSIC-1300C",
@@ -54,7 +70,7 @@
     "CAMPAIGN-ZHANG-CROSSPLY-RT-900C",
     "CAMPAIGN-ZHOU-2D-CSIC-RT"
   ],
-  "training_records": 223,
+  "training_records": 224,
   "interval_calibration": "selected-candidate development OOF; selection and calibration share development records; not independent validation",
   "claim": "Frozen for prospective evaluation; not engineering design-life bounds",
   "versions": {
@@ -64,5 +80,5 @@
     "pandas": "3.0.1",
     "joblib": "1.5.3"
   },
-  "model_sha256": "e5042fdec4372e85f25c2a21dec888c093b768ab0d214a4ec738de01ce8b0c48"
+  "model_sha256": "93119a8df2dd74c4f585e47e50421623cbf11329d2ac04e0dcafc7cdd8bc287d"
 }

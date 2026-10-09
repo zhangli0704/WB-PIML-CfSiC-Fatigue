@@ -1,6 +1,6 @@
 ﻿fold,n_water_train,physical_first5_max_difference,residual_settings_equal,interpretation
-1,12,0.06930917135778802,True,training estimate subject to confounding
-2,12,0.1264504017137571,True,training estimate subject to confounding
-3,0,0.0,True,"no water in training: held-out multiplier is a reference assumption, not an estimated water effect"
-4,12,0.15193109968965812,True,training estimate subject to confounding
-5,12,0.1056745046754406,True,training estimate subject to confounding
+1,8,0.04615821303482326,True,training estimate subject to confounding
+2,12,0.12319730040582444,True,training estimate subject to confounding
+3,4,0.10487379060407553,True,training estimate subject to confounding
+4,12,0.1504001275615754,True,training estimate subject to confounding
+5,12,0.10486356801794372,True,training estimate subject to confounding

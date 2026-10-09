@@ -1,13 +1,13 @@
 ﻿distribution,metric,difference,CI95_low,CI95_high,finite_bootstrap_draws,bootstrap_draws,direction,uncertainty
-lognormal,SB_RMSE,-0.28465186101617834,-0.5077917645652399,-0.07491972379943614,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-lognormal,SB_MAE,-0.2187548442100672,-0.4484218922863659,-0.016243406838120793,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-lognormal,SB_R2,0.44101164119703473,0.1024304627855703,0.9951496236274378,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-lognormal,joint_NLL,0.03304956414065163,-0.0859334630963425,0.1661323383442886,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-loglogistic,SB_RMSE,-0.308736527596974,-0.5383176565383208,-0.08987415344724926,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-loglogistic,SB_MAE,-0.24118881727131447,-0.476625415812174,-0.03454221607477743,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-loglogistic,SB_R2,0.4806224391340129,0.1240576586052857,1.0629210671362739,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-loglogistic,joint_NLL,0.024403421330344344,-0.09937682706100795,0.15868634853172223,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-weibull,SB_RMSE,-0.44438489952508853,-0.6990267904071638,-0.19468312513860225,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-weibull,SB_MAE,-0.3504065780009956,-0.6261984250776396,-0.09594500685236594,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-weibull,SB_R2,0.7417227478447974,0.2727176694279187,1.5296556018679073,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
-weibull,joint_NLL,0.12703342376007787,-0.06607028622209019,0.35757018316840344,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+lognormal,SB_RMSE,-0.3184246680546363,-0.5478892200598156,-0.10486621074162887,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+lognormal,SB_MAE,-0.2666962541428386,-0.49114306622884957,-0.059981299067254815,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+lognormal,SB_R2,0.4854145312630881,0.1361276956036699,1.0651346853510966,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+lognormal,joint_NLL,0.025618888537625395,-0.0923086969540353,0.15989928205298834,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+loglogistic,SB_RMSE,-0.3424973080684903,-0.57870051301324,-0.11993546794051595,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+loglogistic,SB_MAE,-0.2863128195792568,-0.5165546284782808,-0.07678860503544417,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+loglogistic,SB_R2,0.5253369345100155,0.15624794784612744,1.1385118166249453,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+loglogistic,joint_NLL,0.01581612186780057,-0.10818270816497101,0.15150260689833486,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+weibull,SB_RMSE,-0.4835929091471305,-0.7463780076243138,-0.2245715972818575,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+weibull,SB_MAE,-0.3996095583268433,-0.6787689992495873,-0.13802861867313418,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+weibull,SB_R2,0.7858148586048814,0.3054178733411674,1.6063556821794027,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting
+weibull,joint_NLL,0.14437394599279263,-0.04978691212026051,0.37257652532172386,5000,5000,variant minus reference; negative favors variant for errors/NLL,campaign bootstrap of fixed OOF predictions; no refitting

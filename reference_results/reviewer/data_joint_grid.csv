@@ -26,7 +26,7 @@
 2d,>1200,air_or_oxygen,0,0,0,0,0,0,0,,,,False,observed marginal levels; empty cells not necessarily physically feasible
 2d,>1200,vacuum,0,0,0,0,0,0,0,,,,False,observed marginal levels; empty cells not necessarily physically feasible
 2d,>1200,water_oxygen,12,12,0,2,2,2,0,0.0,False,False,True,observed marginal levels; empty cells not necessarily physically feasible
-2d,rt/t<=80,air_or_oxygen,77,58,19,7,8,6,6,0.24675324675324675,False,False,True,observed marginal levels; empty cells not necessarily physically feasible
+2d,rt/t<=80,air_or_oxygen,78,58,20,7,8,6,7,0.2564102564102564,False,False,True,observed marginal levels; empty cells not necessarily physically feasible
 2d,rt/t<=80,vacuum,0,0,0,0,0,0,0,,,,False,observed marginal levels; empty cells not necessarily physically feasible
 2d,rt/t<=80,water_oxygen,0,0,0,0,0,0,0,,,,False,observed marginal levels; empty cells not necessarily physically feasible
 3d,1000-1200,air_or_oxygen,0,0,0,0,0,0,0,,,,False,observed marginal levels; empty cells not necessarily physically feasible

@@ -1,9 +1,4 @@
-"""Verify source, reference artifacts, saved scores and optional selected refits.
-
-Default checks do not train models. --refit-selected refits the five selected
-outer-fold pipelines and their calibration folds, plus the frozen final fit;
-it does not repeat the complete candidate search or all sensitivity refits.
-"""
+"""Verify release integrity, saved results and optional selected refits."""
 import argparse
 from collections import Counter
 from contextlib import redirect_stdout
@@ -34,7 +29,7 @@ def verify_saved(analysis, data, reference):
     analysis.single_check_primary(workbook)
     with pd.ExcelFile(workbook) as book:
         assignment = pd.read_excel(book, 'Outer_Fold_Assignment')
-        require(assignment.row_id.is_unique and len(assignment) == 223, 'Invalid fold rows')
+        require(assignment.row_id.is_unique and len(assignment) == 224, 'Invalid fold rows')
         require(assignment.groupby('campaign_id').outer_fold.nunique().eq(1).all(), 'Campaign crosses outer folds')
         _, folds = analysis.grouped_folds(data, 5, analysis.SEED)
         np.testing.assert_array_equal(folds, assignment.set_index('row_id').outer_fold.reindex(data.row_id))
@@ -69,8 +64,7 @@ def verify_saved(analysis, data, reference):
 
 
 def verify_reviewer(analysis, reference):
-    # The original audit writes two summaries. Run it on a disposable copy so
-    # the published run remains byte-for-byte identical to the supplied run.
+    # Audit a disposable copy; archived outputs keep their original fingerprints.
     cache = ROOT / '.wb_piml_runtime'
     with tempfile.TemporaryDirectory(prefix='audit_', dir=cache) as folder:
         temporary = Path(folder).resolve()
@@ -81,6 +75,21 @@ def verify_reviewer(analysis, reference):
         if compressed.exists():
             with gzip.open(compressed,'rb') as reader, (results/'strict_holdout/calibration.csv').open('wb') as writer:
                 shutil.copyfileobj(reader,writer)
+        provenance_path = results/'provenance.json'
+        provenance = json.loads(provenance_path.read_text(encoding='utf-8'))
+        manifest = json.loads((ROOT/'release_manifest.json').read_text(encoding='utf-8'))
+        original_digest = manifest['original_analysis_source_sha256']
+        require(list(provenance['code_sha256'].values()) == [original_digest], 'Archived source provenance mismatch')
+        old_fingerprint = hashlib.sha256(json.dumps(provenance,sort_keys=True).encode()).hexdigest()
+        public_source = canonical_source()
+        provenance['code_sha256'] = {public_source.name:sha(public_source)}
+        fingerprint = hashlib.sha256(json.dumps(provenance,sort_keys=True).encode()).hexdigest()
+        provenance_path.write_text(json.dumps(provenance,indent=2),encoding='utf-8')
+        for path in (results/'checkpoints').glob('*.json'):
+            payload = json.loads(path.read_text(encoding='utf-8'))
+            require(payload['run_hash'] == old_fingerprint, 'Archived checkpoint provenance mismatch: '+path.name)
+            payload['run_hash'] = fingerprint
+            path.write_text(json.dumps(payload),encoding='utf-8')
         with redirect_stdout(io.StringIO()):
             analysis.review_verify_main(['--results',str(results),'--data',str(ROOT/'data.xlsx'),
                                         '--baseline',str(reference/'primary/WB_PIML_results.xlsx')])
@@ -95,12 +104,16 @@ def verify_frozen(analysis, data, reference, refit):
     manifest = json.loads((reference/'prospective/model_manifest.json').read_text(encoding='utf-8'))
     model = reference/'prospective/frozen_model.joblib'
     require(sha(model) == manifest['model_sha256'], 'Frozen model hash mismatch')
-    require(manifest['code_sha256'] == sha(canonical_source()), 'Frozen model source mismatch')
+    release = json.loads((ROOT/'release_manifest.json').read_text(encoding='utf-8'))
+    require(manifest['code_sha256'] == release['original_analysis_source_sha256'], 'Frozen model source provenance mismatch')
     require(manifest['data_sha256'] == sha(ROOT/'data.xlsx'), 'Frozen model data mismatch')
     bundle = joblib.load(model)
     prediction = analysis.revision_predict_state(bundle['state'], data)
-    require(len(prediction) == 223 and np.isfinite(prediction).all(), 'Invalid frozen inference')
-    result = dict(records=223, source_and_model_hashes='matched', finite_inference=True, selected_final_fit_rerun=False)
+    require(len(prediction) == 224 and np.isfinite(prediction).all(), 'Invalid frozen inference')
+    order = analysis.water_order_audit(bundle['state'],data)
+    require(len(order) == 224 and not any(r['total_order_reversal'] for r in order), 'Frozen environment ordering failed')
+    result = dict(records=224, original_source_and_model_hashes='matched', finite_inference=True,
+                  water_air_comparisons=224,water_air_reversals=0,selected_final_fit_rerun=False)
     if refit:
         with analysis.threadpool_limits(limits=1):
             values, coef, _ = analysis.fit_hybrid_policy(data, data, analysis.COMPETING_WB_SPEC,
@@ -158,7 +171,7 @@ def main():
     analysis = load_analysis()
     preflight = analysis.single_preflight(ROOT/'data.xlsx')
     data = analysis.load_data(ROOT/'data.xlsx')
-    require((len(data),int(data.is_exact.sum()),int(data.is_runout.sum())) == (223,158,65), 'Unexpected data counts')
+    require((len(data),int(data.is_exact.sum()),int(data.is_runout.sum())) == (224,158,66), 'Unexpected data counts')
     require((data.source_id.nunique(),data.campaign_id.nunique()) == (18,17), 'Unexpected source/campaign counts')
     require((len(analysis.HYBRID_CANDIDATES),len(analysis.CONTROL_CANDIDATES)) == (54,64), 'Unexpected candidates')
     require(Counter(c['model'] for c in analysis.SIMPLE_HYBRID_CANDIDATES) == {'WB-Residual':18,'Basquin-Residual':6}, 'Unexpected simple-trunk candidates')
@@ -169,18 +182,19 @@ def main():
     print('PASS 34 sensitivity variants, 170 checkpoints and strict holdout isolation/arithmetic',flush=True)
     refits = verify_selected_refits(analysis,data,reference) if args.refit_selected else []
     frozen = verify_frozen(analysis,data,reference,args.refit_selected)
-    summary = dict(status='passed',canonical_source_sha256=sha(source),source_parts=3,
+    summary = dict(status='passed',canonical_source_sha256=sha(source),source_parts=12,
         original_run_files=manifest['original_run_file_count'],release_file_hashes_checked=len(manifest['sha256']),
         actual_environment=dict(python=preflight['python'],versions=preflight['versions']),
         saved_results=scores,reviewer_audit=reviewer,selected_pipeline_refits=refits,frozen_model=frozen,
         full_nested_search_rerun=False,all_sensitivity_models_retrained=False,
-        verification_scope='Source and artifact identity; saved-score arithmetic and partition audits; optional selected-configuration refits. No claim of a new full workflow run.')
+        archived_fingerprint_rebased_only_in_temporary_audit_copy=True,
+        verification_scope='Public source integrity; original artifact identity; saved-score arithmetic and partition audits; optional selected-configuration refits. See full_reproduction_report.json for the separately recorded full rerun.')
     if args.report:
         destination = args.report.resolve()
         require(not destination.is_relative_to(reference.resolve()), 'Do not overwrite reference results with the release audit')
         destination.parent.mkdir(parents=True,exist_ok=True)
         destination.write_text(json.dumps(summary,indent=2,ensure_ascii=False,allow_nan=False)+'\n',encoding='utf-8')
-    print('PASS release verification. Full nested search was NOT rerun.',flush=True)
+    print('PASS release verification. See full_reproduction_report.json for the separate full rerun.',flush=True)
 
 
 if __name__ == '__main__':

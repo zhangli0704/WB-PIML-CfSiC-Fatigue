@@ -1,0 +1,1684 @@
+{
+  "status": "passed",
+  "original_run": "full_20261008_182317_470433",
+  "rerun_directory": "reproduction_1009",
+  "tolerance": {
+    "rtol": 1e-10,
+    "atol": 1e-10
+  },
+  "full_nested_search_rerun": true,
+  "all_sensitivity_models_retrained": true,
+  "strict_holdout_workflow_rerun": true,
+  "frozen_model_refit": true,
+  "tables": [
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "README",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Protocol",
+      "numeric_values": 42,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Data_Audit",
+      "numeric_values": 39,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Metric_Definitions",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Model_Specs",
+      "numeric_values": 27,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Split_Audit",
+      "numeric_values": 45,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Validation_Definitions",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Nested_Selection",
+      "numeric_values": 801,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Nested_Candidates",
+      "numeric_values": 21960,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Exact_Outer_Pred",
+      "numeric_values": 34128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Runout_Outer_Pred",
+      "numeric_values": 19272,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Runout_Evaluation",
+      "numeric_values": 106,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Primary_Campaign_Metrics",
+      "numeric_values": 342,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Fold_Metrics",
+      "numeric_values": 665,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Paired_Bootstrap",
+      "numeric_values": 180,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "True_Ablation",
+      "numeric_values": 36,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Source_Gains",
+      "numeric_values": 68,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Component_Ablation",
+      "numeric_values": 150,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Selection_Sensitivity",
+      "numeric_values": 2170,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Empirical_PI_Rows",
+      "numeric_values": 3002,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Empirical_PI_Summary",
+      "numeric_values": 28,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Temperature_Gate_Rows",
+      "numeric_values": 1792,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Temperature_Gate_Summary",
+      "numeric_values": 144,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Physical_Parameters",
+      "numeric_values": 2198,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Sensitivity",
+      "numeric_values": 629,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Duplicate_Sensitivity",
+      "numeric_values": 275,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Duplicate_Clusters",
+      "numeric_values": 230,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Duplicate_Candidates",
+      "numeric_values": 598,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Label_Review",
+      "numeric_values": 10,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Campaign_Map",
+      "numeric_values": 110,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Validation_Tier_Metrics",
+      "numeric_values": 1800,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Validation_Tier_Summary",
+      "numeric_values": 180,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Validation_Fold_Assign",
+      "numeric_values": 26880,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "External_Summary",
+      "numeric_values": 256,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "External_Groups",
+      "numeric_values": 1200,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "External_Selection",
+      "numeric_values": 9314,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "External_Paired_CI",
+      "numeric_values": 480,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "External_PI_Summary",
+      "numeric_values": 112,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "External_PI_Rows",
+      "numeric_values": 8216,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "External_T_Gate",
+      "numeric_values": 606,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Sstar_Sensitivity",
+      "numeric_values": 60,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "QA_Flagged_Rows",
+      "numeric_values": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Claim_Gate",
+      "numeric_values": 36,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Outer_Fold_Assignment",
+      "numeric_values": 2240,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "References",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Prob_Metrics",
+      "numeric_values": 6264,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Prob_Intervals",
+      "numeric_values": 5184,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Prob_Predictions",
+      "numeric_values": 262856,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Prob_Campaigns",
+      "numeric_values": 38768,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Prob_Paired_CI",
+      "numeric_values": 301,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Prob_Calibration",
+      "numeric_values": 2127572,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Prob_Method",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Trunk_Metrics",
+      "numeric_values": 150,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Trunk_Paired_CI",
+      "numeric_values": 405,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Trunk_Empirical_PI",
+      "numeric_values": 420,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Trunk_Method",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "primary/WB_PIML_results.xlsx",
+      "sheet": "Trunk_External_Candidates",
+      "numeric_values": 25200,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "prospective/environment_order_check.csv",
+      "numeric_values": 1120,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "prospective/final_training_OOF.csv",
+      "numeric_values": 1344,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "prospective/final_training_selection.csv",
+      "numeric_values": 1512,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "prospective/new_conditions_TEMPLATE.csv",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "prospective/new_outcomes_TEMPLATE.csv",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/baseline_metric_regression.csv",
+      "numeric_values": 96,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/baseline_prediction_regression.csv",
+      "numeric_values": 5,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/candidate_selection_frequency.csv",
+      "numeric_values": 900,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/censor_evidence_gaps.csv",
+      "numeric_values": 16,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/censor_protocol_TEMPLATE.csv",
+      "numeric_values": 198,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/censor_protocol_audit.csv",
+      "numeric_values": 330,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/censor_protocol_reviewed_TEMPLATE.csv",
+      "numeric_values": 330,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_T_C.csv",
+      "numeric_values": 88,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_architecture.csv",
+      "numeric_values": 50,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_architecture_detail.csv",
+      "numeric_values": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_campaign_id.csv",
+      "numeric_values": 170,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_env_class.csv",
+      "numeric_values": 30,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_factor_overlap.csv",
+      "numeric_values": 250,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_joint_detailed.csv",
+      "numeric_values": 220,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_joint_exact_temperature.csv",
+      "numeric_values": 165,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_joint_grid.csv",
+      "numeric_values": 636,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_loading_ranges.csv",
+      "numeric_values": 72,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_source_id.csv",
+      "numeric_values": 180,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/data_temp_bin.csv",
+      "numeric_values": 50,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/distribution_calibration_audit.csv",
+      "numeric_values": 450,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/distribution_fixed_location_metrics.csv",
+      "numeric_values": 255,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/distribution_fixed_location_predictions.csv",
+      "numeric_values": 33600,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/distribution_refit_PIML_vs_CD.csv",
+      "numeric_values": 60,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_condition_counts.csv",
+      "numeric_values": 403,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_improvement_attribution.csv",
+      "numeric_values": 102,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_improvement_attribution_rows.csv",
+      "numeric_values": 2528,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_interactions.csv",
+      "numeric_values": 48,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_matched_support.csv",
+      "numeric_values": 27,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_model_comparison.csv",
+      "numeric_values": 68,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_response_rows.csv",
+      "numeric_values": 23520,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_response_summary.csv",
+      "numeric_values": 504,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/environment_scale_identifiability.csv",
+      "numeric_values": 40,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/holdout_overlap.csv",
+      "numeric_values": 280,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/holdout_performance_campaign_weighted.csv",
+      "numeric_values": 4600,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/hyperparameter_frequency.csv",
+      "numeric_values": 172,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/prediction_support_rows.csv",
+      "numeric_values": 10044,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/primary_NLL_difference_CI.csv",
+      "numeric_values": 165,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/probability_score_decomposition.csv",
+      "numeric_values": 129,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/retained_Empirical_PI_Summary.csv",
+      "numeric_values": 28,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/retained_External_PI_Summary.csv",
+      "numeric_values": 112,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/retained_External_Selection.csv",
+      "numeric_values": 9314,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/retained_Paired_Bootstrap.csv",
+      "numeric_values": 180,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/retained_Primary_Campaign_Metrics.csv",
+      "numeric_values": 342,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/retained_Prob_Paired_CI.csv",
+      "numeric_values": 301,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/retained_Sensitivity.csv",
+      "numeric_values": 629,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/reviewer_response_map.csv",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/runout_stopping_limits.csv",
+      "numeric_values": 99,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/selection_by_fold.csv",
+      "numeric_values": 686,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/selection_development_support.csv",
+      "numeric_values": 210,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/selection_rule_replay.csv",
+      "numeric_values": 2290,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/sensitivity_design.csv",
+      "numeric_values": 147,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/sensitivity_metrics.csv",
+      "numeric_values": 578,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/sensitivity_paired_CI.csv",
+      "numeric_values": 660,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/sensitivity_parameters.csv",
+      "numeric_values": 1920,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/sensitivity_plan.csv",
+      "numeric_values": 34,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/sensitivity_predictions.csv",
+      "numeric_values": 76160,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/sensitivity_subgroups.csv",
+      "numeric_values": 7514,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/sparse_cell_performance.csv",
+      "numeric_values": 2232,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/calibration.csv",
+      "numeric_values": 1712766,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/empirical_coverage.csv",
+      "numeric_values": 224,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/holdout_metrics.csv",
+      "numeric_values": 4024,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/metrics_matched_population.csv",
+      "numeric_values": 1216,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/paired_model_CI.csv",
+      "numeric_values": 560,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/predictions.csv",
+      "numeric_values": 104878,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/selection.csv",
+      "numeric_values": 8137,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/strict_vs_original.csv",
+      "numeric_values": 384,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/task_plan.csv",
+      "numeric_values": 210,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/strict_holdout/task_status.csv",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/support_stratum_performance.csv",
+      "numeric_values": 1872,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/water_air_counterfactual_order.csv",
+      "numeric_values": 1344,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/water_air_order_summary.csv",
+      "numeric_values": 25,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/water_computational_bound_sensitivity.csv",
+      "numeric_values": 50,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/water_factor_holdout_estimation.csv",
+      "numeric_values": 2040,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/water_fallback_attribution.csv",
+      "numeric_values": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/water_identifiability_profiles.csv",
+      "numeric_values": 1620,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/water_parameter_by_fold.csv",
+      "numeric_values": 1820,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/water_parameter_inner_folds.csv",
+      "numeric_values": 7936,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer_response_map.csv",
+      "numeric_values": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "sensitivity_design.csv",
+      "numeric_values": 147,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "checkpoints": [
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0.1_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0.1_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0.1_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0.1_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0.1_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_0_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_1_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_1_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_1_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_1_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/environment_penalty_1_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0.5_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0.5_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0.5_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0.5_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0.5_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_0_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_1.5_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_1.5_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_1.5_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_1.5_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/frequency_power_1.5_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.01_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.01_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.01_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.01_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.01_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.05_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.05_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.05_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.05_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/inert_0.05_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_0.5_fold1.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_0.5_fold2.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_0.5_fold3.json",
+      "numeric_values": 1130,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_0.5_fold4.json",
+      "numeric_values": 1123,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_0.5_fold5.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_1.5_fold1.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_1.5_fold2.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_1.5_fold3.json",
+      "numeric_values": 1130,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_1.5_fold4.json",
+      "numeric_values": 1123,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_0.5_frequency_1.5_fold5.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_0.5_fold1.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_0.5_fold2.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_0.5_fold3.json",
+      "numeric_values": 1130,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_0.5_fold4.json",
+      "numeric_values": 1123,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_0.5_fold5.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_1.5_fold1.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_1.5_fold2.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_1.5_fold3.json",
+      "numeric_values": 1130,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_1.5_fold4.json",
+      "numeric_values": 1123,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/joint_water_2_frequency_1.5_fold5.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_environment_damage_fold1.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_environment_damage_fold2.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_environment_damage_fold3.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_environment_damage_fold4.json",
+      "numeric_values": 1121,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_environment_damage_fold5.json",
+      "numeric_values": 1125,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_residual_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_residual_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_residual_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_residual_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_residual_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_stress_in_damage_fold1.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_stress_in_damage_fold2.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_stress_in_damage_fold3.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_stress_in_damage_fold4.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_stress_in_damage_fold5.json",
+      "numeric_values": 1131,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_temperature_in_damage_fold1.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_temperature_in_damage_fold2.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_temperature_in_damage_fold3.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_temperature_in_damage_fold4.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/no_temperature_in_damage_fold5.json",
+      "numeric_values": 1131,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_loglogistic_fold1.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_loglogistic_fold2.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_loglogistic_fold3.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_loglogistic_fold4.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_loglogistic_fold5.json",
+      "numeric_values": 1131,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_weibull_fold1.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_weibull_fold2.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_weibull_fold3.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_weibull_fold4.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/refit_weibull_fold5.json",
+      "numeric_values": 1131,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0.5_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0.5_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0.5_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0.5_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0.5_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_0_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_2_fold1.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_2_fold2.json",
+      "numeric_values": 1140,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_2_fold3.json",
+      "numeric_values": 1136,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_2_fold4.json",
+      "numeric_values": 1128,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/runout_loss_power_2_fold5.json",
+      "numeric_values": 1132,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/selected_pipeline_fold1.json",
+      "numeric_values": 1323,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/selected_pipeline_fold2.json",
+      "numeric_values": 1323,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/selected_pipeline_fold3.json",
+      "numeric_values": 1315,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/selected_pipeline_fold4.json",
+      "numeric_values": 1299,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/selected_pipeline_fold5.json",
+      "numeric_values": 1307,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_0.5_fold1.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_0.5_fold2.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_0.5_fold3.json",
+      "numeric_values": 1129,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_0.5_fold4.json",
+      "numeric_values": 1122,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_0.5_fold5.json",
+      "numeric_values": 1126,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.25_fold1.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.25_fold2.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.25_fold3.json",
+      "numeric_values": 1129,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.25_fold4.json",
+      "numeric_values": 1122,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.25_fold5.json",
+      "numeric_values": 1126,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.5_fold1.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.5_fold2.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.5_fold3.json",
+      "numeric_values": 1129,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.5_fold4.json",
+      "numeric_values": 1122,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.5_fold5.json",
+      "numeric_values": 1126,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.75_fold1.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.75_fold2.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.75_fold3.json",
+      "numeric_values": 1129,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.75_fold4.json",
+      "numeric_values": 1122,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1.75_fold5.json",
+      "numeric_values": 1126,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1_fold1.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1_fold2.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1_fold3.json",
+      "numeric_values": 1129,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1_fold4.json",
+      "numeric_values": 1122,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_1_fold5.json",
+      "numeric_values": 1126,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_2_fold1.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_2_fold2.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_2_fold3.json",
+      "numeric_values": 1129,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_2_fold4.json",
+      "numeric_values": 1122,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_2_fold5.json",
+      "numeric_values": 1126,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_3_fold1.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_3_fold2.json",
+      "numeric_values": 1134,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_3_fold3.json",
+      "numeric_values": 1129,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_3_fold4.json",
+      "numeric_values": 1122,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_3_fold5.json",
+      "numeric_values": 1126,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_100_fold1.json",
+      "numeric_values": 1145,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_100_fold2.json",
+      "numeric_values": 1145,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_100_fold3.json",
+      "numeric_values": 1141,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_100_fold4.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_100_fold5.json",
+      "numeric_values": 1137,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_10_fold1.json",
+      "numeric_values": 1145,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_10_fold2.json",
+      "numeric_values": 1145,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_10_fold3.json",
+      "numeric_values": 1141,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_10_fold4.json",
+      "numeric_values": 1133,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/water_cap_10_fold5.json",
+      "numeric_values": 1137,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_loglogistic_fold1.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_loglogistic_fold2.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_loglogistic_fold3.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_loglogistic_fold4.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_loglogistic_fold5.json",
+      "numeric_values": 1131,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_lognormal_fold1.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_lognormal_fold2.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_lognormal_fold3.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_lognormal_fold4.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_lognormal_fold5.json",
+      "numeric_values": 1131,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_weibull_fold1.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_weibull_fold2.json",
+      "numeric_values": 1139,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_weibull_fold3.json",
+      "numeric_values": 1135,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_weibull_fold4.json",
+      "numeric_values": 1127,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "reviewer/checkpoints/WB_CD_weibull_fold5.json",
+      "numeric_values": 1131,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "numeric_values_compared": 4838654,
+  "max_abs_difference": 0.0,
+  "primary_images": [
+    {
+      "file": "01_exact_failure_predictions.png",
+      "identical": true
+    },
+    {
+      "file": "02_campaign_balanced_metrics.png",
+      "identical": true
+    },
+    {
+      "file": "03_retrained_ablation.png",
+      "identical": true
+    },
+    {
+      "file": "04_paired_effect_intervals.png",
+      "identical": true
+    },
+    {
+      "file": "05_empirical_prediction_intervals.png",
+      "identical": true
+    },
+    {
+      "file": "06_runout_evaluation.png",
+      "identical": true
+    },
+    {
+      "file": "07_source_level_gains.png",
+      "identical": true
+    },
+    {
+      "file": "08_validation_scope_comparison.png",
+      "identical": true
+    },
+    {
+      "file": "09_probability_comparison.png",
+      "identical": true
+    },
+    {
+      "file": "10_trunk_comparison.png",
+      "identical": true
+    }
+  ],
+  "frozen_inference": {
+    "records": 224,
+    "max_abs_difference": 0.0
+  },
+  "water_air": {
+    "comparisons": 224,
+    "reversals": 0,
+    "maximum_water_minus_air": 0.0
+  },
+  "public_source_sha256": "e1e5fbbf4b23ecb67d77d904495cfa09e17a38b9da699e0873c7bbc25fe3290b",
+  "comparison_scope": "All numeric workbook/CSV values, checkpoint numeric values and categorical identity, plus frozen inference. Runtime provenance and presentation bytes excluded."
+}

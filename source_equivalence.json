@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "original_analysis_sha256": "89660bfd3cc22ff77f04f4b7acb0873a1b601b3c73d7238532a9c7a10ab7c9e0",
+  "public_analysis_sha256": "e1e5fbbf4b23ecb67d77d904495cfa09e17a38b9da699e0873c7bbc25fe3290b",
+  "executable_algorithm_sha256": "31c55e752d1dae930db01ab5941b651099dbc664067459931f2ada817ed61e2c",
+  "executable_algorithm_AST_equal": true,
+  "original_lines": 8909,
+  "public_lines": 8687,
+  "source_parts": [
+    {
+      "file": "part_01_data_physics.py",
+      "line_count": 717,
+      "byte_count": 30319,
+      "sha256": "2cb8002e5ff3a4c560791592629b4a81640b6c425b8d8115dbd90d79c84b980b"
+    },
+    {
+      "file": "part_02_residual_metrics.py",
+      "line_count": 648,
+      "byte_count": 30200,
+      "sha256": "e9df73c5baf99adcfba8d1b99c68f5c58e649499fd1f6736f3256053571fc344"
+    },
+    {
+      "file": "part_03_validation.py",
+      "line_count": 927,
+      "byte_count": 45808,
+      "sha256": "52d45671001b5c3d68f01138e2bef63c0d7054902a7d25b5c2347177a00dc49e"
+    },
+    {
+      "file": "part_04_reporting.py",
+      "line_count": 530,
+      "byte_count": 30086,
+      "sha256": "ea1627bf0caad170c9b275ba1dfb4b0c606cf2889a13eeee6d5f29a8d84de92f"
+    },
+    {
+      "file": "part_05_training_selection.py",
+      "line_count": 490,
+      "byte_count": 23405,
+      "sha256": "4fb493503a8a0647be3e68c9e07c95e6f68455998900402dbd9f0532300fd6c0"
+    },
+    {
+      "file": "part_06_claim_provenance.py",
+      "line_count": 968,
+      "byte_count": 51397,
+      "sha256": "d36e80f0dc64deb289ff57eee4c8ef0ac9d1016bc8f36f7666517b835f12c3fa"
+    },
+    {
+      "file": "part_07_primary_workflow.py",
+      "line_count": 1200,
+      "byte_count": 77586,
+      "sha256": "1de105152b2d1c690142a61d6b0fc1cc194baf4064ecbd6b05a146c3ed5a3d98"
+    },
+    {
+      "file": "part_08_probability_controls.py",
+      "line_count": 804,
+      "byte_count": 51654,
+      "sha256": "38b0636bdbade8251ec3e842a5a3c656a37e1527e196592529fa65eb72fabafa"
+    },
+    {
+      "file": "part_09_environment_refits.py",
+      "line_count": 959,
+      "byte_count": 56066,
+      "sha256": "fcacbc60f7c4d801b0de7a4a8418a4621e51f4e274eb73c068bc5459a6baf9db"
+    },
+    {
+      "file": "part_10_execution_checks.py",
+      "line_count": 555,
+      "byte_count": 39175,
+      "sha256": "530cff2b1addcdaffe04a61f65ec721a49a77141e899b6a924b8f7bcca5626be"
+    },
+    {
+      "file": "part_11_frozen_prediction.py",
+      "line_count": 315,
+      "byte_count": 21582,
+      "sha256": "616fc684c88f8aae59e341c110b6f5ea0574e61b56838be5c74184707e68b0c6"
+    },
+    {
+      "file": "part_12_water_strict_holdouts.py",
+      "line_count": 574,
+      "byte_count": 41981,
+      "sha256": "828f97cba80f7eefd80fa4f27eed9628c54af4ce10692247b50acf7e89ece3c0"
+    }
+  ],
+  "original_run": "full_20261008_182317_470433",
+  "original_run_files": 290,
+  "archived_result_files_preserved": true,
+  "compressed_original_artifacts": {
+    "reference_results/reviewer/strict_holdout/calibration.csv": "reference_results/reviewer/strict_holdout/calibration.csv.gz"
+  },
+  "exceptions_to_exact_source_identity": [
+    "Remove comments and unassigned documentation strings",
+    "Update integrity hash for the public primary source",
+    "Use run.py in generated usage instructions"
+  ]
+}

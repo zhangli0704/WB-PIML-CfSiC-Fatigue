@@ -1,5 +1,25 @@
 # Release history
 
+## 1009 environment-shared residual release
+
+- Synchronize the 224-record dataset, latest analysis and all 290 artifacts from
+  `full_20261008_182317_470433` with the October 9 IJF revision.
+- Restore the Min 2013 runout; retain 158 fractures and 66 right-censored records.
+- Apply the supplied environment-shared residual rules throughout selection,
+  calibration, primary analysis, sensitivity, strict holdouts and frozen inference.
+- Divide the working script into twelve short files with minimal comments,
+  preserving algorithm syntax, source order, equations, candidates and seeds.
+- Record original/public source hashes; adapt source-integrity bookkeeping and
+  usage instructions to the public entry point.
+- Preserve original artifacts, with lossless gzip for strict calibration; update
+  README scores, dependency pins and verification.
+- Record a full rerun of the public source and numeric comparisons with the
+  supplied primary, sensitivity, strict-holdout and prospective results.
+- Correct the launcher so prospective prediction/evaluation does not receive
+  the primary-analysis-only default data argument.
+
+
+
 ## 0930 revision release
 
 - Synchronize the exact 8,835-line source and complete 289-file run from

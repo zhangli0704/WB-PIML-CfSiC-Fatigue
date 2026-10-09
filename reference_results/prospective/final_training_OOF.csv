@@ -1,224 +1,225 @@
 ﻿row_id,source_id,campaign_id,record_equivalence_id,logN,is_exact,is_runout,temp_bin,inner_fold,mu
-77,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,CAMPAIGN-LIU-1300C-WATER-OXYGEN,EQ-R077,4.592265606512769,True,False,>1200,1,4.278679444745519
-78,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,CAMPAIGN-LIU-1300C-WATER-OXYGEN,EQ-R078,4.70155071654236,True,False,>1200,1,4.278679444745519
-79,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,CAMPAIGN-LIU-1300C-WATER-OXYGEN,EQ-R079,3.9835360816029923,True,False,>1200,1,3.7067881083228413
-80,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,CAMPAIGN-LIU-1300C-WATER-OXYGEN,EQ-R080,4.347876199609803,True,False,>1200,1,3.7067881083228413
-87,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R087,6.0,False,True,>1200,1,5.815582039418229
-88,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R088,6.0,False,True,>1200,1,5.726243163674405
-89,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R089,5.269998335513317,True,False,rt/t<=80,1,4.488207078753919
-90,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R090,2.3891660843645326,True,False,rt/t<=80,1,4.119022719930351
-91,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R091,4.0,True,False,rt/t<=80,1,4.119022719930351
-92,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R092,6.0,False,True,1000-1200,1,5.767932452330011
-93,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R093,6.0,False,True,1000-1200,1,5.683474753946017
-94,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R094,6.0,False,True,1000-1200,1,5.450711971981955
-95,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R095,2.0681858617461617,True,False,1000-1200,1,5.380912783559611
-96,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R096,6.0,False,True,>1200,1,5.63287887580767
-97,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R097,5.849999518813589,True,False,>1200,1,5.560628233108046
-99,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R099,2.0791812460476247,True,False,>1200,1,5.491097230981783
-100,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R100,2.57978359661681,True,False,>1200,1,5.491097230981783
-101,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R101,4.209997296082369,True,False,>1200,1,5.491097230981783
-102,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R102,6.0,False,True,rt/t<=80,1,5.0028249038112484
-103,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R103,6.0,False,True,rt/t<=80,1,4.7329799598180395
-104,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R104,6.0,False,True,>1200,1,5.640710424623787
-105,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R105,4.939998209912162,True,False,>1200,1,5.589240982772142
-106,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R106,5.079998398078352,True,False,>1200,1,5.589240982772142
-107,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R107,2.380211241711606,True,False,>1200,1,5.5104309242206115
-108,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R108,3.560026248912892,True,False,>1200,1,5.5104309242206115
-109,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R109,6.0,False,True,>1200,1,5.908997732258186
-110,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R110,4.860098329698518,True,False,>1200,1,5.558585878642106
-114,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R114,5.881304752932325,True,False,>1200,1,5.5586768787282494
-115,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R115,6.0,False,True,>1200,1,7.0303547564519056
-116,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R116,4.220631019448092,True,False,>1200,1,6.680244111464923
-269,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R269,3.6403820447095683,True,False,rt/t<=80,1,3.9264157929094345
-270,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R270,4.572081257156328,True,False,rt/t<=80,1,4.465604429348728
-271,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R271,4.6266893054656215,True,False,rt/t<=80,1,4.9006527305377805
-272,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R272,5.711955622771114,True,False,rt/t<=80,1,5.315445460852246
-273,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R273,2.376576957056512,True,False,rt/t<=80,1,3.769174078374328
-274,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R274,3.795184589682424,True,False,rt/t<=80,1,3.980365245176285
-275,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R275,4.786041210242554,True,False,rt/t<=80,1,4.105419408707886
-276,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R276,4.944975908412048,True,False,rt/t<=80,1,4.105419408707886
-277,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R277,5.103803720955957,True,False,rt/t<=80,1,4.241574618934024
-278,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R278,5.9344984512435675,True,False,rt/t<=80,1,4.241574618934024
-279,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R279,6.0,False,True,rt/t<=80,1,4.5396882228691045
-280,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R280,6.0,False,True,rt/t<=80,1,4.857947077985913
-293,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R293,2.4913616938342726,True,False,>1200,1,2.7123605461688314
-294,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R294,3.399673721481038,True,False,>1200,1,2.7123605461688314
-295,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R295,3.3138672203691533,True,False,>1200,1,3.0625502620901734
-296,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R296,3.890979596989689,True,False,>1200,1,3.0625502620901734
-297,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R297,3.9804578922761,True,False,>1200,1,3.0625502620901734
-298,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R298,4.045322978786658,True,False,>1200,1,3.4619111573886934
-299,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R299,4.17897694729317,True,False,>1200,1,3.4619111573886934
-300,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R300,4.354108439147401,True,False,>1200,1,3.9299282292139837
-301,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R301,5.068185861746161,True,False,1000-1200,1,5.3809669894330385
-302,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R302,6.0,False,True,1000-1200,1,5.602470783196705
-303,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R303,1.7853298350107671,True,False,>1200,1,5.480718216227826
-306,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R306,6.0,False,True,>1200,1,5.596885086472091
-307,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R307,6.0,False,True,>1200,1,5.706903559155819
-308,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R308,6.0,False,True,>1200,1,5.819973144707289
-311,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R311,4.753583058892906,True,False,>1200,1,5.518886160318276
-314,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R314,5.6020599913279625,True,False,>1200,1,5.5992739933580635
-17,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R017,6.0,False,True,rt/t<=80,2,4.146344177020489
-18,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R018,6.0,False,True,rt/t<=80,2,4.146344177020489
-19,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R019,4.185683780318504,True,False,rt/t<=80,2,3.8121682064644378
-20,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R020,5.31095657002272,True,False,rt/t<=80,2,3.8121682064644378
-21,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R021,6.0,False,True,rt/t<=80,2,3.8121682064644378
-22,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R022,2.0791812460476247,True,False,rt/t<=80,2,3.436608913600512
-23,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R023,2.724275869600789,True,False,rt/t<=80,2,3.436608913600512
-24,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R024,4.481012420956573,True,False,rt/t<=80,2,3.436608913600512
-25,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R025,4.728077694051556,True,False,rt/t<=80,2,3.436608913600512
-26,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R026,1.591064607026499,True,False,rt/t<=80,2,3.0638090851330397
-27,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R027,2.346352974450639,True,False,rt/t<=80,2,3.0638090851330397
-28,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R028,2.5809249756756194,True,False,rt/t<=80,2,3.0638090851330397
-81,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R081,5.0,False,True,rt/t<=80,2,5.594495666136038
-82,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R082,3.273695587930092,True,False,rt/t<=80,2,3.3249547768602055
-83,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R083,4.176091259055681,False,True,rt/t<=80,2,6.949170751018628
-84,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R084,4.176091259055681,False,True,rt/t<=80,2,6.393211866470716
-86,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R086,3.4321672694425884,True,False,rt/t<=80,2,3.512402463369072
-156,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R156,5.0,False,True,rt/t<=80,2,4.062515278999996
-166,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R166,5.301029995663981,False,True,rt/t<=80,2,4.091027586366979
-168,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R168,5.301029995663981,False,True,rt/t<=80,2,3.741408670174174
-169,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R169,3.6020599913279625,False,True,rt/t<=80,2,3.3933838852318363
-170,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R170,4.0,False,True,rt/t<=80,2,3.3933838852318363
-171,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R171,4.0,False,True,rt/t<=80,2,3.3933838852318363
-172,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R172,4.0,False,True,rt/t<=80,2,3.3933838852318363
-173,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R173,5.0,False,True,rt/t<=80,2,3.3933838852318363
-174,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R174,5.301029995663981,False,True,rt/t<=80,2,3.3933838852318363
-176,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R176,6.0,False,True,rt/t<=80,2,3.3933838852318363
-177,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R177,6.0,False,True,rt/t<=80,2,3.3933838852318363
-178,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R178,6.0,False,True,rt/t<=80,2,3.3933838852318363
-180,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R180,5.301029995663981,False,True,rt/t<=80,2,3.0969719107454714
-181,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R181,6.0,False,True,rt/t<=80,2,3.0969719107454714
-182,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R182,3.0,False,True,rt/t<=80,2,2.83409192233338
-183,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R183,4.0,False,True,rt/t<=80,2,2.83409192233338
-184,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R184,5.0,False,True,rt/t<=80,2,2.83409192233338
-185,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R185,5.301029995663981,False,True,rt/t<=80,2,2.83409192233338
-187,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R187,5.620073562063094,True,False,rt/t<=80,2,2.83409192233338
-189,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-NEEDLED-RT,EQ-R189,3.74350976472843,True,False,rt/t<=80,2,2.733936187411069
-190,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-NEEDLED-RT,EQ-R190,4.201342492647708,True,False,rt/t<=80,2,2.733936187411069
-191,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R191,1.4313637641589874,True,False,rt/t<=80,2,2.6427524570469103
-194,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R194,1.7781512503836436,True,False,rt/t<=80,2,2.6427524570469103
-248,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R248,5.3222192947339195,True,False,rt/t<=80,2,3.85216107028877
-249,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R249,5.583198773968623,True,False,rt/t<=80,2,3.85216107028877
-250,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R250,6.0,False,True,rt/t<=80,2,4.105467127211629
-251,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R251,6.0,False,True,rt/t<=80,2,4.389713578022138
-252,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R252,6.0,False,True,rt/t<=80,2,5.001683395413396
-284,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R284,3.4771212547196626,True,False,800-1000,2,4.373927415724058
-285,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R285,3.6009728956867484,True,False,800-1000,2,4.529541043932117
-286,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R286,3.8208579894397,True,False,800-1000,2,3.9779395176537276
-287,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R287,3.8959747323590648,True,False,800-1000,2,4.835540258766953
-288,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R288,4.086359830674748,True,False,800-1000,2,4.266960832325779
-289,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R289,4.296665190261531,True,False,800-1000,2,5.632379259064719
-290,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R290,4.546542663478131,True,False,800-1000,2,5.284591142741831
-291,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R291,4.6414741105041,True,False,800-1000,2,5.06782586368282
-292,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R292,4.939519252618618,True,False,800-1000,2,5.454154738963335
-29,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R029,6.1700832658697085,True,False,rt/t<=80,3,4.909085853194097
-30,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R030,6.486349705322344,True,False,rt/t<=80,3,4.732027944753831
-31,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R031,4.878963907362157,True,False,rt/t<=80,3,4.4936556664673155
-32,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R032,5.239056606820556,True,False,rt/t<=80,3,4.328317844098066
-33,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R033,7.209703516411295,True,False,rt/t<=80,3,5.65770058541162
-34,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R034,7.165314140104969,False,True,rt/t<=80,3,5.513491273417136
-35,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R035,6.497256905327466,True,False,rt/t<=80,3,5.208545049860861
-36,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R036,6.9016067299341035,True,False,rt/t<=80,3,5.208545049860861
-37,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R037,4.725421550074259,True,False,rt/t<=80,3,4.8825280462000205
-38,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R038,7.769377326076138,True,False,rt/t<=80,3,6.266625368210776
-39,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R039,6.6093711223372,True,False,rt/t<=80,3,6.041862720234988
-40,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R040,6.870927435371557,True,False,rt/t<=80,3,5.9324505257281395
-41,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R041,6.422166500113038,True,False,rt/t<=80,3,5.814294331560418
-42,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R042,5.404426588499824,True,False,rt/t<=80,3,5.589758194248834
-43,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R043,5.721322480775836,True,False,rt/t<=80,3,5.589758194248834
-44,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R044,4.933092295113971,True,False,rt/t<=80,3,5.369177642996699
-61,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R061,2.037426497940624,True,False,rt/t<=80,3,3.9515384812265264
-62,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R062,3.7553411838115474,True,False,rt/t<=80,3,3.9515384812265264
-63,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R063,3.9865030153867402,True,False,rt/t<=80,3,3.9515384812265264
-64,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R064,4.400106070428545,True,False,rt/t<=80,3,3.9515384812265264
-65,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R065,5.698970004336019,False,True,rt/t<=80,3,3.9515384812265264
-67,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R067,1.3979400086720377,True,False,rt/t<=80,3,3.8617896499203535
-68,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R068,3.5727554651542195,True,False,rt/t<=80,3,3.8617896499203535
-69,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R069,3.7963661549775214,True,False,rt/t<=80,3,3.8617896499203535
-70,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R070,3.993259831436737,True,False,rt/t<=80,3,3.8617896499203535
-71,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R071,5.698970004336019,False,True,rt/t<=80,3,3.8617896499203535
-72,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R072,1.9084850188786497,True,False,rt/t<=80,3,3.77390653582284
-73,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R073,1.9912260756924949,True,False,rt/t<=80,3,3.77390653582284
-74,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R074,2.499687082618404,True,False,rt/t<=80,3,3.77390653582284
-75,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R075,1.863322860120456,True,False,rt/t<=80,3,3.6883747198494543
-76,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R076,2.4456042032735974,True,False,rt/t<=80,3,3.6883747198494543
-131,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R131,6.0,False,True,rt/t<=80,3,4.172837608464211
-132,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R132,6.0,False,True,rt/t<=80,3,4.051448857090827
-133,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R133,3.990161192898479,True,False,rt/t<=80,3,3.8460314732542638
-134,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R134,3.963976609996606,True,False,rt/t<=80,3,3.684142779630611
-135,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R135,3.4533183400470375,True,False,rt/t<=80,3,3.6197739911789544
-136,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R136,2.326335860928751,True,False,rt/t<=80,3,3.5670388928811807
-137,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R137,6.0,False,True,800-1000,3,5.542733811909202
-138,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R138,6.0,False,True,800-1000,3,5.403777858774991
-139,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R139,5.842880588873937,True,False,800-1000,3,5.273708551617841
-140,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R140,5.404255412328604,True,False,800-1000,3,5.151347177445662
-141,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R141,5.286416047490105,True,False,800-1000,3,4.926120647692048
-142,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R142,4.867432130016902,True,False,800-1000,3,4.537544958485835
-143,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R143,5.155481790173188,True,False,800-1000,3,4.18436960563252
-144,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R144,4.782322099996071,True,False,800-1000,3,3.7804881306803524
-238,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R238,6.0,False,True,rt/t<=80,3,5.313819125865132
-239,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R239,5.61066016308988,True,False,rt/t<=80,3,5.249624375910184
-240,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R240,4.264817823009537,True,False,rt/t<=80,3,5.133147485878409
-241,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R241,4.732393759822968,True,False,rt/t<=80,3,5.068593386338551
-242,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R242,4.694605198933568,True,False,rt/t<=80,3,5.059832629359965
-243,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R243,4.434568904034199,True,False,rt/t<=80,3,4.849286599911278
-266,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R266,5.698970004336019,False,True,rt/t<=80,3,4.098891692643233
-267,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R267,5.698970004336019,False,True,rt/t<=80,3,4.36460763225797
-268,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R268,5.698970004336019,False,True,rt/t<=80,3,4.541765440928353
-0,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R000,6.0,False,True,rt/t<=80,4,4.6137597823407335
-1,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R001,5.165383824160998,True,False,rt/t<=80,4,3.912067552869478
-2,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R002,3.9983901303180476,True,False,rt/t<=80,4,3.6769168691624143
-3,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R003,4.116308814655416,True,False,rt/t<=80,4,3.4527026779222068
-4,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R004,1.662757831681574,True,False,rt/t<=80,4,3.0606155205928536
-5,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R005,6.0,False,True,rt/t<=80,4,5.396815534790568
-6,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R006,5.927546406558963,True,False,rt/t<=80,4,4.967866871728474
-7,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R007,5.283997351235816,True,False,rt/t<=80,4,4.521872986031542
-8,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R008,5.01646922544315,True,False,rt/t<=80,4,4.233224759225887
-9,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R009,4.244796478747623,True,False,rt/t<=80,4,3.9636346464417986
-10,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R010,0.9030899869919435,True,False,rt/t<=80,4,3.512098970906269
-11,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R011,2.978180516937414,True,False,rt/t<=80,4,3.512098970906269
-12,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R012,5.544722714912672,True,False,rt/t<=80,4,6.287409852226889
-13,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R013,5.019186935477943,True,False,rt/t<=80,4,5.718517486139946
-14,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R014,4.939159687689646,True,False,rt/t<=80,4,5.317240396738136
-15,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R015,3.8409212001987716,True,False,rt/t<=80,4,4.903466432597126
-16,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R016,3.3560258571931225,True,False,rt/t<=80,4,4.636469463495221
-45,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R045,3.669409867287783,True,False,500-800,4,5.5241100343903815
-46,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R046,3.131297796597623,True,False,500-800,4,4.072006024054421
-47,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R047,2.720159303405957,True,False,500-800,4,2.890530734292836
-48,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R048,2.3242824552976926,True,False,500-800,4,2.1443919920670798
-49,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R049,5.768115449736179,True,False,500-800,4,7.445489924860677
-50,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R050,4.558264451377498,True,False,500-800,4,6.071986499497462
-51,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R051,4.391252767350556,True,False,500-800,4,5.052544281394427
-52,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R052,3.7976829349148993,True,False,500-800,4,4.3908718173545935
-53,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R053,7.876594012279969,True,False,500-800,4,7.143099396743046
-54,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R054,7.206094053543483,True,False,500-800,4,6.301759807487155
-55,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R055,6.135493617982481,True,False,500-800,4,5.963870267139487
-56,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R056,5.27058800903487,True,False,500-800,4,5.403864822005892
-57,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R057,5.508940252988051,True,False,500-800,4,5.117112001528941
-58,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R058,5.508543185258071,True,False,500-800,4,4.843109769850394
-59,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R059,4.034307529596563,True,False,500-800,4,4.2117287630196545
-60,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R060,5.268868028640596,True,False,500-800,4,4.2117287630196545
-117,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R117,6.0,False,True,rt/t<=80,4,6.230364508485412
-118,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R118,6.0,False,True,rt/t<=80,4,5.739355952952775
-119,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R119,5.161068385471174,True,False,rt/t<=80,4,5.36386080248642
-120,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R120,3.7227161674884948,True,False,rt/t<=80,4,4.911475926953924
-121,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R121,4.356331860011421,True,False,800-1000,4,5.083412262716195
-122,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R122,4.04641711698399,True,False,800-1000,4,4.820648664224783
-123,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R123,3.525563058270067,True,False,rt/t<=80,4,4.911475926953924
-124,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R124,4.173448514744314,True,False,800-1000,4,4.820648664224783
-125,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R125,4.188197016558756,True,False,800-1000,4,4.820648664224783
-126,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R126,3.3161800988934527,True,False,800-1000,4,4.319384279687931
-127,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R127,3.8918161195248606,True,False,800-1000,4,4.319384279687931
-128,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R128,3.9820449790714902,True,False,800-1000,4,4.319384279687931
-129,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R129,2.4927603890268375,True,False,800-1000,4,3.4349871938353407
-130,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R130,3.401745082237063,True,False,800-1000,4,3.4349871938353407
-159,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R159,5.301029995663981,False,True,rt/t<=80,4,4.972639357866779
-160,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R160,5.301029995663981,False,True,rt/t<=80,4,4.569687784601095
-161,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R161,2.146128035678238,True,False,rt/t<=80,4,4.35084023035387
-162,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R162,3.6129956560323473,True,False,rt/t<=80,4,4.35084023035387
-163,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R163,2.9943171526696366,True,False,rt/t<=80,4,4.125479749520042
-164,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R164,3.1577588860468637,True,False,rt/t<=80,4,4.125479749520042
-244,Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,EQ-R244,6.0,False,True,rt/t<=80,4,6.123653848486483
-245,Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,EQ-R245,6.0,False,True,rt/t<=80,4,5.534965056343957
-246,Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,EQ-R246,6.0,False,True,rt/t<=80,4,4.596715827043595
-247,Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,EQ-R247,6.0,False,True,rt/t<=80,4,3.630944534068397
+87,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R087,6.0,False,True,>1200,1,5.773613406119716
+88,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R088,6.0,False,True,>1200,1,5.661771746651331
+89,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R089,5.269998335513317,True,False,rt/t<=80,1,4.286642846191441
+90,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R090,2.3891660843645326,True,False,rt/t<=80,1,3.894042088074885
+91,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R091,4.0,True,False,rt/t<=80,1,3.894042088074885
+92,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R092,6.0,False,True,1000-1200,1,5.727321691680947
+93,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R093,6.0,False,True,1000-1200,1,5.634410699110132
+94,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R094,6.0,False,True,1000-1200,1,5.380802164128777
+95,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R095,2.0681858617461617,True,False,1000-1200,1,5.30613415285224
+96,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R096,6.0,False,True,>1200,1,5.416907285410976
+97,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R097,5.849999518813589,True,False,>1200,1,5.311058463605949
+99,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R099,2.0791812460476247,True,False,>1200,1,5.214487041392
+100,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R100,2.57978359661681,True,False,>1200,1,5.214487041392
+101,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R101,4.209997296082369,True,False,>1200,1,5.214487041392
+102,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R102,6.0,False,True,rt/t<=80,1,4.849654313876812
+103,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R103,6.0,False,True,rt/t<=80,1,4.553614655545987
+104,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R104,6.0,False,True,>1200,1,5.556084102501615
+105,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R105,4.939998209912162,True,False,>1200,1,5.493873175545998
+106,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R106,5.079998398078352,True,False,>1200,1,5.493873175545998
+107,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R107,2.380211241711606,True,False,>1200,1,5.400384915220341
+108,杜双明 | 2008 | 3D-C/SiC复合材料的高温疲劳性能,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R108,3.560026248912892,True,False,>1200,1,5.400384915220341
+109,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R109,6.0,False,True,>1200,1,5.880804017350056
+110,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R110,4.860098329698518,True,False,>1200,1,5.437998575967702
+114,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R114,5.881304752932325,True,False,>1200,1,5.457010867467517
+115,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R115,6.0,False,True,>1200,1,6.768243472901851
+116,杜双明 | 2011 | 3D-Cf/SiC复合材料在1500℃的拉-拉疲劳行为,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R116,4.220631019448092,True,False,>1200,1,6.416683796037259
+269,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R269,3.6403820447095683,True,False,rt/t<=80,1,3.9353681586086475
+270,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R270,4.572081257156328,True,False,rt/t<=80,1,4.465996103498846
+271,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R271,4.6266893054656215,True,False,rt/t<=80,1,4.893658031991387
+272,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R272,5.711955622771114,True,False,rt/t<=80,1,5.303192359672965
+273,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R273,2.376576957056512,True,False,rt/t<=80,1,3.780795138341839
+274,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R274,3.795184589682424,True,False,rt/t<=80,1,3.989057806557356
+275,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R275,4.786041210242554,True,False,rt/t<=80,1,4.111637016082035
+276,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R276,4.944975908412048,True,False,rt/t<=80,1,4.111637016082035
+277,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R277,5.103803720955957,True,False,rt/t<=80,1,4.244761992158489
+278,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R278,5.9344984512435675,True,False,rt/t<=80,1,4.244761992158489
+279,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R279,6.0,False,True,rt/t<=80,1,4.535607096203002
+280,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R280,6.0,False,True,rt/t<=80,1,4.845786867206441
+293,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R293,2.4913616938342726,True,False,>1200,1,2.642381456809335
+294,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R294,3.399673721481038,True,False,>1200,1,2.642381456809335
+295,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R295,3.3138672203691533,True,False,>1200,1,3.1798489201018874
+296,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R296,3.890979596989689,True,False,>1200,1,3.1798489201018874
+297,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R297,3.9804578922761,True,False,>1200,1,3.1798489201018874
+298,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R298,4.045322978786658,True,False,>1200,1,3.7278621933225438
+299,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R299,4.17897694729317,True,False,>1200,1,3.7278621933225438
+300,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-CHENG-2D-CSIC-1300C,EQ-R300,4.354108439147401,True,False,>1200,1,4.228374225884689
+301,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R301,5.068185861746161,True,False,1000-1200,1,5.306191782949617
+302,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R302,6.0,False,True,1000-1200,1,5.545589071668171
+303,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R303,1.7853298350107671,True,False,>1200,1,5.200251959246095
+306,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R306,6.0,False,True,>1200,1,5.363232519236363
+307,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R307,6.0,False,True,>1200,1,5.52951184707754
+308,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R308,6.0,False,True,>1200,1,5.7070754755611715
+311,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R311,4.753583058892906,True,False,>1200,1,5.410013579239077
+314,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-DU-3D-CSIC-HIGH-T,EQ-R314,5.6020599913279625,True,False,>1200,1,5.505704328545438
+315,J. B. Min | 2013 | Micromechanics Fatigue Damage Analysis Modeling for Fabric Reinforced Ceramic Matrix Composites,CAMPAIGN-MIN-2D-CSIC-RT,EQ-R315,6.0,False,True,rt/t<=80,1,6.058382504191663
+17,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R017,6.0,False,True,rt/t<=80,2,4.171765792314405
+18,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R018,6.0,False,True,rt/t<=80,2,4.171765792314405
+19,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R019,4.185683780318504,True,False,rt/t<=80,2,3.833264189899865
+20,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R020,5.31095657002272,True,False,rt/t<=80,2,3.833264189899865
+21,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R021,6.0,False,True,rt/t<=80,2,3.833264189899865
+22,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R022,2.0791812460476247,True,False,rt/t<=80,2,3.4513819081200015
+23,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R023,2.724275869600789,True,False,rt/t<=80,2,3.4513819081200015
+24,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R024,4.481012420956573,True,False,rt/t<=80,2,3.4513819081200015
+25,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R025,4.728077694051556,True,False,rt/t<=80,2,3.4513819081200015
+26,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R026,1.591064607026499,True,False,rt/t<=80,2,3.070412058164823
+27,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R027,2.346352974450639,True,False,rt/t<=80,2,3.070412058164823
+28,Mingde Wang | 1997 | Tension-tension fatigue of a cross-woven C/SiC composite,CAMPAIGN-WANG-CROSSWOVEN-RT,EQ-R028,2.5809249756756194,True,False,rt/t<=80,2,3.070412058164823
+81,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R081,5.0,False,True,rt/t<=80,2,5.627518231590651
+82,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R082,3.273695587930092,True,False,rt/t<=80,2,3.3329321581994433
+83,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R083,4.176091259055681,False,True,rt/t<=80,2,7.009515474265299
+84,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R084,4.176091259055681,False,True,rt/t<=80,2,6.431326516019673
+86,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R086,3.4321672694425884,True,False,rt/t<=80,2,3.5175810725907093
+156,周俊 | 2008 | 2D-C/SiC 复合材料复杂环境疲劳行为研究,CAMPAIGN-ZHOU-2D-CSIC-RT,EQ-R156,5.0,False,True,rt/t<=80,2,4.086162293964136
+166,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R166,5.301029995663981,False,True,rt/t<=80,2,4.114855667428752
+168,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R168,5.301029995663981,False,True,rt/t<=80,2,3.759960904094882
+169,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R169,3.6020599913279625,False,True,rt/t<=80,2,3.4034574133406066
+170,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R170,4.0,False,True,rt/t<=80,2,3.4034574133406066
+171,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R171,4.0,False,True,rt/t<=80,2,3.4034574133406066
+172,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R172,4.0,False,True,rt/t<=80,2,3.4034574133406066
+173,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R173,5.0,False,True,rt/t<=80,2,3.4034574133406066
+174,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R174,5.301029995663981,False,True,rt/t<=80,2,3.4034574133406066
+176,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R176,6.0,False,True,rt/t<=80,2,3.4034574133406066
+177,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R177,6.0,False,True,rt/t<=80,2,3.4034574133406066
+178,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R178,6.0,False,True,rt/t<=80,2,3.4034574133406066
+180,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R180,5.301029995663981,False,True,rt/t<=80,2,3.0963139742134866
+181,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R181,6.0,False,True,rt/t<=80,2,3.0963139742134866
+182,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R182,3.0,False,True,rt/t<=80,2,2.820188540022653
+183,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R183,4.0,False,True,rt/t<=80,2,2.820188540022653
+184,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R184,5.0,False,True,rt/t<=80,2,2.820188540022653
+185,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R185,5.301029995663981,False,True,rt/t<=80,2,2.820188540022653
+187,方光武 | 2015 | A residual strength model for the fatigue strengthening behavior of 2D needled CMCs,CAMPAIGN-FANG-NEEDLED-RT,EQ-R187,5.620073562063094,True,False,rt/t<=80,2,2.820188540022653
+189,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-NEEDLED-RT,EQ-R189,3.74350976472843,True,False,rt/t<=80,2,2.713603570746315
+190,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-NEEDLED-RT,EQ-R190,4.201342492647708,True,False,rt/t<=80,2,2.713603570746315
+191,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R191,1.4313637641589874,True,False,rt/t<=80,2,2.6156778147711846
+194,方光武 | 2016 | Effect of the stress level on the fatigue strengthening behavior of 2D needled C/SiC CMCs at room temperature,CAMPAIGN-FANG-NEEDLED-RT,EQ-R194,1.7781512503836436,True,False,rt/t<=80,2,2.6156778147711846
+244,Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,EQ-R244,6.0,False,True,rt/t<=80,2,5.747477959455542
+245,Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,EQ-R245,6.0,False,True,rt/t<=80,2,5.111063330337466
+246,Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,EQ-R246,6.0,False,True,rt/t<=80,2,4.2618778501425805
+247,Renato S.M. Almeida | 2022 | Fatigue behavior and damage analysis of PIP C/SiC composite,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,EQ-R247,6.0,False,True,rt/t<=80,2,3.4205149261804912
+248,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R248,5.3222192947339195,True,False,rt/t<=80,2,3.8240302156688784
+249,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R249,5.583198773968623,True,False,rt/t<=80,2,3.8240302156688784
+250,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R250,6.0,False,True,rt/t<=80,2,4.086143865193173
+251,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R251,6.0,False,True,rt/t<=80,2,4.377301724458193
+252,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R252,6.0,False,True,rt/t<=80,2,4.998644631151495
+284,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R284,3.4771212547196626,True,False,800-1000,2,4.395250141938959
+285,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R285,3.6009728956867484,True,False,800-1000,2,4.550194548602916
+286,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R286,3.8208579894397,True,False,800-1000,2,4.000547752928582
+287,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R287,3.8959747323590648,True,False,800-1000,2,4.855719669183851
+288,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R288,4.086359830674748,True,False,800-1000,2,4.288758084629465
+289,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R289,4.296665190261531,True,False,800-1000,2,5.661948372737368
+290,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R290,4.546542663478131,True,False,800-1000,2,5.30808169523257
+291,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R291,4.6414741105041,True,False,800-1000,2,5.089046961815638
+292,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-LI-CROSSPLY-RT-800,EQ-R292,4.939519252618618,True,False,800-1000,2,5.480256082369153
+29,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R029,6.1700832658697085,True,False,rt/t<=80,3,4.9203395879139995
+30,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R030,6.486349705322344,True,False,rt/t<=80,3,4.740933666704138
+31,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R031,4.878963907362157,True,False,rt/t<=80,3,4.499793459823626
+32,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R032,5.239056606820556,True,False,rt/t<=80,3,4.332701485450453
+33,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R033,7.209703516411295,True,False,rt/t<=80,3,5.675550772789258
+34,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R034,7.165314140104969,False,True,rt/t<=80,3,5.527858805011733
+35,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R035,6.497256905327466,True,False,rt/t<=80,3,5.216272257194386
+36,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R036,6.9016067299341035,True,False,rt/t<=80,3,5.216272257194386
+37,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R037,4.725421550074259,True,False,rt/t<=80,3,4.883294615305828
+38,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R038,7.769377326076138,True,False,rt/t<=80,3,6.297567751806538
+39,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R039,6.6093711223372,True,False,rt/t<=80,3,6.066640464882975
+40,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R040,6.870927435371557,True,False,rt/t<=80,3,5.954498701872007
+41,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R041,6.422166500113038,True,False,rt/t<=80,3,5.833438065645119
+42,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R042,5.404426588499824,True,False,rt/t<=80,3,5.60315985603407
+43,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R043,5.721322480775836,True,False,rt/t<=80,3,5.60315985603407
+44,James M. Staehler | 2003 | Frequency dependence of high-cycle fatigue behavior of CVI C/SiC at room temperature,CAMPAIGN-STAEHLER-RT-FREQUENCY,EQ-R044,4.933092295113971,True,False,rt/t<=80,3,5.376234329517748
+61,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R061,2.037426497940624,True,False,rt/t<=80,3,3.9566424415297705
+62,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R062,3.7553411838115474,True,False,rt/t<=80,3,3.9566424415297705
+63,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R063,3.9865030153867402,True,False,rt/t<=80,3,3.9566424415297705
+64,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R064,4.400106070428545,True,False,rt/t<=80,3,3.9566424415297705
+65,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R065,5.698970004336019,False,True,rt/t<=80,3,3.9566424415297705
+67,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R067,1.3979400086720377,True,False,rt/t<=80,3,3.863465839262169
+68,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R068,3.5727554651542195,True,False,rt/t<=80,3,3.863465839262169
+69,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R069,3.7963661549775214,True,False,rt/t<=80,3,3.863465839262169
+70,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R070,3.993259831436737,True,False,rt/t<=80,3,3.863465839262169
+71,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R071,5.698970004336019,False,True,rt/t<=80,3,3.863465839262169
+72,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R072,1.9084850188786497,True,False,rt/t<=80,3,3.7721145125090043
+73,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R073,1.9912260756924949,True,False,rt/t<=80,3,3.7721145125090043
+74,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R074,2.499687082618404,True,False,rt/t<=80,3,3.7721145125090043
+75,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R075,1.863322860120456,True,False,rt/t<=80,3,3.6830912237030375
+76,孙龙生 | 2007 | 二维平纹编织CVI工艺C/SiC复合材料的疲劳行为,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R076,2.4456042032735974,True,False,rt/t<=80,3,3.6830912237030375
+131,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R131,6.0,False,True,rt/t<=80,3,4.170688197615488
+132,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R132,6.0,False,True,rt/t<=80,3,4.044206855096135
+133,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R133,3.990161192898479,True,False,rt/t<=80,3,3.8276776573345646
+134,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R134,3.963976609996606,True,False,rt/t<=80,3,3.654297118055863
+135,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R135,3.4533183400470375,True,False,rt/t<=80,3,3.5844796682117583
+136,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R136,2.326335860928751,True,False,rt/t<=80,3,3.5267192233871887
+137,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R137,6.0,False,True,800-1000,3,5.571373225831046
+138,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R138,6.0,False,True,800-1000,3,5.430011568988227
+139,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R139,5.842880588873937,True,False,800-1000,3,5.297906787959562
+140,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R140,5.404255412328604,True,False,800-1000,3,5.17372409002288
+141,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R141,5.286416047490105,True,False,800-1000,3,4.945119698263389
+142,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R142,4.867432130016902,True,False,800-1000,3,4.550740604645755
+143,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R143,5.155481790173188,True,False,800-1000,3,4.194825515373156
+144,张程煜 | 2013 | Tensile fatigue of a 2.5D-C/SiC composite at room temperature and 900℃,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,EQ-R144,4.782322099996071,True,False,800-1000,3,3.789674866983214
+238,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R238,6.0,False,True,rt/t<=80,3,5.243042468370982
+239,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R239,5.61066016308988,True,False,rt/t<=80,3,5.175701747210507
+240,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R240,4.264817823009537,True,False,rt/t<=80,3,5.053695716526208
+241,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R241,4.732393759822968,True,False,rt/t<=80,3,4.986157847931797
+242,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R242,4.694605198933568,True,False,rt/t<=80,3,4.976995835017718
+243,Jingwei Yu | 2021 | Fatigue Life of a 2.5D C/SiC Composite Under Tension–Tension Cyclic Loading: Experimental Investigation and Sensitivity Analysis,CAMPAIGN-YU-2P5D-CSIC-RT,EQ-R243,4.434568904034199,True,False,rt/t<=80,3,4.756998219440931
+266,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R266,5.698970004336019,False,True,rt/t<=80,3,4.1197647859660895
+267,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R267,5.698970004336019,False,True,rt/t<=80,3,4.395916762589381
+268,李龙彪 | 2016 | Comparison of Fatigue Life Between C/SiC and SiC/SiC Ceramic-Matrix Composites at Room and Elevated Temperatures,CAMPAIGN-SUN-2D-CSIC-RT,EQ-R268,5.698970004336019,False,True,rt/t<=80,3,4.579746016024422
+0,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R000,6.0,False,True,rt/t<=80,4,4.716867284288908
+1,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R001,5.165383824160998,True,False,rt/t<=80,4,3.9437588590031982
+2,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R002,3.9983901303180476,True,False,rt/t<=80,4,3.686079608480329
+3,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R003,4.116308814655416,True,False,rt/t<=80,4,3.441625803805392
+4,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R004,1.662757831681574,True,False,rt/t<=80,4,3.018878025893494
+5,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R005,6.0,False,True,rt/t<=80,4,5.468182391929277
+6,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R006,5.927546406558963,True,False,rt/t<=80,4,4.997573106354602
+7,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R007,5.283997351235816,True,False,rt/t<=80,4,4.508659015783071
+8,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R008,5.01646922544315,True,False,rt/t<=80,4,4.193225678525084
+9,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R009,4.244796478747623,True,False,rt/t<=80,4,3.900079153615443
+10,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R010,0.9030899869919435,True,False,rt/t<=80,4,3.4150444300564105
+11,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R011,2.978180516937414,True,False,rt/t<=80,4,3.4150444300564105
+12,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R012,5.544722714912672,True,False,rt/t<=80,4,6.397875683994488
+13,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R013,5.019186935477943,True,False,rt/t<=80,4,5.774765318003727
+14,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R014,4.939159687689646,True,False,rt/t<=80,4,5.334117028912924
+15,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R015,3.8409212001987716,True,False,rt/t<=80,4,4.878464807586614
+16,Stephen F. Shuler | 1993 | Influence of Loading Frequency on the Room-Temperature Fatigue of a Carbon-Fiber/SiC-Matrix Composite,CAMPAIGN-SHULER-RT-FREQUENCY,EQ-R016,3.3560258571931225,True,False,rt/t<=80,4,4.584300421569803
+45,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R045,3.669409867287783,True,False,500-800,4,6.004016790614212
+46,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R046,3.131297796597623,True,False,500-800,4,4.308286150432353
+47,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R047,2.720159303405957,True,False,500-800,4,2.9304831878904536
+48,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R048,2.3242824552976926,True,False,500-800,4,2.069179473897494
+49,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R049,5.768115449736179,True,False,500-800,4,7.966451456535135
+50,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R050,4.558264451377498,True,False,500-800,4,6.304781269091149
+51,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R051,4.391252767350556,True,False,500-800,4,5.074377473505756
+52,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R052,3.7976829349148993,True,False,500-800,4,4.302139608501089
+53,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R053,7.876594012279969,True,False,500-800,4,7.580153881320863
+54,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R054,7.206094053543483,True,False,500-800,4,6.412668605893729
+55,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R055,6.135493617982481,True,False,500-800,4,5.980485610548228
+56,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R056,5.27058800903487,True,False,500-800,4,5.329591701680145
+57,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R057,5.508940252988051,True,False,500-800,4,5.005237487256007
+58,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R058,5.508543185258071,True,False,500-800,4,4.69489454572299
+59,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R059,4.034307529596563,True,False,500-800,4,3.972713476408446
+60,Shankar Mall | 2006 | Effects of frequency on fatigue behavior of CVI C/SiC at elevated temperature,CAMPAIGN-MALL-550C-FREQUENCY,EQ-R060,5.268868028640596,True,False,500-800,4,3.972713476408446
+77,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,CAMPAIGN-LIU-1300C-WATER-OXYGEN,EQ-R077,4.592265606512769,True,False,>1200,4,4.631933075785435
+78,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,CAMPAIGN-LIU-1300C-WATER-OXYGEN,EQ-R078,4.70155071654236,True,False,>1200,4,4.631933075785435
+79,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,CAMPAIGN-LIU-1300C-WATER-OXYGEN,EQ-R079,3.9835360816029923,True,False,>1200,4,4.1873661802678495
+80,刘持栋 | 2008 | 2D C/SiC复合材料在1300℃水氧环境下的疲劳行为研究,CAMPAIGN-LIU-1300C-WATER-OXYGEN,EQ-R080,4.347876199609803,True,False,>1200,4,4.1873661802678495
+117,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R117,6.0,False,True,rt/t<=80,4,6.508061503869303
+118,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R118,6.0,False,True,rt/t<=80,4,5.969019786462277
+119,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R119,5.161068385471174,True,False,rt/t<=80,4,5.557060057439453
+120,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R120,3.7227161674884948,True,False,rt/t<=80,4,5.058499780123222
+121,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R121,4.356331860011421,True,False,800-1000,4,5.0784808172654445
+122,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R122,4.04641711698399,True,False,800-1000,4,4.823206694536737
+123,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R123,3.525563058270067,True,False,rt/t<=80,4,5.058499780123222
+124,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R124,4.173448514744314,True,False,800-1000,4,4.823206694536737
+125,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R125,4.188197016558756,True,False,800-1000,4,4.823206694536737
+126,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R126,3.3161800988934527,True,False,800-1000,4,4.309768547340313
+127,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R127,3.8918161195248606,True,False,800-1000,4,4.309768547340313
+128,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R128,3.9820449790714902,True,False,800-1000,4,4.309768547340313
+129,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R129,2.4927603890268375,True,False,800-1000,4,3.3494213674753186
+130,杨福树 | 2011 | 2.5维编织陶瓷基复合材料疲劳行为研究,CAMPAIGN-YANG-2P5D-CSIC,EQ-R130,3.401745082237063,True,False,800-1000,4,3.3494213674753186
+159,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R159,5.301029995663981,False,True,rt/t<=80,4,5.159898536235352
+160,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R160,5.301029995663981,False,True,rt/t<=80,4,4.707312195277012
+161,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R161,2.146128035678238,True,False,rt/t<=80,4,4.4614066022186645
+162,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R162,3.6129956560323473,True,False,rt/t<=80,4,4.4614066022186645
+163,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R163,2.9943171526696366,True,False,rt/t<=80,4,4.208240060745323
+164,方光武 | 2016 | 复杂预制体陶瓷基复合材料疲劳失效机理及多尺度模拟,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,EQ-R164,3.1577588860468637,True,False,rt/t<=80,4,4.208240060745323

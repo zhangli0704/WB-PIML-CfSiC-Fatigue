@@ -32,20 +32,22 @@
     "python-pptx": "1.0.2",
     "Pillow": "12.3.0"
   },
-  "data_sha256": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
-  "revised_primary_sha256": "268f45521937cb6728e75a7f169e0125b9c25d483121a0d1d7a4b42166d1b700",
-  "single_file_sha256": "e059f66d17042c9c5b6ae60272956602a0d523791d486f1935aac2df6622c4c1",
-  "records": 223,
+  "data_sha256": "a29fb0c38e2dcb5bc1082be1a925d4b1cd562bca7c580ab9a932513ecb51272c",
+  "revised_primary_sha256": "4f18dee6ca260e037eb889e42ce59e8dca800405da0c9ef9b395896156b9976c",
+  "single_file_sha256": "89660bfd3cc22ff77f04f4b7acb0873a1b601b3c73d7238532a9c7a10ab7c9e0",
+  "records": 224,
   "exact": 158,
-  "runout": 65,
+  "runout": 66,
   "framework_unchanged": true,
+  "residual_input_policy_changed": true,
+  "residual_input_policy": "environment_shared_residual_v1_20261008",
   "environment_assumption_changed": true,
-  "primary_model_id": "WB-PIML-learned-water-20260928",
+  "primary_model_id": "WB-PIML-environment-shared-residual-20261008",
   "parallel_settings": {
     "mode": "automatic",
     "available_logical_cpus": 32,
     "available_physical_cores": 16,
-    "available_memory_GiB": 63.71,
+    "available_memory_GiB": 70.31,
     "workers": 16,
     "threads_per_worker": 1,
     "policy": "physical cores with heuristic memory allowance; no speed benchmark or model training"
@@ -60,7 +62,7 @@
 自动/手动并行设置：16 个进程，每进程 1 个计算线程。
 每个阶段按实际任务数使用进程；5折主验证最多同时处理5折。
 阶段 1/4：可学习水氧倍率主分析（原候选池及验证规模）
-Records: 223 (158 failures, 65 runouts); workers=16, forest threads=1, BLAS threads=1
+Records: 224 (158 failures, 66 runouts); workers=16, forest threads=1, BLAS threads=1
 Primary validation: 5 tasks, 5 workers
 Primary validation: 1/5 complete
 Primary validation: 2/5 complete
@@ -145,25 +147,25 @@ LOEO: 1/3 complete
 LOEO: 2/3 complete
 LOEO: 3/3 complete
 Source and stress sensitivity checks
-Probability comparison added to C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary\WB_PIML_results.xlsx; figure: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary\09_probability_comparison.png
+Probability comparison added to C:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\runs\full_20261008_182317_470433\primary\WB_PIML_results.xlsx; figure: C:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\runs\full_20261008_182317_470433\primary\09_probability_comparison.png
 
 Validation-scope RMSE summary (one table; lower is better)
                         validation_scope  WB-PIML_RMSE  ExtraTrees_RMSE  ET-Walker_RMSE  ML-Ens_RMSE  WB-Residual_RMSE  Basquin-Residual_RMSE
-     Fixed-config repeated record split        0.8836           0.8757          0.8674       0.8867               NaN                    NaN
-  Fixed-config repeated series-disjoint        1.1899           1.2882          1.2923       1.2274               NaN                    NaN
-  Fixed-config repeated source-disjoint        1.1766           1.2839          1.2925       1.1857               NaN                    NaN
-Fixed-config repeated campaign-disjoint        1.1464           1.2225          1.2199       1.1784               NaN                    NaN
-       Primary nested campaign-disjoint        1.0827           1.2242          1.2131       1.1726            1.1431                 1.1106
-                                   LOSO        0.9912           1.2365          1.2683       1.1724            1.1366                 1.1101
-                                   LOAO        1.1646           1.2890          1.2879       1.2897            1.2797                 1.2447
-                                   LOTO        1.1830           1.2833          1.2776       1.1846            1.4497                 1.4359
-                                   LOEO        1.3164           1.3100          1.2952       1.2764            1.2997                 1.2942
+     Fixed-config repeated record split        0.8836           0.8735          0.8689       0.8832               NaN                    NaN
+  Fixed-config repeated series-disjoint        1.1860           1.2930          1.2932       1.2312               NaN                    NaN
+  Fixed-config repeated source-disjoint        1.1685           1.2894          1.2938       1.1870               NaN                    NaN
+Fixed-config repeated campaign-disjoint        1.1356           1.2072          1.2062       1.1779               NaN                    NaN
+       Primary nested campaign-disjoint        1.0461           1.2009          1.2037       1.1677            1.1404                 1.1514
+                                   LOSO        0.9969           1.2589          1.2689       1.1782            1.1343                 1.1238
+                                   LOAO        1.1772           1.2909          1.2876       1.2903            1.2416                 1.2778
+                                   LOTO        1.1399           1.2862          1.2776       1.1852            1.4158                 1.4303
+                                   LOEO        1.2500           1.3043          1.2892       1.2755            1.2866                 1.2827
 
-Saved one tabular results workbook: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary\WB_PIML_results.xlsx
-Saved complete figure presentation: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary\WB_PIML_figures.pptx
-PNG figures and audit metadata: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\primary
+Saved one tabular results workbook: C:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\runs\full_20261008_182317_470433\primary\WB_PIML_results.xlsx
+Saved complete figure presentation: C:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\runs\full_20261008_182317_470433\primary\WB_PIML_figures.pptx
+PNG figures and audit metadata: C:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\runs\full_20261008_182317_470433\primary
 CSV export: disabled
-Elapsed: 1152.8 s
+Elapsed: 1318.0 s
 阶段 2/4：审稿补充统计及34组具名敏感性分析（不改选主模型）
 Reading saved results and checking provenance...
 Scoring support regions and holdouts...
@@ -355,22 +357,22 @@ Refit 170/170: joint_water_2_frequency_1.5, fold 5
 严格留出 LOTO_01: refitted
 严格留出 LOTO_03: refitted
 严格留出 LOTO_04: refitted
-Completed in 298.6s: C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\reviewer
+Completed in 309.0s: C:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\runs\full_20261008_182317_470433\reviewer
 阶段 3/4：预测、概率计算和训练/测试隔离检查
-c:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\WB_PIML_revision_single (1).py:8696: DtypeWarning: Columns (0: is_exact, 1: is_runout) have mixed types. Specify dtype option on import or set low_memory=False.
+c:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\WB_PIML_final_1008.py:8770: DtypeWarning: Columns (0: is_exact, 1: is_runout) have mixed types. Specify dtype option on import or set low_memory=False.
   status=pd.read_csv(dest/'task_status.csv').set_index('task_id');p=pd.read_csv(dest/'predictions.csv');c=pd.read_csv(dest/'calibration.csv')
 {
   "status": "passed",
   "variants": 34,
   "outer_fits": 170,
   "inner_OOF_fits": 680,
-  "prediction_rows": 7582,
+  "prediction_rows": 7616,
   "bootstrap_draws": 5000,
   "input_and_code_hashes": "matched",
   "campaign_leakage_in_refits": false,
   "checks": "coverage, train/test and inner campaign separation, likelihood/scale arithmetic, independent RMSE/MAE, baseline reproduction, selection frequencies and design diagnostics",
   "strict_holdout": {
-    "version": "strict-campaign-holdout-20260928-v1",
+    "version": "strict-campaign-holdout-20261008-v2-shared-environment-residual",
     "n_tasks": 30,
     "n_refitted": 11,
     "n_reused": 17,
@@ -382,9 +384,9 @@ c:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\WB_PIML_revision_single (1).
     "status": "completed_with_disclosed_ineligible_tasks"
   },
   "censor_evidence": {
-    "n_runout": 65,
+    "n_runout": 66,
     "n_documented_with_fields": 0,
-    "n_unresolved": 65,
+    "n_unresolved": 66,
     "evidence_sha256": null,
     "source_content_automatically_verified": false,
     "conditional_independence_established": false
@@ -392,6 +394,6 @@ c:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\WB_PIML_revision_single (1).
   "status_meaning": "available-output arithmetic and isolation checks passed; see disclosed unavailable tasks and evidence gaps"
 }
 阶段 4/4：按原内层规则选择并冻结全数据模型，生成独立实验模板
-已保存冻结模型和空白实验模板：C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221\prospective
+已保存冻结模型和空白实验模板：C:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\runs\full_20261008_182317_470433\prospective
 计算流程结束（状态：completed）；请阅读返修关键结论与缺口.md。
-结果目录：C:\Users\admin\Desktop\疲劳\PINN\0928_shuiyangxin\runs\full_20260928_160433_681221
+结果目录：C:\Users\admin\Desktop\疲劳\PINN\1008shuiyang\runs\full_20261008_182317_470433

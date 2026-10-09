@@ -1,6 +1,9 @@
 {
   "status": "passed",
+  "residual_input_policy": "environment_shared_residual_v1_20261008",
+  "environment_order_checked_conditions": 224,
+  "environment_order_reversals": 0,
   "checks": "fit-vs-frozen and serialized-reload prediction equality",
-  "training_records": 223,
+  "training_records": 224,
   "independent_experiments_evaluated": 0
 }

@@ -1,224 +1,225 @@
-﻿fold,row_id,campaign_id,water_minus_air_trunk_logN,water_minus_air_total_logN,total_order_reversal,interpretation
-1,87,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0402062561455967,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,88,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0414745087257935,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,89,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.3885860044449858,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,90,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.43814111623490026,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,91,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.43814111623490026,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,92,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.05980632978867151,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,93,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.06351339200422013,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,94,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.07086911747605962,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,95,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.07158585072459367,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,96,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.10634125808776984,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,97,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.107574307749148,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,99,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.10718145500651799,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,100,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.10718145500651799,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,101,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.10718145500651799,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,102,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.283040316879565,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,103,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.3403241437962672,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,104,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.04217449395457917,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,105,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.04231377296844174,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,106,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.04231377296844174,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,107,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.041887571393362855,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,108,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.041887571393362855,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,109,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.05092250153666189,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,110,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.05151516195725714,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,114,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.04219676273614681,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,115,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0006830271846443026,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,116,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0007006614581301918,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,269,CAMPAIGN-MIN-2D-CSIC-RT,0.0,0.19160358111615938,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,270,CAMPAIGN-MIN-2D-CSIC-RT,0.0,0.0717542256515813,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,271,CAMPAIGN-MIN-2D-CSIC-RT,0.0,-0.01366831560452475,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,272,CAMPAIGN-MIN-2D-CSIC-RT,0.0,-0.07286147787998054,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,273,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.4330371220682383,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,274,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.40678500955347463,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,275,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.38743765737101654,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,276,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.38743765737101654,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,277,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.36455354736584944,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,278,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.36455354736584944,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,279,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.3108447704764199,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,280,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.2517648855646568,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,301,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.07158566431493263,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,302,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.06670407166816883,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,303,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.10707603052768677,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,306,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.10724363288531391,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,307,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.10370936829349375,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,308,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.09753364539192022,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,311,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.04194020625652195,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-1,314,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0422741437919667,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,81,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.0032199374956203286,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,82,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.2535713211934838,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,83,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.08335118704954247,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,84,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.05407399243771316,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,86,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.2770685051407833,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,117,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.03145625309705835,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,118,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.029278166016423413,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,119,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0011409994502766807,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,120,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.05077107903844258,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,121,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.022792445850887688,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,122,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.0636771776432461,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,123,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.05077107903844258,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,124,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.0636771776432461,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,125,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.0636771776432461,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,126,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.08588454181963723,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,127,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.08588454181963723,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,128,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.08588454181963723,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,129,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.006255765500530863,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,130,CAMPAIGN-YANG-2P5D-CSIC,0.0,-0.006255765500530863,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,156,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.1690100939534167,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,166,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.11330928476173163,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,168,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.16796513690099557,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,169,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,170,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,171,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,172,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,173,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,174,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,176,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,177,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,178,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.22497105026317898,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,180,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.26910375752976945,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,181,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.26910375752976945,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,182,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.2994283151515571,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,183,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.2994283151515571,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,184,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.2994283151515571,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,185,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.2994283151515571,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,187,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.2994283151515571,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,189,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.3067830710945323,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,190,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.3067830710945323,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,191,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.31026318559557264,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,194,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.31026318559557264,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,244,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,0.0,0.026626859859086416,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,245,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,0.0,0.04363842104317861,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,246,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,0.0,0.14453299469453906,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-2,247,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,0.0,0.27960386715412744,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,61,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.1073477639969882,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,62,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.1073477639969882,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,63,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.1073477639969882,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,64,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.1073477639969882,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,65,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.1073477639969882,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,67,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.11863568463439034,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,68,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.11863568463439034,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,69,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.11863568463439034,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,70,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.11863568463439034,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,71,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.11863568463439034,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,72,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.1295696387021481,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,73,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.1295696387021481,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,74,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.1295696387021481,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,75,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.14000143929681697,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,76,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.14000143929681697,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,77,CAMPAIGN-LIU-1300C-WATER-OXYGEN,0.0,0.013159532326040058,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,78,CAMPAIGN-LIU-1300C-WATER-OXYGEN,0.0,0.013159532326040058,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,79,CAMPAIGN-LIU-1300C-WATER-OXYGEN,0.0,0.0006732820245463067,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,80,CAMPAIGN-LIU-1300C-WATER-OXYGEN,0.0,0.0006732820245463067,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,131,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.18855974414829024,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,132,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.18196422398300793,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,133,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.16029129970802813,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,134,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.13950687201740575,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,135,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.13029035888662222,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,136,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.12160145516682741,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,137,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.01511685333738022,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,138,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.014608550547962729,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,139,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.013866831553465353,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,140,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.012910241342769524,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,141,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.01029593522891492,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,142,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,-0.0017416818974949067,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,143,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,-0.021911549402974906,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,144,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,-0.027692384029946115,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,266,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.13728978023081329,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,267,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.10047010695165692,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,268,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.07684588603360698,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,293,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,-0.004824756269014241,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,294,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,-0.004824756269014241,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,295,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,-0.011330338398184203,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,296,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,-0.011330338398184203,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,297,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,-0.011330338398184203,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,298,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,-0.006948146561146729,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,299,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,-0.006948146561146729,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-3,300,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.004848411317946777,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,0,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.036372067062226954,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,1,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.09429816212244901,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,2,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.11586066780954862,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,3,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.13578112946129783,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,4,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.16587442615598702,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,5,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,-0.042894385568895466,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,6,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.007935816706332588,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,7,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.06840721788510429,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,8,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.10870120092689017,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,9,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.14536363400225927,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,10,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.19948336556660617,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,11,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.19948336556660617,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,12,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,-0.17165631774723078,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,13,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,-0.11405888449052348,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,14,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,-0.059616298815316604,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,15,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.001373881976613589,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,16,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.04126947232692402,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,17,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,-0.013436506087857403,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,18,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,-0.013436506087857403,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,19,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.007724179995580727,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,20,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.007724179995580727,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,21,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.007724179995580727,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,22,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.03717769469359622,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,23,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.03717769469359622,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,24,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.03717769469359622,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,25,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.03717769469359622,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,26,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.06564411108679868,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,27,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.06564411108679868,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,28,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.06564411108679868,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,248,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.20070979047104576,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,249,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.20070979047104576,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,250,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.1835690001090704,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,251,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.15849646240693716,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,252,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.09915740236982273,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,284,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0551335542627287,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,285,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.047692690995538634,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,286,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.08255011732857565,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,287,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.03819966186600254,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,288,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.06140865243701299,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,289,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.024250651788888078,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,290,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.029851902439593125,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,291,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.03360402324205847,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-4,292,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0270282334672709,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,29,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,-0.037505930743464866,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,30,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,-0.006088577147300711,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,31,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0468865281566595,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,32,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.08882156001848962,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,33,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.01919378722136056,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,34,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.03723287904360184,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,35,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0881935117188517,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,36,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0881935117188517,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,37,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.15360784008470318,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,38,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.017924897992289246,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,39,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.029602276183883447,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,40,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.03711872328473298,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,41,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.046518575267677775,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,42,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.06705667464139164,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,43,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.06705667464139164,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,44,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.08772847368813874,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,45,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0012413367991577218,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,46,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.00233012232269747,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,47,CAMPAIGN-MALL-550C-FREQUENCY,0.0,-0.0012242769831911637,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,48,CAMPAIGN-MALL-550C-FREQUENCY,0.0,-0.004551324882467345,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,49,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.003401719975500761,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,50,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.00928014232489982,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,51,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.006173298502449853,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,52,CAMPAIGN-MALL-550C-FREQUENCY,0.0,-0.002552138852548236,False,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,53,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0035685358912012077,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,54,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0041273300229232035,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,55,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0069488687497809565,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,56,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.017292084786237893,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,57,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.02399164707879109,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,58,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.03051058064088874,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,59,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.03840022456142167,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,60,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.03840022456142167,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,159,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.06755613515001091,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,160,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.08596063363938189,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,161,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.09975883411116104,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,162,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.09975883411116104,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,163,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.11776415605088886,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,164,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.11776415605088886,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,238,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.02022485666962659,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,239,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.021069357111416664,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,240,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.022547277169757685,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,241,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.023295301479159924,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,242,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.023390963669174702,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
-5,243,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.025024899810591528,True,counterfactual covariates; no observed paired lifetimes; residual not constrained
+﻿fold,row_id,campaign_id,water_minus_air_trunk_logN,water_minus_air_total_logN,water_minus_air_residual_logN,residual_input_policy,total_order_reversal,interpretation
+1,77,CAMPAIGN-LIU-1300C-WATER-OXYGEN,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,78,CAMPAIGN-LIU-1300C-WATER-OXYGEN,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,79,CAMPAIGN-LIU-1300C-WATER-OXYGEN,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,80,CAMPAIGN-LIU-1300C-WATER-OXYGEN,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,87,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,88,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,89,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,90,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,91,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,92,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,93,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,94,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,95,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,96,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,97,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,99,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,100,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,101,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,102,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,103,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,104,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,105,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,106,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,107,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,108,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,109,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,110,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,114,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,115,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,116,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,273,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,274,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,275,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,276,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,277,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,278,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,279,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,280,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,301,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,302,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,303,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,306,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,307,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,308,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,311,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+1,314,CAMPAIGN-DU-3D-CSIC-HIGH-T,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,81,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,82,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,83,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,84,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,86,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,117,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,118,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,119,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,120,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,121,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,122,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,123,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,124,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,125,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,126,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,127,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,128,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,129,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,130,CAMPAIGN-YANG-2P5D-CSIC,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,156,CAMPAIGN-ZHOU-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,166,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,168,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,169,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,170,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,171,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,172,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,173,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,174,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,176,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,177,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,178,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,180,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,181,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,182,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,183,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,184,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,185,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,187,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,189,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,190,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,191,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,194,CAMPAIGN-FANG-NEEDLED-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,244,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,245,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,246,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+2,247,CAMPAIGN-ALMEIDA-PIP-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,61,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,62,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,63,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,64,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,65,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,67,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,68,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,69,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,70,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,71,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,72,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,73,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,74,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,75,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,76,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,131,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,132,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,133,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,134,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,135,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,136,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,137,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,138,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,139,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,140,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,141,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,142,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,143,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,144,CAMPAIGN-ZHANG-CROSSPLY-RT-900C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,266,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,267,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,268,CAMPAIGN-SUN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,269,CAMPAIGN-MIN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,270,CAMPAIGN-MIN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,271,CAMPAIGN-MIN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,272,CAMPAIGN-MIN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,293,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,294,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,295,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,296,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,297,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,298,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,299,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,300,CAMPAIGN-CHENG-2D-CSIC-1300C,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+3,315,CAMPAIGN-MIN-2D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,0,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,1,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,2,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,3,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,4,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,5,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,6,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,7,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,8,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,9,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,10,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,11,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,12,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,13,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,14,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,15,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,16,CAMPAIGN-SHULER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,17,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,18,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,19,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,20,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,21,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,22,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,23,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,24,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,25,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,26,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,27,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,28,CAMPAIGN-WANG-CROSSWOVEN-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,248,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,249,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,250,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,251,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,252,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,284,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,285,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,286,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,287,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,288,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,289,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,290,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,291,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+4,292,CAMPAIGN-LI-CROSSPLY-RT-800,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,29,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,30,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,31,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,32,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,33,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,34,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,35,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,36,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,37,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,38,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,39,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,40,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,41,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,42,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,43,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,44,CAMPAIGN-STAEHLER-RT-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,45,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,46,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,47,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,48,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,49,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,50,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,51,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,52,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,53,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,54,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,55,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,56,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,57,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,58,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,59,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,60,CAMPAIGN-MALL-550C-FREQUENCY,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,159,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,160,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,161,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,162,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,163,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,164,CAMPAIGN-FANG-THESIS-UNI-NEEDLED,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,238,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,239,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,240,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,241,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,242,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering
+5,243,CAMPAIGN-YU-2P5D-CSIC-RT,0.0,0.0,0.0,environment_shared_residual_v1_20261008,False,counterfactual covariates; no observed paired lifetimes; shared residual preserves trunk ordering

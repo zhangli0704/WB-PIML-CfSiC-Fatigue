@@ -35,20 +35,22 @@
       "python-pptx": "1.0.2",
       "Pillow": "12.3.0"
     },
-    "data_sha256": "8047f89eaee10db4bbb7b7919c31105886e59204202f52586133e4b3b18b9935",
-    "revised_primary_sha256": "268f45521937cb6728e75a7f169e0125b9c25d483121a0d1d7a4b42166d1b700",
-    "single_file_sha256": "e059f66d17042c9c5b6ae60272956602a0d523791d486f1935aac2df6622c4c1",
-    "records": 223,
+    "data_sha256": "a29fb0c38e2dcb5bc1082be1a925d4b1cd562bca7c580ab9a932513ecb51272c",
+    "revised_primary_sha256": "4f18dee6ca260e037eb889e42ce59e8dca800405da0c9ef9b395896156b9976c",
+    "single_file_sha256": "89660bfd3cc22ff77f04f4b7acb0873a1b601b3c73d7238532a9c7a10ab7c9e0",
+    "records": 224,
     "exact": 158,
-    "runout": 65,
+    "runout": 66,
     "framework_unchanged": true,
+    "residual_input_policy_changed": true,
+    "residual_input_policy": "environment_shared_residual_v1_20261008",
     "environment_assumption_changed": true,
-    "primary_model_id": "WB-PIML-learned-water-20260928",
+    "primary_model_id": "WB-PIML-environment-shared-residual-20261008",
     "parallel_settings": {
       "mode": "automatic",
       "available_logical_cpus": 32,
       "available_physical_cores": 16,
-      "available_memory_GiB": 63.71,
+      "available_memory_GiB": 70.31,
       "workers": 16,
       "threads_per_worker": 1,
       "policy": "physical cores with heuristic memory allowance; no speed benchmark or model training"
@@ -66,7 +68,7 @@
     "verification",
     "prospective"
   ],
-  "source_file": "WB_PIML_revision_single (1).py",
+  "source_file": "WB_PIML_final_1008.py",
   "settings": {
     "seed": 20260824,
     "trees": 400,
@@ -75,12 +77,12 @@
     "bootstrap": 5000,
     "jobs": 16
   },
-  "primary_model_id": "WB-PIML-learned-water-20260928",
+  "primary_model_id": "WB-PIML-environment-shared-residual-20261008",
   "supplement_role": "固定修订主模型已选配置的敏感性及诊断；不据此再改选",
-  "primary_workbook": "C:\\Users\\admin\\Desktop\\疲劳\\PINN\\0928_shuiyangxin\\runs\\full_20260928_160433_681221\\primary\\WB_PIML_results.xlsx",
-  "primary_workbook_sha256": "b91ac28889c0887b6806f6d44db6daf57def16402a47ccda12d242ed6bc20ca8",
+  "primary_workbook": "C:\\Users\\admin\\Desktop\\疲劳\\PINN\\1008shuiyang\\runs\\full_20261008_182317_470433\\primary\\WB_PIML_results.xlsx",
+  "primary_workbook_sha256": "5ed65b8a69e53b6120195bc4a15124870997dd0e0fa3cb9a487dfa1668996cbb",
   "strict_holdout": {
-    "version": "strict-campaign-holdout-20260928-v1",
+    "version": "strict-campaign-holdout-20261008-v2-shared-environment-residual",
     "n_tasks": 30,
     "n_refitted": 11,
     "n_reused": 17,
@@ -92,12 +94,12 @@
     "status": "completed_with_disclosed_ineligible_tasks"
   },
   "censor_evidence": {
-    "n_runout": 65,
+    "n_runout": 66,
     "n_documented_with_fields": 0,
-    "n_unresolved": 65,
+    "n_unresolved": 66,
     "evidence_sha256": null,
     "source_content_automatically_verified": false,
     "conditional_independence_established": false
   },
-  "scientific_readiness": "requires_manuscript_and_source_evidence_review"
+  "scientific_readiness": "requires_manuscript_result_consistency_review"
 }

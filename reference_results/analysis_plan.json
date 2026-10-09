@@ -197,7 +197,7 @@
   {
     "variant": "no_temperature_in_damage",
     "role": "component_ablation",
-    "rationale": "具名组件消融；不删除残差模型原始协变量，不改变主模型",
+    "rationale": "具名组件消融；沿用环境共享残差输入规则，不改变主模型",
     "settings_json": "{\"drivers\": {\"temperature_enabled\": false}, \"name\": \"no_temperature_in_damage\"}",
     "water_to_air": "learned_training_only",
     "inert_to_air": 0.0,
@@ -210,7 +210,7 @@
   {
     "variant": "no_stress_in_damage",
     "role": "component_ablation",
-    "rationale": "具名组件消融；不删除残差模型原始协变量，不改变主模型",
+    "rationale": "具名组件消融；沿用环境共享残差输入规则，不改变主模型",
     "settings_json": "{\"drivers\": {\"stress_enabled\": false}, \"name\": \"no_stress_in_damage\"}",
     "water_to_air": "learned_training_only",
     "inert_to_air": 0.0,
@@ -223,7 +223,7 @@
   {
     "variant": "no_environment_damage",
     "role": "component_ablation",
-    "rationale": "具名组件消融；不删除残差模型原始协变量，不改变主模型",
+    "rationale": "具名组件消融；沿用环境共享残差输入规则，不改变主模型",
     "settings_json": "{\"drivers\": {\"environment_enabled\": false}, \"name\": \"no_environment_damage\"}",
     "water_to_air": "learned_training_only",
     "inert_to_air": 0.0,
@@ -236,7 +236,7 @@
   {
     "variant": "no_residual",
     "role": "component_ablation",
-    "rationale": "具名组件消融；不删除残差模型原始协变量，不改变主模型",
+    "rationale": "具名组件消融；沿用环境共享残差输入规则，不改变主模型",
     "settings_json": "{\"name\": \"no_residual\", \"settings\": {\"eta\": 0.0}}",
     "water_to_air": "learned_training_only",
     "inert_to_air": 0.0,
